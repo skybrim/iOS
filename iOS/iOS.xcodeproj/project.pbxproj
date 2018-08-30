@@ -13,7 +13,6 @@
 		0479EC542137D69F008DB619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0479EC532137D69F008DB619 /* Assets.xcassets */; };
 		0479EC572137D69F008DB619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0479EC552137D69F008DB619 /* LaunchScreen.storyboard */; };
 		0479EC5A2137D69F008DB619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479EC592137D69F008DB619 /* main.m */; };
-		0479EC652137D901008DB619 /* abcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479EC642137D901008DB619 /* abcViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +26,6 @@
 		0479EC562137D69F008DB619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0479EC582137D69F008DB619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0479EC592137D69F008DB619 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0479EC632137D901008DB619 /* abcViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = abcViewController.h; sourceTree = "<group>"; };
-		0479EC642137D901008DB619 /* abcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = abcViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +62,6 @@
 				0479EC4B2137D69E008DB619 /* AppDelegate.m */,
 				0479EC4D2137D69E008DB619 /* ViewController.h */,
 				0479EC4E2137D69E008DB619 /* ViewController.m */,
-				0479EC632137D901008DB619 /* abcViewController.h */,
-				0479EC642137D901008DB619 /* abcViewController.m */,
 				0479EC502137D69E008DB619 /* Main.storyboard */,
 				0479EC532137D69F008DB619 /* Assets.xcassets */,
 				0479EC552137D69F008DB619 /* LaunchScreen.storyboard */,
@@ -149,7 +144,6 @@
 				0479EC4F2137D69E008DB619 /* ViewController.m in Sources */,
 				0479EC5A2137D69F008DB619 /* main.m in Sources */,
 				0479EC4C2137D69E008DB619 /* AppDelegate.m in Sources */,
-				0479EC652137D901008DB619 /* abcViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
