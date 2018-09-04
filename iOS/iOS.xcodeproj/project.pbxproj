@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0453CD93213E571100AB6679 /* IFMShareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CD8C213E571100AB6679 /* IFMShareItem.m */; };
+		0453CD94213E571100AB6679 /* IFMShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CD8D213E571100AB6679 /* IFMShareView.m */; };
+		0453CD95213E571100AB6679 /* IFMShareImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0453CD8E213E571100AB6679 /* IFMShareImage.bundle */; };
+		0453CD96213E571100AB6679 /* IFMShareItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CD92213E571100AB6679 /* IFMShareItemCell.m */; };
+		0453CDA5213E571700AB6679 /* OpenShare+Weibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CD98213E571700AB6679 /* OpenShare+Weibo.m */; };
+		0453CDA6213E571700AB6679 /* OpenShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CD99213E571700AB6679 /* OpenShare.m */; };
+		0453CDA7213E571700AB6679 /* OpenShare+QQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CD9B213E571700AB6679 /* OpenShare+QQ.m */; };
+		0453CDA8213E571700AB6679 /* OpenShare+Alipay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CD9C213E571700AB6679 /* OpenShare+Alipay.m */; };
+		0453CDA9213E571700AB6679 /* OpenShare+Weixin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CD9D213E571700AB6679 /* OpenShare+Weixin.m */; };
+		0453CDAA213E571700AB6679 /* OpenShare+Renren.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CDA0213E571700AB6679 /* OpenShare+Renren.m */; };
 		0479EC4C2137D69E008DB619 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479EC4B2137D69E008DB619 /* AppDelegate.m */; };
 		0479EC4F2137D69E008DB619 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479EC4E2137D69E008DB619 /* ViewController.m */; };
 		0479EC522137D69E008DB619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0479EC502137D69E008DB619 /* Main.storyboard */; };
@@ -18,6 +28,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0453CD8C213E571100AB6679 /* IFMShareItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareItem.m; sourceTree = "<group>"; };
+		0453CD8D213E571100AB6679 /* IFMShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareView.m; sourceTree = "<group>"; };
+		0453CD8E213E571100AB6679 /* IFMShareImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IFMShareImage.bundle; sourceTree = "<group>"; };
+		0453CD8F213E571100AB6679 /* IFMShareItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFMShareItemCell.h; sourceTree = "<group>"; };
+		0453CD90213E571100AB6679 /* IFMShareItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFMShareItem.h; sourceTree = "<group>"; };
+		0453CD91213E571100AB6679 /* IFMShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFMShareView.h; sourceTree = "<group>"; };
+		0453CD92213E571100AB6679 /* IFMShareItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareItemCell.m; sourceTree = "<group>"; };
+		0453CD98213E571700AB6679 /* OpenShare+Weibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OpenShare+Weibo.m"; sourceTree = "<group>"; };
+		0453CD99213E571700AB6679 /* OpenShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenShare.m; sourceTree = "<group>"; };
+		0453CD9A213E571700AB6679 /* OpenShare+Renren.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenShare+Renren.h"; sourceTree = "<group>"; };
+		0453CD9B213E571700AB6679 /* OpenShare+QQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OpenShare+QQ.m"; sourceTree = "<group>"; };
+		0453CD9C213E571700AB6679 /* OpenShare+Alipay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OpenShare+Alipay.m"; sourceTree = "<group>"; };
+		0453CD9D213E571700AB6679 /* OpenShare+Weixin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OpenShare+Weixin.m"; sourceTree = "<group>"; };
+		0453CD9E213E571700AB6679 /* OpenShareHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenShareHeader.h; sourceTree = "<group>"; };
+		0453CD9F213E571700AB6679 /* OpenShare+Weibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenShare+Weibo.h"; sourceTree = "<group>"; };
+		0453CDA0213E571700AB6679 /* OpenShare+Renren.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OpenShare+Renren.m"; sourceTree = "<group>"; };
+		0453CDA1213E571700AB6679 /* OpenShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenShare.h; sourceTree = "<group>"; };
+		0453CDA2213E571700AB6679 /* OpenShare+QQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenShare+QQ.h"; sourceTree = "<group>"; };
+		0453CDA3213E571700AB6679 /* OpenShare+Weixin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenShare+Weixin.h"; sourceTree = "<group>"; };
+		0453CDA4213E571700AB6679 /* OpenShare+Alipay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenShare+Alipay.h"; sourceTree = "<group>"; };
 		0479EC472137D69E008DB619 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0479EC4A2137D69E008DB619 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0479EC4B2137D69E008DB619 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,6 +77,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0453CD87213E56B000AB6679 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0479EC502137D69E008DB619 /* Main.storyboard */,
+				0479EC532137D69F008DB619 /* Assets.xcassets */,
+				0479EC552137D69F008DB619 /* LaunchScreen.storyboard */,
+				0479EC582137D69F008DB619 /* Info.plist */,
+				0479EC592137D69F008DB619 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0453CD88213E56D600AB6679 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0479EC4A2137D69E008DB619 /* AppDelegate.h */,
+				0479EC4B2137D69E008DB619 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0453CD89213E56E700AB6679 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				0479EC4D2137D69E008DB619 /* ViewController.h */,
+				0479EC4E2137D69E008DB619 /* ViewController.m */,
+				0479EC602137D7D6008DB619 /* TestViewController.h */,
+				0479EC612137D7D6008DB619 /* TestViewController.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		0453CD8A213E56FB00AB6679 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				0453CD97213E571700AB6679 /* openshare */,
+				0453CD8B213E571100AB6679 /* IFMShare */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		0453CD8B213E571100AB6679 /* IFMShare */ = {
+			isa = PBXGroup;
+			children = (
+				0453CD8C213E571100AB6679 /* IFMShareItem.m */,
+				0453CD8D213E571100AB6679 /* IFMShareView.m */,
+				0453CD8E213E571100AB6679 /* IFMShareImage.bundle */,
+				0453CD8F213E571100AB6679 /* IFMShareItemCell.h */,
+				0453CD90213E571100AB6679 /* IFMShareItem.h */,
+				0453CD91213E571100AB6679 /* IFMShareView.h */,
+				0453CD92213E571100AB6679 /* IFMShareItemCell.m */,
+			);
+			path = IFMShare;
+			sourceTree = "<group>";
+		};
+		0453CD97213E571700AB6679 /* openshare */ = {
+			isa = PBXGroup;
+			children = (
+				0453CD98213E571700AB6679 /* OpenShare+Weibo.m */,
+				0453CD99213E571700AB6679 /* OpenShare.m */,
+				0453CD9A213E571700AB6679 /* OpenShare+Renren.h */,
+				0453CD9B213E571700AB6679 /* OpenShare+QQ.m */,
+				0453CD9C213E571700AB6679 /* OpenShare+Alipay.m */,
+				0453CD9D213E571700AB6679 /* OpenShare+Weixin.m */,
+				0453CD9E213E571700AB6679 /* OpenShareHeader.h */,
+				0453CD9F213E571700AB6679 /* OpenShare+Weibo.h */,
+				0453CDA0213E571700AB6679 /* OpenShare+Renren.m */,
+				0453CDA1213E571700AB6679 /* OpenShare.h */,
+				0453CDA2213E571700AB6679 /* OpenShare+QQ.h */,
+				0453CDA3213E571700AB6679 /* OpenShare+Weixin.h */,
+				0453CDA4213E571700AB6679 /* OpenShare+Alipay.h */,
+			);
+			path = openshare;
+			sourceTree = "<group>";
+		};
 		0479EC3E2137D69E008DB619 = {
 			isa = PBXGroup;
 			children = (
@@ -68,17 +173,10 @@
 		0479EC492137D69E008DB619 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				0479EC4A2137D69E008DB619 /* AppDelegate.h */,
-				0479EC4B2137D69E008DB619 /* AppDelegate.m */,
-				0479EC4D2137D69E008DB619 /* ViewController.h */,
-				0479EC4E2137D69E008DB619 /* ViewController.m */,
-				0479EC602137D7D6008DB619 /* TestViewController.h */,
-				0479EC612137D7D6008DB619 /* TestViewController.m */,
-				0479EC502137D69E008DB619 /* Main.storyboard */,
-				0479EC532137D69F008DB619 /* Assets.xcassets */,
-				0479EC552137D69F008DB619 /* LaunchScreen.storyboard */,
-				0479EC582137D69F008DB619 /* Info.plist */,
-				0479EC592137D69F008DB619 /* main.m */,
+				0453CD88213E56D600AB6679 /* AppDelegate */,
+				0453CD89213E56E700AB6679 /* Class */,
+				0453CD8A213E56FB00AB6679 /* Vender */,
+				0453CD87213E56B000AB6679 /* Supporting Files */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -161,6 +259,7 @@
 			files = (
 				0479EC572137D69F008DB619 /* LaunchScreen.storyboard in Resources */,
 				0479EC542137D69F008DB619 /* Assets.xcassets in Resources */,
+				0453CD95213E571100AB6679 /* IFMShareImage.bundle in Resources */,
 				0479EC522137D69E008DB619 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,8 +349,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				0479EC4F2137D69E008DB619 /* ViewController.m in Sources */,
+				0453CDA9213E571700AB6679 /* OpenShare+Weixin.m in Sources */,
+				0453CDAA213E571700AB6679 /* OpenShare+Renren.m in Sources */,
+				0453CDA7213E571700AB6679 /* OpenShare+QQ.m in Sources */,
 				0479EC5A2137D69F008DB619 /* main.m in Sources */,
+				0453CDA8213E571700AB6679 /* OpenShare+Alipay.m in Sources */,
+				0453CDA5213E571700AB6679 /* OpenShare+Weibo.m in Sources */,
+				0453CD93213E571100AB6679 /* IFMShareItem.m in Sources */,
+				0453CDA6213E571700AB6679 /* OpenShare.m in Sources */,
+				0453CD94213E571100AB6679 /* IFMShareView.m in Sources */,
 				0479EC622137D7D6008DB619 /* TestViewController.m in Sources */,
+				0453CD96213E571100AB6679 /* IFMShareItemCell.m in Sources */,
 				0479EC4C2137D69E008DB619 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,7 +503,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.skybrim.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -409,7 +520,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.skybrim.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
