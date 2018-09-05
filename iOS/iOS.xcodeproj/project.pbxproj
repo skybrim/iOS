@@ -28,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04506148213FAF9800366855 /* iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-Prefix.pch"; sourceTree = "<group>"; };
 		0453CD8C213E571100AB6679 /* IFMShareItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareItem.m; sourceTree = "<group>"; };
 		0453CD8D213E571100AB6679 /* IFMShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareView.m; sourceTree = "<group>"; };
 		0453CD8E213E571100AB6679 /* IFMShareImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IFMShareImage.bundle; sourceTree = "<group>"; };
@@ -77,6 +78,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04506149213FB02D00366855 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0450614A213FB03600366855 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
 		0453CD87213E56B000AB6679 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +100,7 @@
 				0479EC552137D69F008DB619 /* LaunchScreen.storyboard */,
 				0479EC582137D69F008DB619 /* Info.plist */,
 				0479EC592137D69F008DB619 /* main.m */,
+				04506148213FAF9800366855 /* iOS-Prefix.pch */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -175,6 +191,8 @@
 			children = (
 				0453CD88213E56D600AB6679 /* AppDelegate */,
 				0453CD89213E56E700AB6679 /* Class */,
+				0450614A213FB03600366855 /* Expand */,
+				04506149213FB02D00366855 /* Utils */,
 				0453CD8A213E56FB00AB6679 /* Vender */,
 				0453CD87213E56B000AB6679 /* Supporting Files */,
 			);
@@ -502,7 +520,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iOS/Info.plist;
+				GCC_PREFIX_HEADER = "iOS/Supporting Files/iOS-Prefix.pch";
+				INFOPLIST_FILE = "iOS/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -519,7 +538,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iOS/Info.plist;
+				GCC_PREFIX_HEADER = "iOS/Supporting Files/iOS-Prefix.pch";
+				INFOPLIST_FILE = "iOS/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
