@@ -63,6 +63,7 @@
 		04506174213FB71000366855 /* Tools+Date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Tools+Date.m"; sourceTree = "<group>"; };
 		04506176213FB71000366855 /* EncryptionTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionTools.h; sourceTree = "<group>"; };
 		04506177213FB71000366855 /* EncryptionTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionTools.m; sourceTree = "<group>"; };
+		04506184213FBF6300366855 /* ExpandHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpandHeader.h; sourceTree = "<group>"; };
 		0453CD8C213E571100AB6679 /* IFMShareItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareItem.m; sourceTree = "<group>"; };
 		0453CD8D213E571100AB6679 /* IFMShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareView.m; sourceTree = "<group>"; };
 		0453CD8E213E571100AB6679 /* IFMShareImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IFMShareImage.bundle; sourceTree = "<group>"; };
@@ -126,6 +127,7 @@
 		0450614A213FB03600366855 /* Expand */ = {
 			isa = PBXGroup;
 			children = (
+				04506184213FBF6300366855 /* ExpandHeader.h */,
 			);
 			path = Expand;
 			sourceTree = "<group>";
