@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04506178213FB71000366855 /* Felix.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506160213FB71000366855 /* Felix.m */; };
+		04506179213FB71000366855 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506166213FB71000366855 /* Tools.m */; };
+		0450617A213FB71000366855 /* Tools+UpdateVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506167213FB71000366855 /* Tools+UpdateVersion.m */; };
+		0450617B213FB71000366855 /* Tools+CheckFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506168213FB71000366855 /* Tools+CheckFormat.m */; };
+		0450617D213FB71000366855 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450616C213FB71000366855 /* UIButton+ImageTitleSpacing.m */; };
+		0450617E213FB71000366855 /* Tools+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506170213FB71000366855 /* Tools+Image.m */; };
+		0450617F213FB71000366855 /* Tools+String.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506171213FB71000366855 /* Tools+String.m */; };
+		04506180213FB71000366855 /* Tools+DeviceCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506172213FB71000366855 /* Tools+DeviceCategory.m */; };
+		04506181213FB71000366855 /* Tools+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506174213FB71000366855 /* Tools+Date.m */; };
+		04506182213FB71000366855 /* EncryptionTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506177213FB71000366855 /* EncryptionTools.m */; };
 		0453CD93213E571100AB6679 /* IFMShareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CD8C213E571100AB6679 /* IFMShareItem.m */; };
 		0453CD94213E571100AB6679 /* IFMShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CD8D213E571100AB6679 /* IFMShareView.m */; };
 		0453CD95213E571100AB6679 /* IFMShareImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0453CD8E213E571100AB6679 /* IFMShareImage.bundle */; };
@@ -29,6 +39,30 @@
 
 /* Begin PBXFileReference section */
 		04506148213FAF9800366855 /* iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-Prefix.pch"; sourceTree = "<group>"; };
+		0450615A213FB68700366855 /* CommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
+		0450615B213FB68700366855 /* WeakDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakDefine.h; sourceTree = "<group>"; };
+		0450615C213FB68700366855 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		0450615D213FB6BA00366855 /* UtilsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsHeader.h; sourceTree = "<group>"; };
+		04506160213FB71000366855 /* Felix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Felix.m; sourceTree = "<group>"; };
+		04506161213FB71000366855 /* Felix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Felix.h; sourceTree = "<group>"; };
+		04506163213FB71000366855 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
+		04506164213FB71000366855 /* Tools+String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tools+String.h"; sourceTree = "<group>"; };
+		04506165213FB71000366855 /* Tools+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tools+Image.h"; sourceTree = "<group>"; };
+		04506166213FB71000366855 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		04506167213FB71000366855 /* Tools+UpdateVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Tools+UpdateVersion.m"; sourceTree = "<group>"; };
+		04506168213FB71000366855 /* Tools+CheckFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Tools+CheckFormat.m"; sourceTree = "<group>"; };
+		04506169213FB71000366855 /* Tools+DeviceCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tools+DeviceCategory.h"; sourceTree = "<group>"; };
+		0450616A213FB71000366855 /* Tools+Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tools+Date.h"; sourceTree = "<group>"; };
+		0450616C213FB71000366855 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
+		0450616D213FB71000366855 /* Tools+UpdateVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tools+UpdateVersion.h"; sourceTree = "<group>"; };
+		0450616E213FB71000366855 /* Tools+CheckFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tools+CheckFormat.h"; sourceTree = "<group>"; };
+		0450616F213FB71000366855 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		04506170213FB71000366855 /* Tools+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Tools+Image.m"; sourceTree = "<group>"; };
+		04506171213FB71000366855 /* Tools+String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Tools+String.m"; sourceTree = "<group>"; };
+		04506172213FB71000366855 /* Tools+DeviceCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Tools+DeviceCategory.m"; sourceTree = "<group>"; };
+		04506174213FB71000366855 /* Tools+Date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Tools+Date.m"; sourceTree = "<group>"; };
+		04506176213FB71000366855 /* EncryptionTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionTools.h; sourceTree = "<group>"; };
+		04506177213FB71000366855 /* EncryptionTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionTools.m; sourceTree = "<group>"; };
 		0453CD8C213E571100AB6679 /* IFMShareItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareItem.m; sourceTree = "<group>"; };
 		0453CD8D213E571100AB6679 /* IFMShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareView.m; sourceTree = "<group>"; };
 		0453CD8E213E571100AB6679 /* IFMShareImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IFMShareImage.bundle; sourceTree = "<group>"; };
@@ -81,6 +115,10 @@
 		04506149213FB02D00366855 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				0450615D213FB6BA00366855 /* UtilsHeader.h */,
+				04506183213FBAD000366855 /* UI */,
+				0450615E213FB71000366855 /* Tool */,
+				04506159213FB64A00366855 /* Macro */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -90,6 +128,74 @@
 			children = (
 			);
 			path = Expand;
+			sourceTree = "<group>";
+		};
+		04506159213FB64A00366855 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				0450615A213FB68700366855 /* CommonMacro.h */,
+				0450615C213FB68700366855 /* Singleton.h */,
+				0450615B213FB68700366855 /* WeakDefine.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		0450615E213FB71000366855 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				0450615F213FB71000366855 /* Hotfix */,
+				04506162213FB71000366855 /* Tools */,
+				04506175213FB71000366855 /* AEC */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		0450615F213FB71000366855 /* Hotfix */ = {
+			isa = PBXGroup;
+			children = (
+				04506160213FB71000366855 /* Felix.m */,
+				04506161213FB71000366855 /* Felix.h */,
+			);
+			path = Hotfix;
+			sourceTree = "<group>";
+		};
+		04506162213FB71000366855 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0450616F213FB71000366855 /* Tools.h */,
+				04506166213FB71000366855 /* Tools.m */,
+				04506164213FB71000366855 /* Tools+String.h */,
+				04506171213FB71000366855 /* Tools+String.m */,
+				04506165213FB71000366855 /* Tools+Image.h */,
+				04506170213FB71000366855 /* Tools+Image.m */,
+				0450616D213FB71000366855 /* Tools+UpdateVersion.h */,
+				04506167213FB71000366855 /* Tools+UpdateVersion.m */,
+				0450616E213FB71000366855 /* Tools+CheckFormat.h */,
+				04506168213FB71000366855 /* Tools+CheckFormat.m */,
+				04506169213FB71000366855 /* Tools+DeviceCategory.h */,
+				04506172213FB71000366855 /* Tools+DeviceCategory.m */,
+				0450616A213FB71000366855 /* Tools+Date.h */,
+				04506174213FB71000366855 /* Tools+Date.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		04506175213FB71000366855 /* AEC */ = {
+			isa = PBXGroup;
+			children = (
+				04506176213FB71000366855 /* EncryptionTools.h */,
+				04506177213FB71000366855 /* EncryptionTools.m */,
+			);
+			path = AEC;
+			sourceTree = "<group>";
+		};
+		04506183213FBAD000366855 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				04506163213FB71000366855 /* UIButton+ImageTitleSpacing.h */,
+				0450616C213FB71000366855 /* UIButton+ImageTitleSpacing.m */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		0453CD87213E56B000AB6679 /* Supporting Files */ = {
@@ -310,6 +416,7 @@
 				"${BUILT_PRODUCTS_DIR}/SwipeTableView/SwipeTableView.framework",
 				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
 				"${BUILT_PRODUCTS_DIR}/WZLBadge/WZLBadge.framework",
+				"${BUILT_PRODUCTS_DIR}/XMNetworking/XMNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
 				"${BUILT_PRODUCTS_DIR}/ZYKeyboardUtil/ZYKeyboardUtil.framework",
 			);
@@ -333,6 +440,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeTableView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WZLBadge.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZYKeyboardUtil.framework",
 			);
@@ -366,17 +474,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04506182213FB71000366855 /* EncryptionTools.m in Sources */,
 				0479EC4F2137D69E008DB619 /* ViewController.m in Sources */,
+				0450617D213FB71000366855 /* UIButton+ImageTitleSpacing.m in Sources */,
 				0453CDA9213E571700AB6679 /* OpenShare+Weixin.m in Sources */,
+				0450617E213FB71000366855 /* Tools+Image.m in Sources */,
 				0453CDAA213E571700AB6679 /* OpenShare+Renren.m in Sources */,
 				0453CDA7213E571700AB6679 /* OpenShare+QQ.m in Sources */,
 				0479EC5A2137D69F008DB619 /* main.m in Sources */,
+				0450617A213FB71000366855 /* Tools+UpdateVersion.m in Sources */,
+				04506181213FB71000366855 /* Tools+Date.m in Sources */,
 				0453CDA8213E571700AB6679 /* OpenShare+Alipay.m in Sources */,
+				04506179213FB71000366855 /* Tools.m in Sources */,
+				0450617B213FB71000366855 /* Tools+CheckFormat.m in Sources */,
 				0453CDA5213E571700AB6679 /* OpenShare+Weibo.m in Sources */,
 				0453CD93213E571100AB6679 /* IFMShareItem.m in Sources */,
 				0453CDA6213E571700AB6679 /* OpenShare.m in Sources */,
 				0453CD94213E571100AB6679 /* IFMShareView.m in Sources */,
+				04506178213FB71000366855 /* Felix.m in Sources */,
 				0479EC622137D7D6008DB619 /* TestViewController.m in Sources */,
+				0450617F213FB71000366855 /* Tools+String.m in Sources */,
+				04506180213FB71000366855 /* Tools+DeviceCategory.m in Sources */,
 				0453CD96213E571100AB6679 /* IFMShareItemCell.m in Sources */,
 				0479EC4C2137D69E008DB619 /* AppDelegate.m in Sources */,
 			);
@@ -529,6 +647,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.skybrim.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = "-Wno-documentation";
 			};
 			name = Debug;
 		};
@@ -547,6 +666,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.skybrim.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = "-Wno-documentation";
 			};
 			name = Release;
 		};

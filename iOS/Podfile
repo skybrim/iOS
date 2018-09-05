@@ -14,13 +14,13 @@ target ‘iOS’ do
 
     pod 'Masonry'
     pod 'SVProgressHUD'
-    pod 'AFNetworking'
+    pod 'XMNetworking' #自动引入AFNetWorking
     pod 'Reachability'
     pod 'FMDB'
     pod 'MJRefresh'
     pod 'Base64'
     pod 'SFHFKeychainUtils'
-    pod 'SDCycleScrollView'
+    pod 'SDCycleScrollView' #自动引入SDWebImage，建议采用AF的图片加载策略
     pod 'MJExtension'
     pod 'BlocksKit'
     pod 'AspectsV1.4.2'

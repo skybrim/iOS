@@ -223,8 +223,8 @@
     zhezhaoView.alpha = 0;
     //执行动画
     [UIView animateWithDuration:0.25 animations:^{
-        if (_containView) {
-            _containView.frame = CGRectMake(0, SCREEN_HEIGHT - height, SCREEN_WIDTH, height);
+        if (self->_containView) {
+            self->_containView.frame = CGRectMake(0, SCREEN_HEIGHT - height, SCREEN_WIDTH, height);
         }
         
         zhezhaoView.alpha = 0.6;
@@ -249,8 +249,11 @@
         UIView *zhezhaoView = (UIView *)[self viewWithTag:100];
         zhezhaoView.alpha = 0;
         
-        if (_containView) {
-            _containView.frame = CGRectMake(0, SCREEN_HEIGHT,SCREEN_WIDTH, _containView.frame.size.height);
+        if (self->_containView) {
+            self->_containView.frame = CGRectMake(0,
+                                                  SCREEN_HEIGHT,
+                                                  SCREEN_WIDTH,
+                                                  self->_containView.frame.size.height);
         }
         
     } completion:^(BOOL finished) {
