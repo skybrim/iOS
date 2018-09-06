@@ -15,6 +15,17 @@
 		0437B5AD2141047C0017CDF0 /* MarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5AC2141047C0017CDF0 /* MarqueeView.m */; };
 		0437B5B1214104B40017CDF0 /* LeftViewTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5AF214104B40017CDF0 /* LeftViewTextField.m */; };
 		0437B5B5214104DB0017CDF0 /* T_PageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5B3214104DB0017CDF0 /* T_PageControl.m */; };
+		0437B5BF214106080017CDF0 /* KMPNestedMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5B7214106080017CDF0 /* KMPNestedMainTableViewCell.m */; };
+		0437B5C0214106080017CDF0 /* KMPNestedMainHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5BA214106080017CDF0 /* KMPNestedMainHeaderView.m */; };
+		0437B5C1214106080017CDF0 /* KMPPassTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5BC214106080017CDF0 /* KMPPassTableView.m */; };
+		0437B5C2214106080017CDF0 /* KMPNestedSubCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5BD214106080017CDF0 /* KMPNestedSubCollectionViewCell.m */; };
+		0437B5D6214106390017CDF0 /* DLLRUCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5C6214106390017CDF0 /* DLLRUCache.m */; };
+		0437B5D7214106390017CDF0 /* DLTabedSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5CC214106390017CDF0 /* DLTabedSlideView.m */; };
+		0437B5D8214106390017CDF0 /* DLScrollTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5D1214106390017CDF0 /* DLScrollTabbarView.m */; };
+		0437B5D9214106390017CDF0 /* DLFixedTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5D2214106390017CDF0 /* DLFixedTabbarView.m */; };
+		0437B5DA214106390017CDF0 /* DLUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5D3214106390017CDF0 /* DLUtility.m */; };
+		0437B5DB214106390017CDF0 /* DLCustomSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5D4214106390017CDF0 /* DLCustomSlideView.m */; };
+		0437B5DC214106390017CDF0 /* DLSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5D5214106390017CDF0 /* DLSlideView.m */; };
 		04506178213FB71000366855 /* Felix.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506160213FB71000366855 /* Felix.m */; };
 		04506179213FB71000366855 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506166213FB71000366855 /* Tools.m */; };
 		0450617A213FB71000366855 /* Tools+UpdateVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506167213FB71000366855 /* Tools+UpdateVersion.m */; };
@@ -62,6 +73,30 @@
 		0437B5B0214104B40017CDF0 /* LeftViewTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewTextField.h; sourceTree = "<group>"; };
 		0437B5B3214104DB0017CDF0 /* T_PageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T_PageControl.m; sourceTree = "<group>"; };
 		0437B5B4214104DB0017CDF0 /* T_PageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T_PageControl.h; sourceTree = "<group>"; };
+		0437B5B7214106080017CDF0 /* KMPNestedMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMPNestedMainTableViewCell.m; sourceTree = "<group>"; };
+		0437B5B8214106080017CDF0 /* KMPNestedSubCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMPNestedSubCollectionViewCell.h; sourceTree = "<group>"; };
+		0437B5B9214106080017CDF0 /* KMPPassTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMPPassTableView.h; sourceTree = "<group>"; };
+		0437B5BA214106080017CDF0 /* KMPNestedMainHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMPNestedMainHeaderView.m; sourceTree = "<group>"; };
+		0437B5BB214106080017CDF0 /* KMPNestedMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMPNestedMainTableViewCell.h; sourceTree = "<group>"; };
+		0437B5BC214106080017CDF0 /* KMPPassTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMPPassTableView.m; sourceTree = "<group>"; };
+		0437B5BD214106080017CDF0 /* KMPNestedSubCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMPNestedSubCollectionViewCell.m; sourceTree = "<group>"; };
+		0437B5BE214106080017CDF0 /* KMPNestedMainHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMPNestedMainHeaderView.h; sourceTree = "<group>"; };
+		0437B5C4214106390017CDF0 /* DLTabedSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLTabedSlideView.h; sourceTree = "<group>"; };
+		0437B5C6214106390017CDF0 /* DLLRUCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLLRUCache.m; sourceTree = "<group>"; };
+		0437B5C7214106390017CDF0 /* DLCacheProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCacheProtocol.h; sourceTree = "<group>"; };
+		0437B5C8214106390017CDF0 /* DLLRUCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLLRUCache.h; sourceTree = "<group>"; };
+		0437B5C9214106390017CDF0 /* DLUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLUtility.h; sourceTree = "<group>"; };
+		0437B5CA214106390017CDF0 /* DLSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLSlideView.h; sourceTree = "<group>"; };
+		0437B5CB214106390017CDF0 /* DLCustomSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCustomSlideView.h; sourceTree = "<group>"; };
+		0437B5CC214106390017CDF0 /* DLTabedSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLTabedSlideView.m; sourceTree = "<group>"; };
+		0437B5CE214106390017CDF0 /* DLSlideTabbarProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLSlideTabbarProtocol.h; sourceTree = "<group>"; };
+		0437B5CF214106390017CDF0 /* DLScrollTabbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLScrollTabbarView.h; sourceTree = "<group>"; };
+		0437B5D0214106390017CDF0 /* DLFixedTabbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLFixedTabbarView.h; sourceTree = "<group>"; };
+		0437B5D1214106390017CDF0 /* DLScrollTabbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLScrollTabbarView.m; sourceTree = "<group>"; };
+		0437B5D2214106390017CDF0 /* DLFixedTabbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLFixedTabbarView.m; sourceTree = "<group>"; };
+		0437B5D3214106390017CDF0 /* DLUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLUtility.m; sourceTree = "<group>"; };
+		0437B5D4214106390017CDF0 /* DLCustomSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCustomSlideView.m; sourceTree = "<group>"; };
+		0437B5D5214106390017CDF0 /* DLSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLSlideView.m; sourceTree = "<group>"; };
 		04506148213FAF9800366855 /* iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-Prefix.pch"; sourceTree = "<group>"; };
 		0450615A213FB68700366855 /* CommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
 		0450615B213FB68700366855 /* WeakDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakDefine.h; sourceTree = "<group>"; };
@@ -202,10 +237,65 @@
 			path = PageControl;
 			sourceTree = "<group>";
 		};
+		0437B5B6214106080017CDF0 /* NestedTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0437B5B7214106080017CDF0 /* KMPNestedMainTableViewCell.m */,
+				0437B5B8214106080017CDF0 /* KMPNestedSubCollectionViewCell.h */,
+				0437B5B9214106080017CDF0 /* KMPPassTableView.h */,
+				0437B5BA214106080017CDF0 /* KMPNestedMainHeaderView.m */,
+				0437B5BB214106080017CDF0 /* KMPNestedMainTableViewCell.h */,
+				0437B5BC214106080017CDF0 /* KMPPassTableView.m */,
+				0437B5BD214106080017CDF0 /* KMPNestedSubCollectionViewCell.m */,
+				0437B5BE214106080017CDF0 /* KMPNestedMainHeaderView.h */,
+			);
+			path = NestedTableViewCell;
+			sourceTree = "<group>";
+		};
+		0437B5C3214106390017CDF0 /* DLSlideView */ = {
+			isa = PBXGroup;
+			children = (
+				0437B5C4214106390017CDF0 /* DLTabedSlideView.h */,
+				0437B5C5214106390017CDF0 /* DLCache */,
+				0437B5C9214106390017CDF0 /* DLUtility.h */,
+				0437B5CA214106390017CDF0 /* DLSlideView.h */,
+				0437B5CB214106390017CDF0 /* DLCustomSlideView.h */,
+				0437B5CC214106390017CDF0 /* DLTabedSlideView.m */,
+				0437B5CD214106390017CDF0 /* DLTabbarView */,
+				0437B5D3214106390017CDF0 /* DLUtility.m */,
+				0437B5D4214106390017CDF0 /* DLCustomSlideView.m */,
+				0437B5D5214106390017CDF0 /* DLSlideView.m */,
+			);
+			path = DLSlideView;
+			sourceTree = "<group>";
+		};
+		0437B5C5214106390017CDF0 /* DLCache */ = {
+			isa = PBXGroup;
+			children = (
+				0437B5C6214106390017CDF0 /* DLLRUCache.m */,
+				0437B5C7214106390017CDF0 /* DLCacheProtocol.h */,
+				0437B5C8214106390017CDF0 /* DLLRUCache.h */,
+			);
+			path = DLCache;
+			sourceTree = "<group>";
+		};
+		0437B5CD214106390017CDF0 /* DLTabbarView */ = {
+			isa = PBXGroup;
+			children = (
+				0437B5CE214106390017CDF0 /* DLSlideTabbarProtocol.h */,
+				0437B5CF214106390017CDF0 /* DLScrollTabbarView.h */,
+				0437B5D0214106390017CDF0 /* DLFixedTabbarView.h */,
+				0437B5D1214106390017CDF0 /* DLScrollTabbarView.m */,
+				0437B5D2214106390017CDF0 /* DLFixedTabbarView.m */,
+			);
+			path = DLTabbarView;
+			sourceTree = "<group>";
+		};
 		04506149213FB02D00366855 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				0450615D213FB6BA00366855 /* UtilsHeader.h */,
+				0437B5B6214106080017CDF0 /* NestedTableViewCell */,
 				0437B5B2214104DB0017CDF0 /* PageControl */,
 				0437B5AE214104B40017CDF0 /* LeftViewTextField */,
 				0437B5AA2141047C0017CDF0 /* MarqueeView */,
@@ -332,6 +422,7 @@
 		0453CD8A213E56FB00AB6679 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				0437B5C3214106390017CDF0 /* DLSlideView */,
 				0453CD97213E571700AB6679 /* openshare */,
 				0453CD8B213E571100AB6679 /* IFMShare */,
 			);
@@ -572,7 +663,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0437B5D7214106390017CDF0 /* DLTabedSlideView.m in Sources */,
 				04506182213FB71000366855 /* EncryptionTools.m in Sources */,
+				0437B5C0214106080017CDF0 /* KMPNestedMainHeaderView.m in Sources */,
 				0437B5A0214102E90017CDF0 /* UIViewController+BackButtonHandler.m in Sources */,
 				0479EC4F2137D69E008DB619 /* ViewController.m in Sources */,
 				0450617D213FB71000366855 /* UIButton+ImageTitleSpacing.m in Sources */,
@@ -582,16 +675,23 @@
 				0437B5A5214103560017CDF0 /* UIView+singleCorner.m in Sources */,
 				0453CDAA213E571700AB6679 /* OpenShare+Renren.m in Sources */,
 				0453CDA7213E571700AB6679 /* OpenShare+QQ.m in Sources */,
+				0437B5BF214106080017CDF0 /* KMPNestedMainTableViewCell.m in Sources */,
 				0479EC5A2137D69F008DB619 /* main.m in Sources */,
 				0450617A213FB71000366855 /* Tools+UpdateVersion.m in Sources */,
+				0437B5D8214106390017CDF0 /* DLScrollTabbarView.m in Sources */,
+				0437B5D6214106390017CDF0 /* DLLRUCache.m in Sources */,
 				04506181213FB71000366855 /* Tools+Date.m in Sources */,
 				0453CDA8213E571700AB6679 /* OpenShare+Alipay.m in Sources */,
 				04506179213FB71000366855 /* Tools.m in Sources */,
 				0450617B213FB71000366855 /* Tools+CheckFormat.m in Sources */,
+				0437B5D9214106390017CDF0 /* DLFixedTabbarView.m in Sources */,
 				0453CDA5213E571700AB6679 /* OpenShare+Weibo.m in Sources */,
+				0437B5C1214106080017CDF0 /* KMPPassTableView.m in Sources */,
 				0453CD93213E571100AB6679 /* IFMShareItem.m in Sources */,
 				0453CDA6213E571700AB6679 /* OpenShare.m in Sources */,
 				0453CD94213E571100AB6679 /* IFMShareView.m in Sources */,
+				0437B5DB214106390017CDF0 /* DLCustomSlideView.m in Sources */,
+				0437B5DC214106390017CDF0 /* DLSlideView.m in Sources */,
 				04506178213FB71000366855 /* Felix.m in Sources */,
 				0437B5B1214104B40017CDF0 /* LeftViewTextField.m in Sources */,
 				0437B5AD2141047C0017CDF0 /* MarqueeView.m in Sources */,
@@ -599,8 +699,10 @@
 				0450617F213FB71000366855 /* Tools+String.m in Sources */,
 				04506180213FB71000366855 /* Tools+DeviceCategory.m in Sources */,
 				0437B5B5214104DB0017CDF0 /* T_PageControl.m in Sources */,
+				0437B5DA214106390017CDF0 /* DLUtility.m in Sources */,
 				0453CD96213E571100AB6679 /* IFMShareItemCell.m in Sources */,
 				0437B596214101680017CDF0 /* UIViewController+NaviBarButton.m in Sources */,
+				0437B5C2214106080017CDF0 /* KMPNestedSubCollectionViewCell.m in Sources */,
 				0437B5A1214102E90017CDF0 /* UINavigationController+ShouldPopOnBackButton.m in Sources */,
 				0479EC4C2137D69E008DB619 /* AppDelegate.m in Sources */,
 			);
