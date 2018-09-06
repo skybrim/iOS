@@ -14,6 +14,7 @@
 		0437B5A5214103560017CDF0 /* UIView+singleCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5A4214103560017CDF0 /* UIView+singleCorner.m */; };
 		0437B5AD2141047C0017CDF0 /* MarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5AC2141047C0017CDF0 /* MarqueeView.m */; };
 		0437B5B1214104B40017CDF0 /* LeftViewTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5AF214104B40017CDF0 /* LeftViewTextField.m */; };
+		0437B5B5214104DB0017CDF0 /* T_PageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5B3214104DB0017CDF0 /* T_PageControl.m */; };
 		04506178213FB71000366855 /* Felix.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506160213FB71000366855 /* Felix.m */; };
 		04506179213FB71000366855 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506166213FB71000366855 /* Tools.m */; };
 		0450617A213FB71000366855 /* Tools+UpdateVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506167213FB71000366855 /* Tools+UpdateVersion.m */; };
@@ -59,6 +60,8 @@
 		0437B5AC2141047C0017CDF0 /* MarqueeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarqueeView.m; sourceTree = "<group>"; };
 		0437B5AF214104B40017CDF0 /* LeftViewTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewTextField.m; sourceTree = "<group>"; };
 		0437B5B0214104B40017CDF0 /* LeftViewTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewTextField.h; sourceTree = "<group>"; };
+		0437B5B3214104DB0017CDF0 /* T_PageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T_PageControl.m; sourceTree = "<group>"; };
+		0437B5B4214104DB0017CDF0 /* T_PageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T_PageControl.h; sourceTree = "<group>"; };
 		04506148213FAF9800366855 /* iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-Prefix.pch"; sourceTree = "<group>"; };
 		0450615A213FB68700366855 /* CommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
 		0450615B213FB68700366855 /* WeakDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakDefine.h; sourceTree = "<group>"; };
@@ -190,10 +193,20 @@
 			path = LeftViewTextField;
 			sourceTree = "<group>";
 		};
+		0437B5B2214104DB0017CDF0 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				0437B5B4214104DB0017CDF0 /* T_PageControl.h */,
+				0437B5B3214104DB0017CDF0 /* T_PageControl.m */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
 		04506149213FB02D00366855 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				0450615D213FB6BA00366855 /* UtilsHeader.h */,
+				0437B5B2214104DB0017CDF0 /* PageControl */,
 				0437B5AE214104B40017CDF0 /* LeftViewTextField */,
 				0437B5AA2141047C0017CDF0 /* MarqueeView */,
 				0437B5A2214103560017CDF0 /* SingleCorner */,
@@ -585,6 +598,7 @@
 				0479EC622137D7D6008DB619 /* TestViewController.m in Sources */,
 				0450617F213FB71000366855 /* Tools+String.m in Sources */,
 				04506180213FB71000366855 /* Tools+DeviceCategory.m in Sources */,
+				0437B5B5214104DB0017CDF0 /* T_PageControl.m in Sources */,
 				0453CD96213E571100AB6679 /* IFMShareItemCell.m in Sources */,
 				0437B596214101680017CDF0 /* UIViewController+NaviBarButton.m in Sources */,
 				0437B5A1214102E90017CDF0 /* UINavigationController+ShouldPopOnBackButton.m in Sources */,
