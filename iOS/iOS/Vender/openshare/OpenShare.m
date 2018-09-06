@@ -50,7 +50,7 @@ static NSMutableDictionary *keys;
 }
 
 +(void)openURL:(NSString*)url{
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url] options:@{} completionHandler:nil];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
 }
 
 +(BOOL)canOpen:(NSString*)url{
