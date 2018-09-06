@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 
+#import "AppDelegate+AOP.h"
+
 @interface AppDelegate ()
 
 @end
@@ -22,6 +24,8 @@
     NSLog(@"develop");
     NSLog(@"%@",NSHomeDirectory());
 
+    [self aop_viewDidLoad];
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
