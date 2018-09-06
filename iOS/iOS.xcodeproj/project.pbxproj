@@ -11,6 +11,7 @@
 		0437B596214101680017CDF0 /* UIViewController+NaviBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B595214101680017CDF0 /* UIViewController+NaviBarButton.m */; };
 		0437B5A0214102E90017CDF0 /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B59C214102E90017CDF0 /* UIViewController+BackButtonHandler.m */; };
 		0437B5A1214102E90017CDF0 /* UINavigationController+ShouldPopOnBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B59D214102E90017CDF0 /* UINavigationController+ShouldPopOnBackButton.m */; };
+		0437B5A5214103560017CDF0 /* UIView+singleCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5A4214103560017CDF0 /* UIView+singleCorner.m */; };
 		04506178213FB71000366855 /* Felix.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506160213FB71000366855 /* Felix.m */; };
 		04506179213FB71000366855 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506166213FB71000366855 /* Tools.m */; };
 		0450617A213FB71000366855 /* Tools+UpdateVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506167213FB71000366855 /* Tools+UpdateVersion.m */; };
@@ -50,6 +51,8 @@
 		0437B59C214102E90017CDF0 /* UIViewController+BackButtonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonHandler.m"; sourceTree = "<group>"; };
 		0437B59D214102E90017CDF0 /* UINavigationController+ShouldPopOnBackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ShouldPopOnBackButton.m"; sourceTree = "<group>"; };
 		0437B59E214102E90017CDF0 /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
+		0437B5A3214103560017CDF0 /* UIView+singleCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+singleCorner.h"; sourceTree = "<group>"; };
+		0437B5A4214103560017CDF0 /* UIView+singleCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+singleCorner.m"; sourceTree = "<group>"; };
 		04506148213FAF9800366855 /* iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-Prefix.pch"; sourceTree = "<group>"; };
 		0450615A213FB68700366855 /* CommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
 		0450615B213FB68700366855 /* WeakDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakDefine.h; sourceTree = "<group>"; };
@@ -154,10 +157,20 @@
 			path = BackFunction;
 			sourceTree = "<group>";
 		};
+		0437B5A2214103560017CDF0 /* SingleCorner */ = {
+			isa = PBXGroup;
+			children = (
+				0437B5A3214103560017CDF0 /* UIView+singleCorner.h */,
+				0437B5A4214103560017CDF0 /* UIView+singleCorner.m */,
+			);
+			path = SingleCorner;
+			sourceTree = "<group>";
+		};
 		04506149213FB02D00366855 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				0450615D213FB6BA00366855 /* UtilsHeader.h */,
+				0437B5A2214103560017CDF0 /* SingleCorner */,
 				0437B59A214102E90017CDF0 /* BackFunction */,
 				0437B593214101680017CDF0 /* BackBarButton */,
 				04506183213FBAD000366855 /* UI */,
@@ -527,6 +540,7 @@
 				0437B592214100DE0017CDF0 /* AppDelegate+AOP.m in Sources */,
 				0453CDA9213E571700AB6679 /* OpenShare+Weixin.m in Sources */,
 				0450617E213FB71000366855 /* Tools+Image.m in Sources */,
+				0437B5A5214103560017CDF0 /* UIView+singleCorner.m in Sources */,
 				0453CDAA213E571700AB6679 /* OpenShare+Renren.m in Sources */,
 				0453CDA7213E571700AB6679 /* OpenShare+QQ.m in Sources */,
 				0479EC5A2137D69F008DB619 /* main.m in Sources */,
