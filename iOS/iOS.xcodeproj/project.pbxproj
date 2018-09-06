@@ -26,18 +26,17 @@
 		0437B5DA214106390017CDF0 /* DLUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5D3214106390017CDF0 /* DLUtility.m */; };
 		0437B5DB214106390017CDF0 /* DLCustomSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5D4214106390017CDF0 /* DLCustomSlideView.m */; };
 		0437B5DC214106390017CDF0 /* DLSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5D5214106390017CDF0 /* DLSlideView.m */; };
+		0437B5DF214108310017CDF0 /* IFMShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5DD214108310017CDF0 /* IFMShareView.m */; };
 		04506178213FB71000366855 /* Felix.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506160213FB71000366855 /* Felix.m */; };
 		04506179213FB71000366855 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506166213FB71000366855 /* Tools.m */; };
 		0450617A213FB71000366855 /* Tools+UpdateVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506167213FB71000366855 /* Tools+UpdateVersion.m */; };
 		0450617B213FB71000366855 /* Tools+CheckFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506168213FB71000366855 /* Tools+CheckFormat.m */; };
-		0450617D213FB71000366855 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450616C213FB71000366855 /* UIButton+ImageTitleSpacing.m */; };
 		0450617E213FB71000366855 /* Tools+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506170213FB71000366855 /* Tools+Image.m */; };
 		0450617F213FB71000366855 /* Tools+String.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506171213FB71000366855 /* Tools+String.m */; };
 		04506180213FB71000366855 /* Tools+DeviceCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506172213FB71000366855 /* Tools+DeviceCategory.m */; };
 		04506181213FB71000366855 /* Tools+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506174213FB71000366855 /* Tools+Date.m */; };
 		04506182213FB71000366855 /* EncryptionTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506177213FB71000366855 /* EncryptionTools.m */; };
 		0453CD93213E571100AB6679 /* IFMShareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CD8C213E571100AB6679 /* IFMShareItem.m */; };
-		0453CD94213E571100AB6679 /* IFMShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CD8D213E571100AB6679 /* IFMShareView.m */; };
 		0453CD95213E571100AB6679 /* IFMShareImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0453CD8E213E571100AB6679 /* IFMShareImage.bundle */; };
 		0453CD96213E571100AB6679 /* IFMShareItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CD92213E571100AB6679 /* IFMShareItemCell.m */; };
 		0453CDA5213E571700AB6679 /* OpenShare+Weibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CD98213E571700AB6679 /* OpenShare+Weibo.m */; };
@@ -97,6 +96,8 @@
 		0437B5D3214106390017CDF0 /* DLUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLUtility.m; sourceTree = "<group>"; };
 		0437B5D4214106390017CDF0 /* DLCustomSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCustomSlideView.m; sourceTree = "<group>"; };
 		0437B5D5214106390017CDF0 /* DLSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLSlideView.m; sourceTree = "<group>"; };
+		0437B5DD214108310017CDF0 /* IFMShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareView.m; sourceTree = "<group>"; };
+		0437B5DE214108310017CDF0 /* IFMShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFMShareView.h; sourceTree = "<group>"; };
 		04506148213FAF9800366855 /* iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-Prefix.pch"; sourceTree = "<group>"; };
 		0450615A213FB68700366855 /* CommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
 		0450615B213FB68700366855 /* WeakDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakDefine.h; sourceTree = "<group>"; };
@@ -104,7 +105,6 @@
 		0450615D213FB6BA00366855 /* UtilsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsHeader.h; sourceTree = "<group>"; };
 		04506160213FB71000366855 /* Felix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Felix.m; sourceTree = "<group>"; };
 		04506161213FB71000366855 /* Felix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Felix.h; sourceTree = "<group>"; };
-		04506163213FB71000366855 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
 		04506164213FB71000366855 /* Tools+String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tools+String.h"; sourceTree = "<group>"; };
 		04506165213FB71000366855 /* Tools+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tools+Image.h"; sourceTree = "<group>"; };
 		04506166213FB71000366855 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
@@ -112,7 +112,6 @@
 		04506168213FB71000366855 /* Tools+CheckFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Tools+CheckFormat.m"; sourceTree = "<group>"; };
 		04506169213FB71000366855 /* Tools+DeviceCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tools+DeviceCategory.h"; sourceTree = "<group>"; };
 		0450616A213FB71000366855 /* Tools+Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tools+Date.h"; sourceTree = "<group>"; };
-		0450616C213FB71000366855 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
 		0450616D213FB71000366855 /* Tools+UpdateVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tools+UpdateVersion.h"; sourceTree = "<group>"; };
 		0450616E213FB71000366855 /* Tools+CheckFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tools+CheckFormat.h"; sourceTree = "<group>"; };
 		0450616F213FB71000366855 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
@@ -124,11 +123,9 @@
 		04506177213FB71000366855 /* EncryptionTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionTools.m; sourceTree = "<group>"; };
 		04506184213FBF6300366855 /* ExpandHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpandHeader.h; sourceTree = "<group>"; };
 		0453CD8C213E571100AB6679 /* IFMShareItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareItem.m; sourceTree = "<group>"; };
-		0453CD8D213E571100AB6679 /* IFMShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareView.m; sourceTree = "<group>"; };
 		0453CD8E213E571100AB6679 /* IFMShareImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IFMShareImage.bundle; sourceTree = "<group>"; };
 		0453CD8F213E571100AB6679 /* IFMShareItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFMShareItemCell.h; sourceTree = "<group>"; };
 		0453CD90213E571100AB6679 /* IFMShareItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFMShareItem.h; sourceTree = "<group>"; };
-		0453CD91213E571100AB6679 /* IFMShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFMShareView.h; sourceTree = "<group>"; };
 		0453CD92213E571100AB6679 /* IFMShareItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareItemCell.m; sourceTree = "<group>"; };
 		0453CD98213E571700AB6679 /* OpenShare+Weibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OpenShare+Weibo.m"; sourceTree = "<group>"; };
 		0453CD99213E571700AB6679 /* OpenShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenShare.m; sourceTree = "<group>"; };
@@ -193,10 +190,10 @@
 		0437B59A214102E90017CDF0 /* BackFunction */ = {
 			isa = PBXGroup;
 			children = (
-				0437B59B214102E90017CDF0 /* UINavigationController+ShouldPopOnBackButton.h */,
-				0437B59C214102E90017CDF0 /* UIViewController+BackButtonHandler.m */,
-				0437B59D214102E90017CDF0 /* UINavigationController+ShouldPopOnBackButton.m */,
 				0437B59E214102E90017CDF0 /* UIViewController+BackButtonHandler.h */,
+				0437B59C214102E90017CDF0 /* UIViewController+BackButtonHandler.m */,
+				0437B59B214102E90017CDF0 /* UINavigationController+ShouldPopOnBackButton.h */,
+				0437B59D214102E90017CDF0 /* UINavigationController+ShouldPopOnBackButton.m */,
 			);
 			path = BackFunction;
 			sourceTree = "<group>";
@@ -222,8 +219,8 @@
 		0437B5AE214104B40017CDF0 /* LeftViewTextField */ = {
 			isa = PBXGroup;
 			children = (
-				0437B5AF214104B40017CDF0 /* LeftViewTextField.m */,
 				0437B5B0214104B40017CDF0 /* LeftViewTextField.h */,
+				0437B5AF214104B40017CDF0 /* LeftViewTextField.m */,
 			);
 			path = LeftViewTextField;
 			sourceTree = "<group>";
@@ -240,14 +237,14 @@
 		0437B5B6214106080017CDF0 /* NestedTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				0437B5B7214106080017CDF0 /* KMPNestedMainTableViewCell.m */,
-				0437B5B8214106080017CDF0 /* KMPNestedSubCollectionViewCell.h */,
 				0437B5B9214106080017CDF0 /* KMPPassTableView.h */,
-				0437B5BA214106080017CDF0 /* KMPNestedMainHeaderView.m */,
-				0437B5BB214106080017CDF0 /* KMPNestedMainTableViewCell.h */,
 				0437B5BC214106080017CDF0 /* KMPPassTableView.m */,
-				0437B5BD214106080017CDF0 /* KMPNestedSubCollectionViewCell.m */,
+				0437B5BB214106080017CDF0 /* KMPNestedMainTableViewCell.h */,
+				0437B5B7214106080017CDF0 /* KMPNestedMainTableViewCell.m */,
 				0437B5BE214106080017CDF0 /* KMPNestedMainHeaderView.h */,
+				0437B5BA214106080017CDF0 /* KMPNestedMainHeaderView.m */,
+				0437B5B8214106080017CDF0 /* KMPNestedSubCollectionViewCell.h */,
+				0437B5BD214106080017CDF0 /* KMPNestedSubCollectionViewCell.m */,
 			);
 			path = NestedTableViewCell;
 			sourceTree = "<group>";
@@ -255,16 +252,16 @@
 		0437B5C3214106390017CDF0 /* DLSlideView */ = {
 			isa = PBXGroup;
 			children = (
-				0437B5C4214106390017CDF0 /* DLTabedSlideView.h */,
-				0437B5C5214106390017CDF0 /* DLCache */,
-				0437B5C9214106390017CDF0 /* DLUtility.h */,
 				0437B5CA214106390017CDF0 /* DLSlideView.h */,
-				0437B5CB214106390017CDF0 /* DLCustomSlideView.h */,
-				0437B5CC214106390017CDF0 /* DLTabedSlideView.m */,
-				0437B5CD214106390017CDF0 /* DLTabbarView */,
-				0437B5D3214106390017CDF0 /* DLUtility.m */,
-				0437B5D4214106390017CDF0 /* DLCustomSlideView.m */,
 				0437B5D5214106390017CDF0 /* DLSlideView.m */,
+				0437B5C4214106390017CDF0 /* DLTabedSlideView.h */,
+				0437B5CC214106390017CDF0 /* DLTabedSlideView.m */,
+				0437B5CB214106390017CDF0 /* DLCustomSlideView.h */,
+				0437B5D4214106390017CDF0 /* DLCustomSlideView.m */,
+				0437B5C9214106390017CDF0 /* DLUtility.h */,
+				0437B5D3214106390017CDF0 /* DLUtility.m */,
+				0437B5C5214106390017CDF0 /* DLCache */,
+				0437B5CD214106390017CDF0 /* DLTabbarView */,
 			);
 			path = DLSlideView;
 			sourceTree = "<group>";
@@ -295,13 +292,6 @@
 			isa = PBXGroup;
 			children = (
 				0450615D213FB6BA00366855 /* UtilsHeader.h */,
-				0437B5B6214106080017CDF0 /* NestedTableViewCell */,
-				0437B5B2214104DB0017CDF0 /* PageControl */,
-				0437B5AE214104B40017CDF0 /* LeftViewTextField */,
-				0437B5AA2141047C0017CDF0 /* MarqueeView */,
-				0437B5A2214103560017CDF0 /* SingleCorner */,
-				0437B59A214102E90017CDF0 /* BackFunction */,
-				0437B593214101680017CDF0 /* BackBarButton */,
 				04506183213FBAD000366855 /* UI */,
 				0450615E213FB71000366855 /* Tool */,
 				04506159213FB64A00366855 /* Macro */,
@@ -379,8 +369,13 @@
 		04506183213FBAD000366855 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				04506163213FB71000366855 /* UIButton+ImageTitleSpacing.h */,
-				0450616C213FB71000366855 /* UIButton+ImageTitleSpacing.m */,
+				0437B5B6214106080017CDF0 /* NestedTableViewCell */,
+				0437B5B2214104DB0017CDF0 /* PageControl */,
+				0437B5AE214104B40017CDF0 /* LeftViewTextField */,
+				0437B5AA2141047C0017CDF0 /* MarqueeView */,
+				0437B5A2214103560017CDF0 /* SingleCorner */,
+				0437B59A214102E90017CDF0 /* BackFunction */,
+				0437B593214101680017CDF0 /* BackBarButton */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -432,12 +427,12 @@
 		0453CD8B213E571100AB6679 /* IFMShare */ = {
 			isa = PBXGroup;
 			children = (
-				0453CD8C213E571100AB6679 /* IFMShareItem.m */,
-				0453CD8D213E571100AB6679 /* IFMShareView.m */,
 				0453CD8E213E571100AB6679 /* IFMShareImage.bundle */,
-				0453CD8F213E571100AB6679 /* IFMShareItemCell.h */,
+				0437B5DE214108310017CDF0 /* IFMShareView.h */,
+				0437B5DD214108310017CDF0 /* IFMShareView.m */,
 				0453CD90213E571100AB6679 /* IFMShareItem.h */,
-				0453CD91213E571100AB6679 /* IFMShareView.h */,
+				0453CD8C213E571100AB6679 /* IFMShareItem.m */,
+				0453CD8F213E571100AB6679 /* IFMShareItemCell.h */,
 				0453CD92213E571100AB6679 /* IFMShareItemCell.m */,
 			);
 			path = IFMShare;
@@ -446,19 +441,19 @@
 		0453CD97213E571700AB6679 /* openshare */ = {
 			isa = PBXGroup;
 			children = (
-				0453CD98213E571700AB6679 /* OpenShare+Weibo.m */,
-				0453CD99213E571700AB6679 /* OpenShare.m */,
-				0453CD9A213E571700AB6679 /* OpenShare+Renren.h */,
-				0453CD9B213E571700AB6679 /* OpenShare+QQ.m */,
-				0453CD9C213E571700AB6679 /* OpenShare+Alipay.m */,
-				0453CD9D213E571700AB6679 /* OpenShare+Weixin.m */,
 				0453CD9E213E571700AB6679 /* OpenShareHeader.h */,
-				0453CD9F213E571700AB6679 /* OpenShare+Weibo.h */,
-				0453CDA0213E571700AB6679 /* OpenShare+Renren.m */,
 				0453CDA1213E571700AB6679 /* OpenShare.h */,
-				0453CDA2213E571700AB6679 /* OpenShare+QQ.h */,
+				0453CD99213E571700AB6679 /* OpenShare.m */,
 				0453CDA3213E571700AB6679 /* OpenShare+Weixin.h */,
+				0453CD9D213E571700AB6679 /* OpenShare+Weixin.m */,
 				0453CDA4213E571700AB6679 /* OpenShare+Alipay.h */,
+				0453CD9C213E571700AB6679 /* OpenShare+Alipay.m */,
+				0453CD9F213E571700AB6679 /* OpenShare+Weibo.h */,
+				0453CD98213E571700AB6679 /* OpenShare+Weibo.m */,
+				0453CDA2213E571700AB6679 /* OpenShare+QQ.h */,
+				0453CD9B213E571700AB6679 /* OpenShare+QQ.m */,
+				0453CD9A213E571700AB6679 /* OpenShare+Renren.h */,
+				0453CDA0213E571700AB6679 /* OpenShare+Renren.m */,
 			);
 			path = openshare;
 			sourceTree = "<group>";
@@ -668,7 +663,6 @@
 				0437B5C0214106080017CDF0 /* KMPNestedMainHeaderView.m in Sources */,
 				0437B5A0214102E90017CDF0 /* UIViewController+BackButtonHandler.m in Sources */,
 				0479EC4F2137D69E008DB619 /* ViewController.m in Sources */,
-				0450617D213FB71000366855 /* UIButton+ImageTitleSpacing.m in Sources */,
 				0437B592214100DE0017CDF0 /* AppDelegate+AOP.m in Sources */,
 				0453CDA9213E571700AB6679 /* OpenShare+Weixin.m in Sources */,
 				0450617E213FB71000366855 /* Tools+Image.m in Sources */,
@@ -689,7 +683,6 @@
 				0437B5C1214106080017CDF0 /* KMPPassTableView.m in Sources */,
 				0453CD93213E571100AB6679 /* IFMShareItem.m in Sources */,
 				0453CDA6213E571700AB6679 /* OpenShare.m in Sources */,
-				0453CD94213E571100AB6679 /* IFMShareView.m in Sources */,
 				0437B5DB214106390017CDF0 /* DLCustomSlideView.m in Sources */,
 				0437B5DC214106390017CDF0 /* DLSlideView.m in Sources */,
 				04506178213FB71000366855 /* Felix.m in Sources */,
@@ -703,6 +696,7 @@
 				0453CD96213E571100AB6679 /* IFMShareItemCell.m in Sources */,
 				0437B596214101680017CDF0 /* UIViewController+NaviBarButton.m in Sources */,
 				0437B5C2214106080017CDF0 /* KMPNestedSubCollectionViewCell.m in Sources */,
+				0437B5DF214108310017CDF0 /* IFMShareView.m in Sources */,
 				0437B5A1214102E90017CDF0 /* UINavigationController+ShouldPopOnBackButton.m in Sources */,
 				0479EC4C2137D69E008DB619 /* AppDelegate.m in Sources */,
 			);
