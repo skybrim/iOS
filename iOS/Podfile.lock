@@ -77,7 +77,7 @@ DEPENDENCIES:
   - ZYKeyboardUtil
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - AFNetworking
     - AspectsV1.4.2
     - Base64
@@ -125,4 +125,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 860bd4f9657034f47c5c26e98ce323544bfcda42
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3
