@@ -21,4 +21,6 @@
 #import "Tools+Image.h"
 #import "Tools+DeviceCategory.h"
 
+#import "UIView+Border.h"
+
 #endif /* UtilsHeader_h */

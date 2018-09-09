@@ -53,6 +53,8 @@
 		0479EC5A2137D69F008DB619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479EC592137D69F008DB619 /* main.m */; };
 		0479EC622137D7D6008DB619 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479EC612137D7D6008DB619 /* TestViewController.m */; };
 		1D2F17DD31CA03BB82396DEE /* Pods_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ACFF48B09646D21CE60AED /* Pods_iOS.framework */; };
+		B1E00BE02143D5AF00A4656D /* KMPShareHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E00BDF2143D5AF00A4656D /* KMPShareHandle.m */; };
+		B1E00BE42143D62400A4656D /* UIView+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E00BE32143D62400A4656D /* UIView+Border.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -154,6 +156,10 @@
 		0479EC612137D7D6008DB619 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		0A895D06C93391F551E77AB1 /* Pods-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS/Pods-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		54ACFF48B09646D21CE60AED /* Pods_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E00BDE2143D5AF00A4656D /* KMPShareHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMPShareHandle.h; sourceTree = "<group>"; };
+		B1E00BDF2143D5AF00A4656D /* KMPShareHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMPShareHandle.m; sourceTree = "<group>"; };
+		B1E00BE22143D62400A4656D /* UIView+Border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Border.h"; sourceTree = "<group>"; };
+		B1E00BE32143D62400A4656D /* UIView+Border.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Border.m"; sourceTree = "<group>"; };
 		C4BE04F84F7CC91E58DCF918 /* Pods-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS/Pods-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -303,6 +309,7 @@
 			isa = PBXGroup;
 			children = (
 				04506184213FBF6300366855 /* ExpandHeader.h */,
+				B1E00BDD2143D5AF00A4656D /* ShareHandle */,
 			);
 			path = Expand;
 			sourceTree = "<group>";
@@ -369,6 +376,7 @@
 		04506183213FBAD000366855 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				B1E00BE12143D61C00A4656D /* Border */,
 				0437B5B6214106080017CDF0 /* NestedTableViewCell */,
 				0437B5B2214104DB0017CDF0 /* PageControl */,
 				0437B5AE214104B40017CDF0 /* LeftViewTextField */,
@@ -496,6 +504,24 @@
 				0A895D06C93391F551E77AB1 /* Pods-iOS.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1E00BDD2143D5AF00A4656D /* ShareHandle */ = {
+			isa = PBXGroup;
+			children = (
+				B1E00BDE2143D5AF00A4656D /* KMPShareHandle.h */,
+				B1E00BDF2143D5AF00A4656D /* KMPShareHandle.m */,
+			);
+			path = ShareHandle;
+			sourceTree = "<group>";
+		};
+		B1E00BE12143D61C00A4656D /* Border */ = {
+			isa = PBXGroup;
+			children = (
+				B1E00BE22143D62400A4656D /* UIView+Border.h */,
+				B1E00BE32143D62400A4656D /* UIView+Border.m */,
+			);
+			path = Border;
 			sourceTree = "<group>";
 		};
 		EEE53BBDD73F9907CB97A47D /* Frameworks */ = {
@@ -687,9 +713,11 @@
 				0437B5DC214106390017CDF0 /* DLSlideView.m in Sources */,
 				04506178213FB71000366855 /* Felix.m in Sources */,
 				0437B5B1214104B40017CDF0 /* LeftViewTextField.m in Sources */,
+				B1E00BE42143D62400A4656D /* UIView+Border.m in Sources */,
 				0437B5AD2141047C0017CDF0 /* MarqueeView.m in Sources */,
 				0479EC622137D7D6008DB619 /* TestViewController.m in Sources */,
 				0450617F213FB71000366855 /* Tools+String.m in Sources */,
+				B1E00BE02143D5AF00A4656D /* KMPShareHandle.m in Sources */,
 				04506180213FB71000366855 /* Tools+DeviceCategory.m in Sources */,
 				0437B5B5214104DB0017CDF0 /* T_PageControl.m in Sources */,
 				0437B5DA214106390017CDF0 /* DLUtility.m in Sources */,
