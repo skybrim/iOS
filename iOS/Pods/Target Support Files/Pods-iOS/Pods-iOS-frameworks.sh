@@ -161,6 +161,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/SwipeTableView/SwipeTableView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/WZLBadge/WZLBadge.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/XMNetworking/XMNetworking.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YYText/YYText.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZYKeyboardUtil/ZYKeyboardUtil.framework"
 fi
@@ -183,6 +184,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/SwipeTableView/SwipeTableView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/WZLBadge/WZLBadge.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/XMNetworking/XMNetworking.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YYText/YYText.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZYKeyboardUtil/ZYKeyboardUtil.framework"
 fi

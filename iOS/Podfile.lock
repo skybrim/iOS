@@ -50,11 +50,12 @@ PODS:
   - SwipeTableView (0.2.6)
   - TZImagePickerController (3.0.4)
   - WZLBadge (1.2.6)
+  - XMNetworking (1.1.0):
+    - AFNetworking (~> 3.0)
   - YYText (1.0.7)
   - ZYKeyboardUtil (1.0.7)
 
 DEPENDENCIES:
-  - AFNetworking
   - AspectsV1.4.2
   - Base64
   - BlocksKit
@@ -71,6 +72,7 @@ DEPENDENCIES:
   - SwipeTableView
   - TZImagePickerController
   - WZLBadge
+  - XMNetworking
   - YYText
   - ZYKeyboardUtil
 
@@ -94,6 +96,7 @@ SPEC REPOS:
     - SwipeTableView
     - TZImagePickerController
     - WZLBadge
+    - XMNetworking
     - YYText
     - ZYKeyboardUtil
 
@@ -116,9 +119,10 @@ SPEC CHECKSUMS:
   SwipeTableView: 67d8a2e6e18bd38c188fd4fabda0b278eaa08d2f
   TZImagePickerController: 534fa8d35d555015c013209ed32e67c8a3c4e701
   WZLBadge: 9ec779dcfd94c825518b395e8315fccaabff1bfa
+  XMNetworking: 7160cc06f504f325eec515a1e687ee1aa89bc462
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
   ZYKeyboardUtil: c4b920eed9af063c46af2e9ea62e851d9331fbd9
 
-PODFILE CHECKSUM: 2604f90b1f9f246a91c38fe1a6b80325c8a01ad5
+PODFILE CHECKSUM: 860bd4f9657034f47c5c26e98ce323544bfcda42
 
 COCOAPODS: 1.5.3
