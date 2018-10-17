@@ -1,27 +1,22 @@
 //
-//  TestViewController.m
+//  ShareViewController.m
 //  iOS
 //
-//  Created by mac on 2018/8/30.
-//  Copyright © 2018年 Mr.T. All rights reserved.
+//  Created by mac on 2018/10/17.
+//  Copyright © 2018 Mr.T. All rights reserved.
 //
 
-#import "TestViewController.h"
+#import "ShareViewController.h"
 
-@interface TestViewController ()
+@interface ShareViewController ()
 
 @end
 
-@implementation TestViewController
+@implementation ShareViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 /*

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "TestViewController.h"
+#import "ShareViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -49,8 +49,12 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    TestViewController *testVC = [[TestViewController alloc] init];
-    [self.navigationController pushViewController:testVC animated:YES];
+    //分享
+    if (indexPath.row == 0) {
+        
+        ShareViewController *shareVC = [[ShareViewController alloc] init];
+        [self.navigationController pushViewController:shareVC animated:YES];
+    }
 }
 
 #pragma mark - layout
