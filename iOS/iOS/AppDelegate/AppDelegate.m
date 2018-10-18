@@ -21,11 +21,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-<<<<<<< HEAD
-    NSLog(@"master");
 
-=======
-    NSLog(@"develop");
     NSLog(@"%@",NSHomeDirectory());
 
     [self aop_viewDidLoad];
@@ -35,7 +31,6 @@
     [self.window makeKeyAndVisible];
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
     
->>>>>>> develop
     return YES;
 }
 
