@@ -1,27 +1,25 @@
 //
-//  ShareViewController.m
+//  LF_ShareViewController.m
 //  iOS
 //
-//  Created by mac on 2018/10/17.
+//  Created by mac on 2018/10/19.
 //  Copyright © 2018 Mr.T. All rights reserved.
 //
 
-#import "ShareViewController.h"
+#import "LF_ShareViewController.h"
 
-#import "KMPShareHandle.h"
-
-@interface ShareViewController ()
+@interface LF_ShareViewController ()
 
 @property (nonatomic,strong) UIButton *shareBtn;
 
 @end
 
-@implementation ShareViewController
+@implementation LF_ShareViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+
     [self layoutPages];
 }
 
@@ -48,23 +46,8 @@
         [_shareBtn sizeToFit];
         
         [_shareBtn bk_whenTapped:^{
-           
-            [KMPShareHandle sharedKMPShareHandle].shareTitle = @"shareTitle";
-            //内容在30字以内
-            [KMPShareHandle sharedKMPShareHandle].shareContent = @"shareContent";
-            [KMPShareHandle sharedKMPShareHandle].shareImage = [UIImage imageNamed:@"placeholder"];
-            [KMPShareHandle sharedKMPShareHandle].shareUrl = @"https://www.baidu.com";
-            [[KMPShareHandle sharedKMPShareHandle] showWithVC:self];
             
-            [[KMPShareHandle sharedKMPShareHandle] setSuccessBlock:^{
-                
-                NSLog(@"share-success");
-            }];
             
-            [[KMPShareHandle sharedKMPShareHandle] setFailureBlock:^(NSError *error) {
-                
-                NSLog(@"%@",error);
-            }];
         }];
     }
     return _shareBtn;

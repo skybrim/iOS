@@ -26,7 +26,6 @@
 		0437B5DA214106390017CDF0 /* DLUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5D3214106390017CDF0 /* DLUtility.m */; };
 		0437B5DB214106390017CDF0 /* DLCustomSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5D4214106390017CDF0 /* DLCustomSlideView.m */; };
 		0437B5DC214106390017CDF0 /* DLSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5D5214106390017CDF0 /* DLSlideView.m */; };
-		0437B5DF214108310017CDF0 /* IFMShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B5DD214108310017CDF0 /* IFMShareView.m */; };
 		04506178213FB71000366855 /* Felix.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506160213FB71000366855 /* Felix.m */; };
 		04506179213FB71000366855 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506166213FB71000366855 /* Tools.m */; };
 		0450617A213FB71000366855 /* Tools+UpdateVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506167213FB71000366855 /* Tools+UpdateVersion.m */; };
@@ -36,9 +35,6 @@
 		04506180213FB71000366855 /* Tools+DeviceCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506172213FB71000366855 /* Tools+DeviceCategory.m */; };
 		04506181213FB71000366855 /* Tools+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506174213FB71000366855 /* Tools+Date.m */; };
 		04506182213FB71000366855 /* EncryptionTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506177213FB71000366855 /* EncryptionTools.m */; };
-		0453CD93213E571100AB6679 /* IFMShareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CD8C213E571100AB6679 /* IFMShareItem.m */; };
-		0453CD95213E571100AB6679 /* IFMShareImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0453CD8E213E571100AB6679 /* IFMShareImage.bundle */; };
-		0453CD96213E571100AB6679 /* IFMShareItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CD92213E571100AB6679 /* IFMShareItemCell.m */; };
 		0453CDA5213E571700AB6679 /* OpenShare+Weibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CD98213E571700AB6679 /* OpenShare+Weibo.m */; };
 		0453CDA6213E571700AB6679 /* OpenShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CD99213E571700AB6679 /* OpenShare.m */; };
 		0453CDA7213E571700AB6679 /* OpenShare+QQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CD9B213E571700AB6679 /* OpenShare+QQ.m */; };
@@ -51,9 +47,13 @@
 		0479EC542137D69F008DB619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0479EC532137D69F008DB619 /* Assets.xcassets */; };
 		0479EC572137D69F008DB619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0479EC552137D69F008DB619 /* LaunchScreen.storyboard */; };
 		0479EC5A2137D69F008DB619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479EC592137D69F008DB619 /* main.m */; };
-		0482130A217711A100169B9F /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04821309217711A100169B9F /* ShareViewController.m */; };
+		04B99B172179EE4900E2500B /* IFMShareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B99B102179EE4900E2500B /* IFMShareItem.m */; };
+		04B99B182179EE4900E2500B /* IFMShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B99B112179EE4900E2500B /* IFMShareView.m */; };
+		04B99B192179EE4900E2500B /* IFMShareImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04B99B122179EE4900E2500B /* IFMShareImage.bundle */; };
+		04B99B1A2179EE4900E2500B /* IFMShareItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B99B162179EE4900E2500B /* IFMShareItemCell.m */; };
+		04B99B1E2179EF5E00E2500B /* LF_ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B99B1D2179EF5E00E2500B /* LF_ShareViewController.m */; };
+		04B99B212179EFA200E2500B /* LF_ShareHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B99B202179EFA200E2500B /* LF_ShareHandle.m */; };
 		1D2F17DD31CA03BB82396DEE /* Pods_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ACFF48B09646D21CE60AED /* Pods_iOS.framework */; };
-		B1E00BE02143D5AF00A4656D /* KMPShareHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E00BDF2143D5AF00A4656D /* KMPShareHandle.m */; };
 		B1E00BE42143D62400A4656D /* UIView+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E00BE32143D62400A4656D /* UIView+Border.m */; };
 /* End PBXBuildFile section */
 
@@ -98,8 +98,6 @@
 		0437B5D3214106390017CDF0 /* DLUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLUtility.m; sourceTree = "<group>"; };
 		0437B5D4214106390017CDF0 /* DLCustomSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCustomSlideView.m; sourceTree = "<group>"; };
 		0437B5D5214106390017CDF0 /* DLSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLSlideView.m; sourceTree = "<group>"; };
-		0437B5DD214108310017CDF0 /* IFMShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareView.m; sourceTree = "<group>"; };
-		0437B5DE214108310017CDF0 /* IFMShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFMShareView.h; sourceTree = "<group>"; };
 		04506148213FAF9800366855 /* iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-Prefix.pch"; sourceTree = "<group>"; };
 		0450615A213FB68700366855 /* CommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
 		0450615B213FB68700366855 /* WeakDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakDefine.h; sourceTree = "<group>"; };
@@ -123,12 +121,6 @@
 		04506174213FB71000366855 /* Tools+Date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Tools+Date.m"; sourceTree = "<group>"; };
 		04506176213FB71000366855 /* EncryptionTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionTools.h; sourceTree = "<group>"; };
 		04506177213FB71000366855 /* EncryptionTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionTools.m; sourceTree = "<group>"; };
-		04506184213FBF6300366855 /* ExpandHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpandHeader.h; sourceTree = "<group>"; };
-		0453CD8C213E571100AB6679 /* IFMShareItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareItem.m; sourceTree = "<group>"; };
-		0453CD8E213E571100AB6679 /* IFMShareImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IFMShareImage.bundle; sourceTree = "<group>"; };
-		0453CD8F213E571100AB6679 /* IFMShareItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFMShareItemCell.h; sourceTree = "<group>"; };
-		0453CD90213E571100AB6679 /* IFMShareItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFMShareItem.h; sourceTree = "<group>"; };
-		0453CD92213E571100AB6679 /* IFMShareItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareItemCell.m; sourceTree = "<group>"; };
 		0453CD98213E571700AB6679 /* OpenShare+Weibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OpenShare+Weibo.m"; sourceTree = "<group>"; };
 		0453CD99213E571700AB6679 /* OpenShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenShare.m; sourceTree = "<group>"; };
 		0453CD9A213E571700AB6679 /* OpenShare+Renren.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenShare+Renren.h"; sourceTree = "<group>"; };
@@ -152,12 +144,20 @@
 		0479EC562137D69F008DB619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0479EC582137D69F008DB619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0479EC592137D69F008DB619 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		04821308217711A100169B9F /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
-		04821309217711A100169B9F /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		04B99B102179EE4900E2500B /* IFMShareItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareItem.m; sourceTree = "<group>"; };
+		04B99B112179EE4900E2500B /* IFMShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareView.m; sourceTree = "<group>"; };
+		04B99B122179EE4900E2500B /* IFMShareImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IFMShareImage.bundle; sourceTree = "<group>"; };
+		04B99B132179EE4900E2500B /* IFMShareItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFMShareItemCell.h; sourceTree = "<group>"; };
+		04B99B142179EE4900E2500B /* IFMShareItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFMShareItem.h; sourceTree = "<group>"; };
+		04B99B152179EE4900E2500B /* IFMShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFMShareView.h; sourceTree = "<group>"; };
+		04B99B162179EE4900E2500B /* IFMShareItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareItemCell.m; sourceTree = "<group>"; };
+		04B99B1C2179EF5E00E2500B /* LF_ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareViewController.h; sourceTree = "<group>"; };
+		04B99B1D2179EF5E00E2500B /* LF_ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_ShareViewController.m; sourceTree = "<group>"; };
+		04B99B1F2179EFA200E2500B /* LF_ShareHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareHandle.h; sourceTree = "<group>"; };
+		04B99B202179EFA200E2500B /* LF_ShareHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_ShareHandle.m; sourceTree = "<group>"; };
+		04B99B222179EFC300E2500B /* LF_ExpandHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ExpandHeader.h; sourceTree = "<group>"; };
 		0A895D06C93391F551E77AB1 /* Pods-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS/Pods-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		54ACFF48B09646D21CE60AED /* Pods_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1E00BDE2143D5AF00A4656D /* KMPShareHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMPShareHandle.h; sourceTree = "<group>"; };
-		B1E00BDF2143D5AF00A4656D /* KMPShareHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMPShareHandle.m; sourceTree = "<group>"; };
 		B1E00BE22143D62400A4656D /* UIView+Border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Border.h"; sourceTree = "<group>"; };
 		B1E00BE32143D62400A4656D /* UIView+Border.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Border.m"; sourceTree = "<group>"; };
 		C4BE04F84F7CC91E58DCF918 /* Pods-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS/Pods-iOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -308,8 +308,8 @@
 		0450614A213FB03600366855 /* Expand */ = {
 			isa = PBXGroup;
 			children = (
-				04506184213FBF6300366855 /* ExpandHeader.h */,
-				B1E00BDD2143D5AF00A4656D /* ShareHandle */,
+				04B99B222179EFC300E2500B /* LF_ExpandHeader.h */,
+				04B99B1B2179EE9300E2500B /* ShareHandle */,
 			);
 			path = Expand;
 			sourceTree = "<group>";
@@ -423,25 +423,11 @@
 		0453CD8A213E56FB00AB6679 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				04B99B0F2179EE4900E2500B /* IFMShare */,
 				0437B5C3214106390017CDF0 /* DLSlideView */,
 				0453CD97213E571700AB6679 /* openshare */,
-				0453CD8B213E571100AB6679 /* IFMShare */,
 			);
 			path = Vender;
-			sourceTree = "<group>";
-		};
-		0453CD8B213E571100AB6679 /* IFMShare */ = {
-			isa = PBXGroup;
-			children = (
-				0453CD8E213E571100AB6679 /* IFMShareImage.bundle */,
-				0437B5DE214108310017CDF0 /* IFMShareView.h */,
-				0437B5DD214108310017CDF0 /* IFMShareView.m */,
-				0453CD90213E571100AB6679 /* IFMShareItem.h */,
-				0453CD8C213E571100AB6679 /* IFMShareItem.m */,
-				0453CD8F213E571100AB6679 /* IFMShareItemCell.h */,
-				0453CD92213E571100AB6679 /* IFMShareItemCell.m */,
-			);
-			path = IFMShare;
 			sourceTree = "<group>";
 		};
 		0453CD97213E571700AB6679 /* openshare */ = {
@@ -507,10 +493,33 @@
 		048213072177116E00169B9F /* Share */ = {
 			isa = PBXGroup;
 			children = (
-				04821308217711A100169B9F /* ShareViewController.h */,
-				04821309217711A100169B9F /* ShareViewController.m */,
+				04B99B1C2179EF5E00E2500B /* LF_ShareViewController.h */,
+				04B99B1D2179EF5E00E2500B /* LF_ShareViewController.m */,
 			);
 			path = Share;
+			sourceTree = "<group>";
+		};
+		04B99B0F2179EE4900E2500B /* IFMShare */ = {
+			isa = PBXGroup;
+			children = (
+				04B99B102179EE4900E2500B /* IFMShareItem.m */,
+				04B99B112179EE4900E2500B /* IFMShareView.m */,
+				04B99B122179EE4900E2500B /* IFMShareImage.bundle */,
+				04B99B132179EE4900E2500B /* IFMShareItemCell.h */,
+				04B99B142179EE4900E2500B /* IFMShareItem.h */,
+				04B99B152179EE4900E2500B /* IFMShareView.h */,
+				04B99B162179EE4900E2500B /* IFMShareItemCell.m */,
+			);
+			path = IFMShare;
+			sourceTree = "<group>";
+		};
+		04B99B1B2179EE9300E2500B /* ShareHandle */ = {
+			isa = PBXGroup;
+			children = (
+				04B99B1F2179EFA200E2500B /* LF_ShareHandle.h */,
+				04B99B202179EFA200E2500B /* LF_ShareHandle.m */,
+			);
+			path = ShareHandle;
 			sourceTree = "<group>";
 		};
 		1816FD9D3A2A46A9173BB33A /* Pods */ = {
@@ -520,15 +529,6 @@
 				0A895D06C93391F551E77AB1 /* Pods-iOS.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		B1E00BDD2143D5AF00A4656D /* ShareHandle */ = {
-			isa = PBXGroup;
-			children = (
-				B1E00BDE2143D5AF00A4656D /* KMPShareHandle.h */,
-				B1E00BDF2143D5AF00A4656D /* KMPShareHandle.m */,
-			);
-			path = ShareHandle;
 			sourceTree = "<group>";
 		};
 		B1E00BE12143D61C00A4656D /* Border */ = {
@@ -576,6 +576,7 @@
 		0479EC3F2137D69E008DB619 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LF_;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Mr.T;
 				TargetAttributes = {
@@ -609,7 +610,7 @@
 			files = (
 				0479EC572137D69F008DB619 /* LaunchScreen.storyboard in Resources */,
 				0479EC542137D69F008DB619 /* Assets.xcassets in Resources */,
-				0453CD95213E571100AB6679 /* IFMShareImage.bundle in Resources */,
+				04B99B192179EE4900E2500B /* IFMShareImage.bundle in Resources */,
 				0479EC522137D69E008DB619 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -702,11 +703,13 @@
 			files = (
 				0437B5D7214106390017CDF0 /* DLTabedSlideView.m in Sources */,
 				04506182213FB71000366855 /* EncryptionTools.m in Sources */,
-				0482130A217711A100169B9F /* ShareViewController.m in Sources */,
+				04B99B1E2179EF5E00E2500B /* LF_ShareViewController.m in Sources */,
 				0437B5C0214106080017CDF0 /* KMPNestedMainHeaderView.m in Sources */,
 				0437B5A0214102E90017CDF0 /* UIViewController+BackButtonHandler.m in Sources */,
+				04B99B1A2179EE4900E2500B /* IFMShareItemCell.m in Sources */,
 				0479EC4F2137D69E008DB619 /* ViewController.m in Sources */,
 				0437B592214100DE0017CDF0 /* AppDelegate+AOP.m in Sources */,
+				04B99B172179EE4900E2500B /* IFMShareItem.m in Sources */,
 				0453CDA9213E571700AB6679 /* OpenShare+Weixin.m in Sources */,
 				0450617E213FB71000366855 /* Tools+Image.m in Sources */,
 				0437B5A5214103560017CDF0 /* UIView+singleCorner.m in Sources */,
@@ -724,23 +727,21 @@
 				0437B5D9214106390017CDF0 /* DLFixedTabbarView.m in Sources */,
 				0453CDA5213E571700AB6679 /* OpenShare+Weibo.m in Sources */,
 				0437B5C1214106080017CDF0 /* KMPPassTableView.m in Sources */,
-				0453CD93213E571100AB6679 /* IFMShareItem.m in Sources */,
 				0453CDA6213E571700AB6679 /* OpenShare.m in Sources */,
 				0437B5DB214106390017CDF0 /* DLCustomSlideView.m in Sources */,
 				0437B5DC214106390017CDF0 /* DLSlideView.m in Sources */,
 				04506178213FB71000366855 /* Felix.m in Sources */,
+				04B99B212179EFA200E2500B /* LF_ShareHandle.m in Sources */,
 				0437B5B1214104B40017CDF0 /* LeftViewTextField.m in Sources */,
 				B1E00BE42143D62400A4656D /* UIView+Border.m in Sources */,
 				0437B5AD2141047C0017CDF0 /* MarqueeView.m in Sources */,
 				0450617F213FB71000366855 /* Tools+String.m in Sources */,
-				B1E00BE02143D5AF00A4656D /* KMPShareHandle.m in Sources */,
 				04506180213FB71000366855 /* Tools+DeviceCategory.m in Sources */,
 				0437B5B5214104DB0017CDF0 /* T_PageControl.m in Sources */,
 				0437B5DA214106390017CDF0 /* DLUtility.m in Sources */,
-				0453CD96213E571100AB6679 /* IFMShareItemCell.m in Sources */,
+				04B99B182179EE4900E2500B /* IFMShareView.m in Sources */,
 				0437B596214101680017CDF0 /* UIViewController+NaviBarButton.m in Sources */,
 				0437B5C2214106080017CDF0 /* KMPNestedSubCollectionViewCell.m in Sources */,
-				0437B5DF214108310017CDF0 /* IFMShareView.m in Sources */,
 				0437B5A1214102E90017CDF0 /* UINavigationController+ShouldPopOnBackButton.m in Sources */,
 				0479EC4C2137D69E008DB619 /* AppDelegate.m in Sources */,
 			);

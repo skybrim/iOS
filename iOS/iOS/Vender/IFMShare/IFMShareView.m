@@ -250,10 +250,7 @@
         zhezhaoView.alpha = 0;
         
         if (self->_containView) {
-            self->_containView.frame = CGRectMake(0,
-                                                  SCREEN_HEIGHT,
-                                                  SCREEN_WIDTH,
-                                                  self->_containView.frame.size.height);
+            self->_containView.frame = CGRectMake(0, SCREEN_HEIGHT,SCREEN_WIDTH, self->_containView.frame.size.height);
         }
         
     } completion:^(BOOL finished) {

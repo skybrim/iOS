@@ -1,8 +1,8 @@
 //
-//  ShareViewController.h
+//  LF_ShareViewController.h
 //  iOS
 //
-//  Created by mac on 2018/10/17.
+//  Created by mac on 2018/10/19.
 //  Copyright © 2018 Mr.T. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ShareViewController : UIViewController
+@interface LF_ShareViewController : UIViewController
 
 @end
 

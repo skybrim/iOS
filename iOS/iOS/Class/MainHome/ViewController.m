@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "ShareViewController.h"
+#import "LF_ShareViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -52,7 +52,7 @@
     //分享
     if (indexPath.row == 0) {
         
-        ShareViewController *shareVC = [[ShareViewController alloc] init];
+        LF_ShareViewController *shareVC = [[LF_ShareViewController alloc] init];
         [self.navigationController pushViewController:shareVC animated:YES];
     }
 }
