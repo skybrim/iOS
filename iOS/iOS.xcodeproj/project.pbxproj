@@ -144,12 +144,12 @@
 		0479EC562137D69F008DB619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0479EC582137D69F008DB619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0479EC592137D69F008DB619 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04A23C86217DADCB0069FCDB /* IFMShareView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IFMShareView.h; sourceTree = "<group>"; };
 		04B99B102179EE4900E2500B /* IFMShareItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareItem.m; sourceTree = "<group>"; };
 		04B99B112179EE4900E2500B /* IFMShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareView.m; sourceTree = "<group>"; };
 		04B99B122179EE4900E2500B /* IFMShareImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IFMShareImage.bundle; sourceTree = "<group>"; };
 		04B99B132179EE4900E2500B /* IFMShareItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFMShareItemCell.h; sourceTree = "<group>"; };
 		04B99B142179EE4900E2500B /* IFMShareItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFMShareItem.h; sourceTree = "<group>"; };
-		04B99B152179EE4900E2500B /* IFMShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFMShareView.h; sourceTree = "<group>"; };
 		04B99B162179EE4900E2500B /* IFMShareItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareItemCell.m; sourceTree = "<group>"; };
 		04B99B1C2179EF5E00E2500B /* LF_ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareViewController.h; sourceTree = "<group>"; };
 		04B99B1D2179EF5E00E2500B /* LF_ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_ShareViewController.m; sourceTree = "<group>"; };
@@ -502,13 +502,13 @@
 		04B99B0F2179EE4900E2500B /* IFMShare */ = {
 			isa = PBXGroup;
 			children = (
-				04B99B102179EE4900E2500B /* IFMShareItem.m */,
+				04A23C86217DADCB0069FCDB /* IFMShareView.h */,
 				04B99B112179EE4900E2500B /* IFMShareView.m */,
-				04B99B122179EE4900E2500B /* IFMShareImage.bundle */,
 				04B99B132179EE4900E2500B /* IFMShareItemCell.h */,
-				04B99B142179EE4900E2500B /* IFMShareItem.h */,
-				04B99B152179EE4900E2500B /* IFMShareView.h */,
 				04B99B162179EE4900E2500B /* IFMShareItemCell.m */,
+				04B99B142179EE4900E2500B /* IFMShareItem.h */,
+				04B99B102179EE4900E2500B /* IFMShareItem.m */,
+				04B99B122179EE4900E2500B /* IFMShareImage.bundle */,
 			);
 			path = IFMShare;
 			sourceTree = "<group>";
