@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0431CD472186F85A009ACA63 /* LF_ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431CD462186F85A009ACA63 /* LF_ShareView.m */; };
+		0431CD4A2186F87F009ACA63 /* LF_ShareViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431CD492186F87F009ACA63 /* LF_ShareViewCell.m */; };
 		0437B592214100DE0017CDF0 /* AppDelegate+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B591214100DE0017CDF0 /* AppDelegate+AOP.m */; };
 		0437B596214101680017CDF0 /* UIViewController+NaviBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B595214101680017CDF0 /* UIViewController+NaviBarButton.m */; };
 		0437B5A0214102E90017CDF0 /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B59C214102E90017CDF0 /* UIViewController+BackButtonHandler.m */; };
@@ -58,6 +60,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0431CD452186F85A009ACA63 /* LF_ShareView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareView.h; sourceTree = "<group>"; };
+		0431CD462186F85A009ACA63 /* LF_ShareView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_ShareView.m; sourceTree = "<group>"; };
+		0431CD482186F87F009ACA63 /* LF_ShareViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareViewCell.h; sourceTree = "<group>"; };
+		0431CD492186F87F009ACA63 /* LF_ShareViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_ShareViewCell.m; sourceTree = "<group>"; };
 		0437B590214100DE0017CDF0 /* AppDelegate+AOP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+AOP.h"; sourceTree = "<group>"; };
 		0437B591214100DE0017CDF0 /* AppDelegate+AOP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+AOP.m"; sourceTree = "<group>"; };
 		0437B594214101680017CDF0 /* UIViewController+NaviBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NaviBarButton.h"; sourceTree = "<group>"; };
@@ -518,6 +524,10 @@
 			children = (
 				04B99B1F2179EFA200E2500B /* LF_ShareHandle.h */,
 				04B99B202179EFA200E2500B /* LF_ShareHandle.m */,
+				0431CD452186F85A009ACA63 /* LF_ShareView.h */,
+				0431CD462186F85A009ACA63 /* LF_ShareView.m */,
+				0431CD482186F87F009ACA63 /* LF_ShareViewCell.h */,
+				0431CD492186F87F009ACA63 /* LF_ShareViewCell.m */,
 			);
 			path = ShareHandle;
 			sourceTree = "<group>";
@@ -708,11 +718,13 @@
 				0437B5A0214102E90017CDF0 /* UIViewController+BackButtonHandler.m in Sources */,
 				04B99B1A2179EE4900E2500B /* IFMShareItemCell.m in Sources */,
 				0479EC4F2137D69E008DB619 /* ViewController.m in Sources */,
+				0431CD4A2186F87F009ACA63 /* LF_ShareViewCell.m in Sources */,
 				0437B592214100DE0017CDF0 /* AppDelegate+AOP.m in Sources */,
 				04B99B172179EE4900E2500B /* IFMShareItem.m in Sources */,
 				0453CDA9213E571700AB6679 /* OpenShare+Weixin.m in Sources */,
 				0450617E213FB71000366855 /* Tools+Image.m in Sources */,
 				0437B5A5214103560017CDF0 /* UIView+singleCorner.m in Sources */,
+				0431CD472186F85A009ACA63 /* LF_ShareView.m in Sources */,
 				0453CDAA213E571700AB6679 /* OpenShare+Renren.m in Sources */,
 				0453CDA7213E571700AB6679 /* OpenShare+QQ.m in Sources */,
 				0437B5BF214106080017CDF0 /* KMPNestedMainTableViewCell.m in Sources */,

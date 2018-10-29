@@ -7,6 +7,7 @@
 //
 
 #import "LF_ShareHandle.h"
+#import "LF_ShareHandle.h"
 
 @implementation LF_ShareHandle
 
