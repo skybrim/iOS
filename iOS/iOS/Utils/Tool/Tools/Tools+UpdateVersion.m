@@ -135,7 +135,7 @@
                 }
             }
             */
-            UIWindow * window = MAIN_WINDOW;
+            UIWindow * window = LF_MAIN_WINDOW;
             [window.rootViewController presentViewController:alert animated:YES completion:nil];
         }
         

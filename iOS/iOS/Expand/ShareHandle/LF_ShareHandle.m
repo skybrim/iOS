@@ -11,4 +11,6 @@
 
 @implementation LF_ShareHandle
 
+singletonImplemention(LF_ShareHandle);
+
 @end

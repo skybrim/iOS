@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LF_ShareHandle : NSObject
 
+singletonInterface(LF_ShareHandle);
+
 @end
 
 NS_ASSUME_NONNULL_END

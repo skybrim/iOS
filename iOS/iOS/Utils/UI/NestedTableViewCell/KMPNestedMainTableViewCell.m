@@ -31,7 +31,7 @@ static  NSString * const SUB_COLLECTIONVIEW_CELL = @"KMPNestedSubCollectionViewC
             STRONG_SELF(self);
             make.top.equalTo(@40);
             make.left.right.equalTo(self);
-            make.height.mas_equalTo(SCREEN_HEIGHT-kNavBarHeight-kStatusBarHeight-kTabBarHeight-40);
+            make.height.mas_equalTo(LF_SCREEN_HEIGHT-kNavBarHeight-kStatusBarHeight-kTabBarHeight-40);
         }];
     
     }
@@ -74,13 +74,13 @@ static  NSString * const SUB_COLLECTIONVIEW_CELL = @"KMPNestedSubCollectionViewC
 //每个item 的视图的宽高  只有宽高，没有frame
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
     
-    CGSize size = CGSizeMake(SCREEN_WIDTH, SCREEN_HEIGHT-kNavBarHeight-kStatusBarHeight-kTabBarHeight-40);
+    CGSize size = CGSizeMake(LF_SCREEN_WIDTH, LF_SCREEN_HEIGHT-kNavBarHeight-kStatusBarHeight-kTabBarHeight-40);
     return size;
 }
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
     
-    [self.headerView changeSlideSelectIndex:scrollView.contentOffset.x/SCREEN_WIDTH];
+    [self.headerView changeSlideSelectIndex:scrollView.contentOffset.x/LF_SCREEN_WIDTH];
 }
 
 #pragma mark -
@@ -118,7 +118,7 @@ static  NSString * const SUB_COLLECTIONVIEW_CELL = @"KMPNestedSubCollectionViewC
         WEAK_SELF(self);
         [_headerView setSlideSelectIndexBlock:^(NSInteger index) {
             STRONG_SELF(self);
-            [self.subCollectionView setContentOffset:CGPointMake(index*SCREEN_WIDTH, 0)];
+            [self.subCollectionView setContentOffset:CGPointMake(index*LF_SCREEN_WIDTH, 0)];
         }];
     }
     return _headerView;
