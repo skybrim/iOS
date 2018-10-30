@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04239D5A2188459B00162591 /* LF_ShareViewResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04239D592188459B00162591 /* LF_ShareViewResource.bundle */; };
 		0431CD472186F85A009ACA63 /* LF_ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431CD462186F85A009ACA63 /* LF_ShareView.m */; };
 		0431CD4A2186F87F009ACA63 /* LF_ShareViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431CD492186F87F009ACA63 /* LF_ShareViewCell.m */; };
 		0437B592214100DE0017CDF0 /* AppDelegate+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B591214100DE0017CDF0 /* AppDelegate+AOP.m */; };
@@ -60,6 +61,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04239D592188459B00162591 /* LF_ShareViewResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LF_ShareViewResource.bundle; sourceTree = "<group>"; };
 		0431CD452186F85A009ACA63 /* LF_ShareView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareView.h; sourceTree = "<group>"; };
 		0431CD462186F85A009ACA63 /* LF_ShareView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_ShareView.m; sourceTree = "<group>"; };
 		0431CD482186F87F009ACA63 /* LF_ShareViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareViewCell.h; sourceTree = "<group>"; };
@@ -528,6 +530,7 @@
 				0431CD462186F85A009ACA63 /* LF_ShareView.m */,
 				0431CD482186F87F009ACA63 /* LF_ShareViewCell.h */,
 				0431CD492186F87F009ACA63 /* LF_ShareViewCell.m */,
+				04239D592188459B00162591 /* LF_ShareViewResource.bundle */,
 			);
 			path = ShareHandle;
 			sourceTree = "<group>";
@@ -619,6 +622,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0479EC572137D69F008DB619 /* LaunchScreen.storyboard in Resources */,
+				04239D5A2188459B00162591 /* LF_ShareViewResource.bundle in Resources */,
 				0479EC542137D69F008DB619 /* Assets.xcassets in Resources */,
 				04B99B192179EE4900E2500B /* IFMShareImage.bundle in Resources */,
 				0479EC522137D69E008DB619 /* Main.storyboard in Resources */,
