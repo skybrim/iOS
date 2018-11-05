@@ -39,6 +39,15 @@ PODS:
   - Masonry (1.1.0)
   - MJExtension (3.0.15.1)
   - MJRefresh (3.1.15.6)
+  - PromiseKit (6.5.2):
+    - PromiseKit/CorePromise (= 6.5.2)
+    - PromiseKit/Foundation (= 6.5.2)
+    - PromiseKit/UIKit (= 6.5.2)
+  - PromiseKit/CorePromise (6.5.2)
+  - PromiseKit/Foundation (6.5.2):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.5.2):
+    - PromiseKit/CorePromise
   - Reachability (3.2)
   - SDCycleScrollView (1.75):
     - SDWebImage (>= 4.0.0)
@@ -65,6 +74,7 @@ DEPENDENCIES:
   - Masonry
   - MJExtension
   - MJRefresh
+  - PromiseKit
   - Reachability
   - SDCycleScrollView
   - SFHFKeychainUtils
@@ -88,6 +98,7 @@ SPEC REPOS:
     - Masonry
     - MJExtension
     - MJRefresh
+    - PromiseKit
     - Reachability
     - SDCycleScrollView
     - SDWebImage
@@ -111,6 +122,7 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
   MJRefresh: 0efa19656679d70a0f47cbe76e56c2271fe53a97
+  PromiseKit: 27c1601bfb73405871b805bcb8cf7e55c4dad3db
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
@@ -123,6 +135,6 @@ SPEC CHECKSUMS:
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
   ZYKeyboardUtil: c4b920eed9af063c46af2e9ea62e851d9331fbd9
 
-PODFILE CHECKSUM: 860bd4f9657034f47c5c26e98ce323544bfcda42
+PODFILE CHECKSUM: b8572b9cd2477706a475b6fe02c93df51b20b1c0
 
 COCOAPODS: 1.5.3
