@@ -17,7 +17,29 @@ static  NSString * const SHARE_VIEW_CELL = @"LF_ShareViewCell.h";
     
     self = [super initWithFrame:frame];
     if (self) {
+     
+        [self addSubview:self.shareHeadView];
+        [self.shareHeadView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.left.equalTo(@0);
+            make.height.mas_equalTo(@0);
+            make.width.mas_equalTo(LF_SCREEN_WIDTH);
+        }];
         
+        [self addSubview:self.shareFootView];
+        [self.shareFootView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.bottom.equalTo(@0);
+            make.left.equalTo(@0);
+            make.width.mas_equalTo(LF_SCREEN_WIDTH);
+            make.height.mas_equalTo(@0);
+        }];
+        
+        [self addSubview:self.shareCollectionView];
+        [self.shareCollectionView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.equalTo(self.shareHeadView.mas_bottom).offset(0);
+            make.left.equalTo(@0);
+            make.bottom.equalTo(self.shareFootView.mas_top).offset(0);
+            make.width.mas_equalTo(LF_SCREEN_WIDTH);
+        }];
     }
     return self;
 }
@@ -59,6 +81,25 @@ static  NSString * const SHARE_VIEW_CELL = @"LF_ShareViewCell.h";
         
     }
     return _shareCollectionView;
+}
+
+- (UIView *)shareHeadView {
+    
+    if (!_shareHeadView) {
+        
+        _shareHeadView = [[UIView alloc] initWithFrame:CGRectZero];
+    }
+    return _shareHeadView;
+}
+
+- (UIView *)shareFootView {
+    
+    if (!_shareFootView) {
+        
+        _shareFootView = [[UIView alloc] initWithFrame:CGRectZero];
+
+    }
+    return _shareFootView;
 }
 
 /*

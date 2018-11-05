@@ -15,6 +15,10 @@
     self = [super initWithFrame:frame];
     if (self) {
         
+        [self.contentView addSubview:self.shareItemImageView];
+        [self.shareItemImageView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.center.equalTo(@0);
+        }];
     }
     return self;
 }
@@ -24,6 +28,7 @@
     
     if (!_shareItemImageView) {
         
+        _shareItemImageView = [[UIImageView alloc] init];
     }
     return _shareItemImageView;
 }
@@ -32,6 +37,10 @@
     
     if (!_shareItemLabel) {
         
+        _shareItemLabel = [[UILabel alloc] initWithFrame:CGRectZero];
+        _shareItemLabel.font = [UIFont systemFontOfSize:12];
+        _shareItemLabel.textColor = [UIColor blackColor];
+        [_shareItemLabel sizeToFit];
     }
     return _shareItemLabel;
 }
