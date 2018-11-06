@@ -74,7 +74,7 @@ DEPENDENCIES:
   - Masonry
   - MJExtension
   - MJRefresh
-  - PromiseKit
+  - PromiseKit (~> 6.0)
   - Reachability
   - SDCycleScrollView
   - SFHFKeychainUtils
@@ -135,6 +135,6 @@ SPEC CHECKSUMS:
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
   ZYKeyboardUtil: c4b920eed9af063c46af2e9ea62e851d9331fbd9
 
-PODFILE CHECKSUM: b8572b9cd2477706a475b6fe02c93df51b20b1c0
+PODFILE CHECKSUM: fe92e9c27a121bed3ccd52f88a1e7fb7b9a9a5ba
 
 COCOAPODS: 1.5.3
