@@ -47,6 +47,7 @@
 		0479EC542137D69F008DB619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0479EC532137D69F008DB619 /* Assets.xcassets */; };
 		0479EC572137D69F008DB619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0479EC552137D69F008DB619 /* LaunchScreen.storyboard */; };
 		0479EC5A2137D69F008DB619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479EC592137D69F008DB619 /* main.m */; };
+		048C01F121A3D942002525D0 /* PrintJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C01EF21A3D942002525D0 /* PrintJson.m */; };
 		04B99B172179EE4900E2500B /* IFMShareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B99B102179EE4900E2500B /* IFMShareItem.m */; };
 		04B99B182179EE4900E2500B /* IFMShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B99B112179EE4900E2500B /* IFMShareView.m */; };
 		04B99B192179EE4900E2500B /* IFMShareImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04B99B122179EE4900E2500B /* IFMShareImage.bundle */; };
@@ -144,6 +145,8 @@
 		0479EC562137D69F008DB619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0479EC582137D69F008DB619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0479EC592137D69F008DB619 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		048C01EF21A3D942002525D0 /* PrintJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintJson.m; sourceTree = "<group>"; };
+		048C01F021A3D942002525D0 /* PrintJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintJson.h; sourceTree = "<group>"; };
 		04B99B102179EE4900E2500B /* IFMShareItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareItem.m; sourceTree = "<group>"; };
 		04B99B112179EE4900E2500B /* IFMShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareView.m; sourceTree = "<group>"; };
 		04B99B122179EE4900E2500B /* IFMShareImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IFMShareImage.bundle; sourceTree = "<group>"; };
@@ -327,6 +330,7 @@
 		0450615E213FB71000366855 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				048C01EE21A3D942002525D0 /* PrintJson */,
 				0450615F213FB71000366855 /* Hotfix */,
 				04506162213FB71000366855 /* Tools */,
 				04506175213FB71000366855 /* AEC */,
@@ -497,6 +501,15 @@
 				04B99B1D2179EF5E00E2500B /* LF_ShareViewController.m */,
 			);
 			path = Share;
+			sourceTree = "<group>";
+		};
+		048C01EE21A3D942002525D0 /* PrintJson */ = {
+			isa = PBXGroup;
+			children = (
+				048C01EF21A3D942002525D0 /* PrintJson.m */,
+				048C01F021A3D942002525D0 /* PrintJson.h */,
+			);
+			path = PrintJson;
 			sourceTree = "<group>";
 		};
 		04B99B0F2179EE4900E2500B /* IFMShare */ = {
@@ -708,6 +721,7 @@
 				04B99B1E2179EF5E00E2500B /* LF_ShareViewController.m in Sources */,
 				0437B5C0214106080017CDF0 /* KMPNestedMainHeaderView.m in Sources */,
 				0437B5A0214102E90017CDF0 /* UIViewController+BackButtonHandler.m in Sources */,
+				048C01F121A3D942002525D0 /* PrintJson.m in Sources */,
 				04B99B1A2179EE4900E2500B /* IFMShareItemCell.m in Sources */,
 				0479EC4F2137D69E008DB619 /* ViewController.m in Sources */,
 				0437B592214100DE0017CDF0 /* AppDelegate+AOP.m in Sources */,
@@ -890,7 +904,10 @@
 				GCC_PREFIX_HEADER = "iOS/Supporting Files/iOS-Prefix.pch";
 				INFOPLIST_FILE = "iOS/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.skybrim.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -907,7 +924,10 @@
 				GCC_PREFIX_HEADER = "iOS/Supporting Files/iOS-Prefix.pch";
 				INFOPLIST_FILE = "iOS/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.skybrim.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
