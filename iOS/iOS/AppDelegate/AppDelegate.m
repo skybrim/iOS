@@ -10,6 +10,7 @@
 #import "ViewController.h"
 
 #import "AppDelegate+AOP.h"
+#import "AppDelegate+LF_BMKLocation.h"//百度地图
 
 @interface AppDelegate ()
 
@@ -30,6 +31,9 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
+    
+    
+    [self LF_startBaiduMap];
     
     return YES;
 }

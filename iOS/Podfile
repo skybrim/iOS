@@ -31,4 +31,9 @@ target ‘iOS’ do
     pod 'BRPickerView'
     pod 'ZYKeyboardUtil'
     pod 'LYEmptyView'
+#    pod 'PromiseKit'
+
+#    pod 'BaiduMapKit', '4.2.0'
+    pod 'BMKLocationKit', '1.3.0.2'
+    
 end
