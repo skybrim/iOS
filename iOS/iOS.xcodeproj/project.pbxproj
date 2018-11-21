@@ -48,6 +48,7 @@
 		0479EC572137D69F008DB619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0479EC552137D69F008DB619 /* LaunchScreen.storyboard */; };
 		0479EC5A2137D69F008DB619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479EC592137D69F008DB619 /* main.m */; };
 		048C01F121A3D942002525D0 /* PrintJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 048C01EF21A3D942002525D0 /* PrintJson.m */; };
+		04AA89FD21A54114008C9720 /* AppDelegate+LF_BMKLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA89FC21A54114008C9720 /* AppDelegate+LF_BMKLocation.m */; };
 		04B99B172179EE4900E2500B /* IFMShareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B99B102179EE4900E2500B /* IFMShareItem.m */; };
 		04B99B182179EE4900E2500B /* IFMShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B99B112179EE4900E2500B /* IFMShareView.m */; };
 		04B99B192179EE4900E2500B /* IFMShareImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04B99B122179EE4900E2500B /* IFMShareImage.bundle */; };
@@ -147,6 +148,9 @@
 		0479EC592137D69F008DB619 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		048C01EF21A3D942002525D0 /* PrintJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintJson.m; sourceTree = "<group>"; };
 		048C01F021A3D942002525D0 /* PrintJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintJson.h; sourceTree = "<group>"; };
+		04AA89FA21A54106008C9720 /* AppDelegate+LF_BMKLocationExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+LF_BMKLocationExtension.h"; sourceTree = "<group>"; };
+		04AA89FB21A54114008C9720 /* AppDelegate+LF_BMKLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+LF_BMKLocation.h"; sourceTree = "<group>"; };
+		04AA89FC21A54114008C9720 /* AppDelegate+LF_BMKLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+LF_BMKLocation.m"; sourceTree = "<group>"; };
 		04B99B102179EE4900E2500B /* IFMShareItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareItem.m; sourceTree = "<group>"; };
 		04B99B112179EE4900E2500B /* IFMShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareView.m; sourceTree = "<group>"; };
 		04B99B122179EE4900E2500B /* IFMShareImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IFMShareImage.bundle; sourceTree = "<group>"; };
@@ -410,6 +414,7 @@
 			children = (
 				0479EC4A2137D69E008DB619 /* AppDelegate.h */,
 				0479EC4B2137D69E008DB619 /* AppDelegate.m */,
+				04AA89F921A540E0008C9720 /* BMKLocation */,
 				0437B58F214100AB0017CDF0 /* AOP */,
 			);
 			path = AppDelegate;
@@ -510,6 +515,16 @@
 				048C01F021A3D942002525D0 /* PrintJson.h */,
 			);
 			path = PrintJson;
+			sourceTree = "<group>";
+		};
+		04AA89F921A540E0008C9720 /* BMKLocation */ = {
+			isa = PBXGroup;
+			children = (
+				04AA89FA21A54106008C9720 /* AppDelegate+LF_BMKLocationExtension.h */,
+				04AA89FB21A54114008C9720 /* AppDelegate+LF_BMKLocation.h */,
+				04AA89FC21A54114008C9720 /* AppDelegate+LF_BMKLocation.m */,
+			);
+			path = BMKLocation;
 			sourceTree = "<group>";
 		};
 		04B99B0F2179EE4900E2500B /* IFMShare */ = {
@@ -648,7 +663,6 @@
 				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
@@ -673,7 +687,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
@@ -734,6 +747,7 @@
 				0437B5BF214106080017CDF0 /* KMPNestedMainTableViewCell.m in Sources */,
 				0479EC5A2137D69F008DB619 /* main.m in Sources */,
 				0450617A213FB71000366855 /* Tools+UpdateVersion.m in Sources */,
+				04AA89FD21A54114008C9720 /* AppDelegate+LF_BMKLocation.m in Sources */,
 				0437B5D8214106390017CDF0 /* DLScrollTabbarView.m in Sources */,
 				0437B5D6214106390017CDF0 /* DLLRUCache.m in Sources */,
 				04506181213FB71000366855 /* Tools+Date.m in Sources */,
@@ -911,7 +925,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.skybrim.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
-				WARNING_CFLAGS = "-Wno-documentation";
+				WARNING_CFLAGS = (
+					"-Wno-documentation",
+					"-Wno-strict-prototypes",
+					"-Wno-deprecated-declarations",
+				);
 			};
 			name = Debug;
 		};
@@ -931,7 +949,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.skybrim.iOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
-				WARNING_CFLAGS = "-Wno-documentation";
+				WARNING_CFLAGS = (
+					"-Wno-documentation",
+					"-Wno-strict-prototypes",
+					"-Wno-deprecated-declarations",
+				);
 			};
 			name = Release;
 		};
