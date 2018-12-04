@@ -22,6 +22,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [self layoutPages];
+    NSLog(@"测试");
 }
 
 - (void)didReceiveMemoryWarning {
