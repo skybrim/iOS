@@ -24,6 +24,9 @@
     NSLog(@"develop");
     NSLog(@"%@",NSHomeDirectory());
 
+    //设备型号
+    [Tools saveDeviceInfo];
+    
     [self aop_viewDidLoad];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];

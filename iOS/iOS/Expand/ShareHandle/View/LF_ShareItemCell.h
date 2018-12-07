@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LF_ShareViewCell : UICollectionViewCell
+@interface LF_ShareItemCell : UICollectionViewCell
 
 @property (nonatomic,strong) UIImageView *shareItemImageView;
 @property (nonatomic,strong) UILabel *shareItemLabel;

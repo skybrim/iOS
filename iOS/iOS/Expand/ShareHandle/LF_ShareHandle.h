@@ -7,12 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "LF_ShareFatherView.h"
+
+
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LF_ShareHandle : NSObject
 
 singletonInterface(LF_ShareHandle);
+
+@property (nonatomic,strong) LF_ShareFatherView *shareFatherView;
+
+- (void)show;
 
 @end
 

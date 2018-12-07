@@ -6,9 +6,9 @@
 //  Copyright © 2018 Mr.T. All rights reserved.
 //
 
-#import "LF_ShareViewCell.h"
+#import "LF_ShareItemCell.h"
 
-@implementation LF_ShareViewCell
+@implementation LF_ShareItemCell
 
 - (instancetype)initWithFrame:(CGRect)frame {
     

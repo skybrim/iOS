@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		04239D5A2188459B00162591 /* LF_ShareViewResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04239D592188459B00162591 /* LF_ShareViewResource.bundle */; };
-		0431CD472186F85A009ACA63 /* LF_ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431CD462186F85A009ACA63 /* LF_ShareView.m */; };
-		0431CD4A2186F87F009ACA63 /* LF_ShareViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431CD492186F87F009ACA63 /* LF_ShareViewCell.m */; };
+		0431CD472186F85A009ACA63 /* LF_ShareFatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431CD462186F85A009ACA63 /* LF_ShareFatherView.m */; };
+		0431CD4A2186F87F009ACA63 /* LF_ShareItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431CD492186F87F009ACA63 /* LF_ShareItemCell.m */; };
 		0437B592214100DE0017CDF0 /* AppDelegate+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B591214100DE0017CDF0 /* AppDelegate+AOP.m */; };
 		0437B596214101680017CDF0 /* UIViewController+NaviBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B595214101680017CDF0 /* UIViewController+NaviBarButton.m */; };
 		0437B5A0214102E90017CDF0 /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B59C214102E90017CDF0 /* UIViewController+BackButtonHandler.m */; };
@@ -56,16 +56,19 @@
 		04B99B1A2179EE4900E2500B /* IFMShareItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B99B162179EE4900E2500B /* IFMShareItemCell.m */; };
 		04B99B1E2179EF5E00E2500B /* LF_ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B99B1D2179EF5E00E2500B /* LF_ShareViewController.m */; };
 		04B99B212179EFA200E2500B /* LF_ShareHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B99B202179EFA200E2500B /* LF_ShareHandle.m */; };
+		04BD55C221BA612B0053E04E /* LF_ShareHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD55C121BA612B0053E04E /* LF_ShareHeadView.m */; };
+		04BD55C521BA61390053E04E /* LF_ShareFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD55C421BA61390053E04E /* LF_ShareFootView.m */; };
+		04BD55C821BA61450053E04E /* LF_ShareContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD55C721BA61450053E04E /* LF_ShareContentView.m */; };
 		1D2F17DD31CA03BB82396DEE /* Pods_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ACFF48B09646D21CE60AED /* Pods_iOS.framework */; };
 		B1E00BE42143D62400A4656D /* UIView+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E00BE32143D62400A4656D /* UIView+Border.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04239D592188459B00162591 /* LF_ShareViewResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LF_ShareViewResource.bundle; sourceTree = "<group>"; };
-		0431CD452186F85A009ACA63 /* LF_ShareView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareView.h; sourceTree = "<group>"; };
-		0431CD462186F85A009ACA63 /* LF_ShareView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_ShareView.m; sourceTree = "<group>"; };
-		0431CD482186F87F009ACA63 /* LF_ShareViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareViewCell.h; sourceTree = "<group>"; };
-		0431CD492186F87F009ACA63 /* LF_ShareViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_ShareViewCell.m; sourceTree = "<group>"; };
+		0431CD452186F85A009ACA63 /* LF_ShareFatherView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareFatherView.h; sourceTree = "<group>"; };
+		0431CD462186F85A009ACA63 /* LF_ShareFatherView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_ShareFatherView.m; sourceTree = "<group>"; };
+		0431CD482186F87F009ACA63 /* LF_ShareItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareItemCell.h; sourceTree = "<group>"; };
+		0431CD492186F87F009ACA63 /* LF_ShareItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_ShareItemCell.m; sourceTree = "<group>"; };
 		0437B590214100DE0017CDF0 /* AppDelegate+AOP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+AOP.h"; sourceTree = "<group>"; };
 		0437B591214100DE0017CDF0 /* AppDelegate+AOP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+AOP.m"; sourceTree = "<group>"; };
 		0437B594214101680017CDF0 /* UIViewController+NaviBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NaviBarButton.h"; sourceTree = "<group>"; };
@@ -164,6 +167,12 @@
 		04B99B1F2179EFA200E2500B /* LF_ShareHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareHandle.h; sourceTree = "<group>"; };
 		04B99B202179EFA200E2500B /* LF_ShareHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_ShareHandle.m; sourceTree = "<group>"; };
 		04B99B222179EFC300E2500B /* LF_ExpandHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ExpandHeader.h; sourceTree = "<group>"; };
+		04BD55C021BA612B0053E04E /* LF_ShareHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareHeadView.h; sourceTree = "<group>"; };
+		04BD55C121BA612B0053E04E /* LF_ShareHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_ShareHeadView.m; sourceTree = "<group>"; };
+		04BD55C321BA61390053E04E /* LF_ShareFootView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareFootView.h; sourceTree = "<group>"; };
+		04BD55C421BA61390053E04E /* LF_ShareFootView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_ShareFootView.m; sourceTree = "<group>"; };
+		04BD55C621BA61450053E04E /* LF_ShareContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareContentView.h; sourceTree = "<group>"; };
+		04BD55C721BA61450053E04E /* LF_ShareContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_ShareContentView.m; sourceTree = "<group>"; };
 		0A895D06C93391F551E77AB1 /* Pods-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS/Pods-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		54ACFF48B09646D21CE60AED /* Pods_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E00BE22143D62400A4656D /* UIView+Border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Border.h"; sourceTree = "<group>"; };
@@ -526,13 +535,27 @@
 			children = (
 				04B99B1F2179EFA200E2500B /* LF_ShareHandle.h */,
 				04B99B202179EFA200E2500B /* LF_ShareHandle.m */,
-				0431CD452186F85A009ACA63 /* LF_ShareView.h */,
-				0431CD462186F85A009ACA63 /* LF_ShareView.m */,
-				0431CD482186F87F009ACA63 /* LF_ShareViewCell.h */,
-				0431CD492186F87F009ACA63 /* LF_ShareViewCell.m */,
+				04BD55BF21BA60E50053E04E /* View */,
 				04239D592188459B00162591 /* LF_ShareViewResource.bundle */,
 			);
 			path = ShareHandle;
+			sourceTree = "<group>";
+		};
+		04BD55BF21BA60E50053E04E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0431CD452186F85A009ACA63 /* LF_ShareFatherView.h */,
+				0431CD462186F85A009ACA63 /* LF_ShareFatherView.m */,
+				04BD55C021BA612B0053E04E /* LF_ShareHeadView.h */,
+				04BD55C121BA612B0053E04E /* LF_ShareHeadView.m */,
+				04BD55C321BA61390053E04E /* LF_ShareFootView.h */,
+				04BD55C421BA61390053E04E /* LF_ShareFootView.m */,
+				04BD55C621BA61450053E04E /* LF_ShareContentView.h */,
+				04BD55C721BA61450053E04E /* LF_ShareContentView.m */,
+				0431CD482186F87F009ACA63 /* LF_ShareItemCell.h */,
+				0431CD492186F87F009ACA63 /* LF_ShareItemCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		1816FD9D3A2A46A9173BB33A /* Pods */ = {
@@ -722,13 +745,13 @@
 				0437B5A0214102E90017CDF0 /* UIViewController+BackButtonHandler.m in Sources */,
 				04B99B1A2179EE4900E2500B /* IFMShareItemCell.m in Sources */,
 				0479EC4F2137D69E008DB619 /* ViewController.m in Sources */,
-				0431CD4A2186F87F009ACA63 /* LF_ShareViewCell.m in Sources */,
+				0431CD4A2186F87F009ACA63 /* LF_ShareItemCell.m in Sources */,
 				0437B592214100DE0017CDF0 /* AppDelegate+AOP.m in Sources */,
 				04B99B172179EE4900E2500B /* IFMShareItem.m in Sources */,
 				0453CDA9213E571700AB6679 /* OpenShare+Weixin.m in Sources */,
 				0450617E213FB71000366855 /* Tools+Image.m in Sources */,
 				0437B5A5214103560017CDF0 /* UIView+singleCorner.m in Sources */,
-				0431CD472186F85A009ACA63 /* LF_ShareView.m in Sources */,
+				0431CD472186F85A009ACA63 /* LF_ShareFatherView.m in Sources */,
 				0453CDAA213E571700AB6679 /* OpenShare+Renren.m in Sources */,
 				0453CDA7213E571700AB6679 /* OpenShare+QQ.m in Sources */,
 				0437B5BF214106080017CDF0 /* KMPNestedMainTableViewCell.m in Sources */,
@@ -739,10 +762,12 @@
 				04506181213FB71000366855 /* Tools+Date.m in Sources */,
 				0453CDA8213E571700AB6679 /* OpenShare+Alipay.m in Sources */,
 				04506179213FB71000366855 /* Tools.m in Sources */,
+				04BD55C221BA612B0053E04E /* LF_ShareHeadView.m in Sources */,
 				0450617B213FB71000366855 /* Tools+CheckFormat.m in Sources */,
 				0437B5D9214106390017CDF0 /* DLFixedTabbarView.m in Sources */,
 				0453CDA5213E571700AB6679 /* OpenShare+Weibo.m in Sources */,
 				0437B5C1214106080017CDF0 /* KMPPassTableView.m in Sources */,
+				04BD55C521BA61390053E04E /* LF_ShareFootView.m in Sources */,
 				0453CDA6213E571700AB6679 /* OpenShare.m in Sources */,
 				0437B5DB214106390017CDF0 /* DLCustomSlideView.m in Sources */,
 				0437B5DC214106390017CDF0 /* DLSlideView.m in Sources */,
@@ -755,6 +780,7 @@
 				04506180213FB71000366855 /* Tools+DeviceCategory.m in Sources */,
 				0437B5B5214104DB0017CDF0 /* T_PageControl.m in Sources */,
 				0437B5DA214106390017CDF0 /* DLUtility.m in Sources */,
+				04BD55C821BA61450053E04E /* LF_ShareContentView.m in Sources */,
 				04B99B182179EE4900E2500B /* IFMShareView.m in Sources */,
 				0437B596214101680017CDF0 /* UIViewController+NaviBarButton.m in Sources */,
 				0437B5C2214106080017CDF0 /* KMPNestedSubCollectionViewCell.m in Sources */,

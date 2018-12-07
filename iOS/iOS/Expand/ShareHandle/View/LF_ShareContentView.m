@@ -1,43 +1,30 @@
 //
-//  LF_ShareView.m
+//  LF_ShareContentView.m
 //  iOS
 //
-//  Created by mac on 2018/10/29.
+//  Created by mac on 2018/12/7.
 //  Copyright © 2018 Mr.T. All rights reserved.
 //
 
-#import "LF_ShareView.h"
-#import "LF_ShareViewCell.h"
+#import "LF_ShareContentView.h"
+#import "LF_ShareItemCell.h"
 
 static  NSString * const SHARE_VIEW_CELL = @"LF_ShareViewCell.h";
 
-@implementation LF_ShareView
+@implementation LF_ShareContentView
 
 - (instancetype)initWithFrame:(CGRect)frame {
     
     self = [super initWithFrame:frame];
     if (self) {
-     
-        [self addSubview:self.shareHeadView];
-        [self.shareHeadView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.left.equalTo(@0);
-            make.height.mas_equalTo(@0);
-            make.width.mas_equalTo(LF_SCREEN_WIDTH);
-        }];
         
-        [self addSubview:self.shareFootView];
-        [self.shareFootView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.bottom.equalTo(@0);
-            make.left.equalTo(@0);
-            make.width.mas_equalTo(LF_SCREEN_WIDTH);
-            make.height.mas_equalTo(@0);
-        }];
-        
+        self.backgroundColor = [UIColor greenColor];
+
         [self addSubview:self.shareCollectionView];
         [self.shareCollectionView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.equalTo(self.shareHeadView.mas_bottom).offset(0);
+            make.top.equalTo(@0);
             make.left.equalTo(@0);
-            make.bottom.equalTo(self.shareFootView.mas_top).offset(0);
+            make.bottom.equalTo(@0);
             make.width.mas_equalTo(LF_SCREEN_WIDTH);
         }];
     }
@@ -47,17 +34,19 @@ static  NSString * const SHARE_VIEW_CELL = @"LF_ShareViewCell.h";
 #pragma mark - UICollectionViewDelegate UICollectionViewDataSource
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
     
-    return 1;
+    return 0;
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     
-    return 1;
+    return 0;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-
-    return nil;
+    
+    LF_ShareItemCell *shareItemCell = [collectionView dequeueReusableCellWithReuseIdentifier:SHARE_VIEW_CELL forIndexPath:indexPath];
+    
+    return shareItemCell;
 }
 
 #pragma mark - getter
@@ -77,29 +66,10 @@ static  NSString * const SHARE_VIEW_CELL = @"LF_ShareViewCell.h";
         _shareCollectionView.backgroundColor = [UIColor clearColor];
         _shareCollectionView.showsVerticalScrollIndicator = NO;
         
-        [_shareCollectionView registerClass:[LF_ShareViewCell class] forCellWithReuseIdentifier:SHARE_VIEW_CELL];
+        [_shareCollectionView registerClass:[LF_ShareItemCell class] forCellWithReuseIdentifier:SHARE_VIEW_CELL];
         
     }
     return _shareCollectionView;
-}
-
-- (UIView *)shareHeadView {
-    
-    if (!_shareHeadView) {
-        
-        _shareHeadView = [[UIView alloc] initWithFrame:CGRectZero];
-    }
-    return _shareHeadView;
-}
-
-- (UIView *)shareFootView {
-    
-    if (!_shareFootView) {
-        
-        _shareFootView = [[UIView alloc] initWithFrame:CGRectZero];
-
-    }
-    return _shareFootView;
 }
 
 /*

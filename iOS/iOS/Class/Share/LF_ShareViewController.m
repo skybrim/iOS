@@ -47,7 +47,7 @@
         
         [_shareBtn bk_whenTapped:^{
             
-            
+            [[LF_ShareHandle sharedLF_ShareHandle] show];
         }];
     }
     return _shareBtn;
