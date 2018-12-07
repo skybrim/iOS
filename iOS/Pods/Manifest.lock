@@ -14,6 +14,9 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - AMapFoundation (1.5.5)
+  - AMapLocation (2.6.1):
+    - AMapFoundation (~> 1.4)
   - AspectsV1.4.2 (1.4.2)
   - Base64 (1.1.2)
   - BlocksKit (2.2.5):
@@ -56,6 +59,7 @@ PODS:
   - ZYKeyboardUtil (1.0.7)
 
 DEPENDENCIES:
+  - AMapLocation (= 2.6.1)
   - AspectsV1.4.2
   - Base64
   - BlocksKit
@@ -79,6 +83,8 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - AMapFoundation
+    - AMapLocation
     - AspectsV1.4.2
     - Base64
     - BlocksKit
@@ -102,6 +108,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AMapFoundation: 652bd70ba579f48a98bdf0c74d6e62a89a06ca58
+  AMapLocation: cf024b53dc03663efb4ea4bcce27d4cce58bb97a
   AspectsV1.4.2: a8b168606776215f5ba4790b95ff315df336aca9
   Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
@@ -123,6 +131,6 @@ SPEC CHECKSUMS:
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
   ZYKeyboardUtil: c4b920eed9af063c46af2e9ea62e851d9331fbd9
 
-PODFILE CHECKSUM: 1e9258dddad9d5e5e30644e7d302645b2942e8b8
+PODFILE CHECKSUM: daf2eca73db8dcb4bab3ddaa925ff2e93cb7f879
 
 COCOAPODS: 1.6.0.beta.2

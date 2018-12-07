@@ -33,6 +33,6 @@ target ‘iOS’ do
     pod 'LYEmptyView'
 #    pod 'PromiseKit'
 
+    pod 'AMapLocation', '2.6.1'
 
-    
 end
