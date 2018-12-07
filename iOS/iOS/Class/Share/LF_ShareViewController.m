@@ -47,6 +47,7 @@
         
         [_shareBtn bk_whenTapped:^{
             
+            [[LF_ShareHandle sharedLF_ShareHandle] setShareHeadView:nil];
             [[LF_ShareHandle sharedLF_ShareHandle] show];
         }];
     }

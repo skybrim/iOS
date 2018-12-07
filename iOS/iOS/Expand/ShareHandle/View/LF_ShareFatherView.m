@@ -15,7 +15,11 @@
     
     self = [super initWithFrame:frame];
     if (self) {
-     
+        
+        self.headHeight = 45.0;
+        self.footHeight = 45.0;
+        self.contentHeight = 450.0;
+        
         self.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.3];
         
         UITapGestureRecognizer * cancelTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(cancelShare:)];
@@ -91,29 +95,6 @@
     return _shareContentView;
 }
 
-- (CGFloat)headHeight {
-    
-    if (!_headHeight) {
-        _headHeight = 45.0;
-    }
-    return _headHeight;
-}
-
-- (CGFloat)footHeight {
-    
-    if (!_footHeight) {
-        _footHeight = 45.0;
-    }
-    return _footHeight;
-}
-
-- (CGFloat)contentHeight {
-    
-    if (!_contentHeight) {
-        _contentHeight = 450.0;
-    }
-    return _contentHeight;
-}
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.

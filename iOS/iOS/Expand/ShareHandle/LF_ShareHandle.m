@@ -14,10 +14,59 @@ singletonImplemention(LF_ShareHandle);
 
 - (void)show {
     
-    [self.shareFatherView layoutPages];
+    [[LF_ShareHandle sharedLF_ShareHandle].shareFatherView layoutPages];
     
     UIWindow *mainWindow = [UIApplication sharedApplication].windows[0];
     [mainWindow addSubview:self.shareFatherView];
+}
+
+- (void)hide {
+    
+    [[LF_ShareHandle sharedLF_ShareHandle].shareFatherView removeFromSuperview];
+}
+
+#pragma mark - setter
+- (void)setShareHeadView:(UIView *)shareHeadView {
+    
+    if (shareHeadView == nil) {
+        
+        [LF_ShareHandle sharedLF_ShareHandle].shareFatherView.headHeight = 0;
+    }
+    [LF_ShareHandle sharedLF_ShareHandle].shareFatherView.shareHeadView = shareHeadView;
+    
+}
+
+- (void)setShareFootView:(UIView *)shareFootView {
+    
+    if (shareFootView == nil) {
+        
+        [LF_ShareHandle sharedLF_ShareHandle].shareFatherView.footHeight = 0;
+    }
+    [LF_ShareHandle sharedLF_ShareHandle].shareFatherView.shareHeadView = shareFootView;
+}
+
+- (void)setShareContentView:(UIView *)shareContentView {
+    
+    if (shareContentView == nil) {
+        
+        [LF_ShareHandle sharedLF_ShareHandle].shareFatherView.contentHeight = 0;
+    }
+    [LF_ShareHandle sharedLF_ShareHandle].shareFatherView.shareHeadView = shareContentView;
+}
+
+- (void)setShareHeadHeight:(CGFloat)headHeight {
+    
+    [LF_ShareHandle sharedLF_ShareHandle].shareFatherView.headHeight = headHeight;
+}
+
+- (void)setShareFootHeight:(CGFloat)footHeight {
+    
+    [LF_ShareHandle sharedLF_ShareHandle].shareFatherView.footHeight = footHeight;
+}
+
+- (void)setShareContentHeight:(CGFloat)contentHeight {
+    
+    [LF_ShareHandle sharedLF_ShareHandle].shareFatherView.contentHeight = contentHeight;
 }
 
 
