@@ -16,20 +16,22 @@
     self = [super initWithFrame:frame];
     if (self) {
         
-        self.headHeight = 45.0;
-        self.footHeight = 45.0;
-        self.contentHeight = 450.0;
+        self.headHeight = 0;
+        self.footHeight = 0;
+        self.contentHeight = 250.0;
         
         self.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.3];
         
-        UITapGestureRecognizer * cancelTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(cancelShare:)];
-        [self addGestureRecognizer:cancelTap];
+        [self addSubview:self.backgroundView];
+        [self.backgroundView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.edges.equalTo(@0);
+        }];
     }
     return self;
 }
 
 #pragma mark - private
-- (void)cancelShare:(UITapGestureRecognizer *)tap {
+- (void)cancelShare {
     
     [self removeFromSuperview];
 }
@@ -77,6 +79,17 @@
 }
 
 #pragma mark - getter
+
+- (UIControl *)backgroundView {
+ 
+    if (!_backgroundView) {
+        
+        _backgroundView = [[UIControl alloc] init];
+        [_backgroundView addTarget:self action:@selector(cancelShare) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _backgroundView;
+}
+
 - (UIView *)shareHeadView {
     
     if (!_shareHeadView) {

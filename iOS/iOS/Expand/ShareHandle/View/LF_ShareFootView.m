@@ -16,6 +16,7 @@
     if (self) {
         
         self.backgroundColor = [UIColor colorWithRed:245/255.0 green:245/255.0 blue:245/255.0 alpha:1];
+        self.userInteractionEnabled = YES;
 
         [self addSubview:self.footLabel];
         [self.footLabel mas_makeConstraints:^(MASConstraintMaker *make) {

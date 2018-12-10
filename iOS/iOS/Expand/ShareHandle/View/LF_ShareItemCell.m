@@ -17,7 +17,16 @@
         
         [self.contentView addSubview:self.shareItemImageView];
         [self.shareItemImageView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.center.equalTo(@0);
+            make.centerX.equalTo(@0);
+            make.top.equalTo(@20);
+            make.size.mas_equalTo(CGSizeMake(62, 62));
+        }];
+        
+        [self.contentView addSubview:self.shareItemLabel];
+        [self.shareItemLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.bottom.equalTo(@-20);
+            make.centerX.equalTo(@0);
+            make.height.mas_equalTo(18);
         }];
     }
     return self;
@@ -29,6 +38,7 @@
     if (!_shareItemImageView) {
         
         _shareItemImageView = [[UIImageView alloc] init];
+//        _shareItemImageView.backgroundColor = [UIColor whiteColor];
     }
     return _shareItemImageView;
 }

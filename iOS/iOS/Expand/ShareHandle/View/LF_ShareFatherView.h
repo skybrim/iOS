@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LF_ShareFatherView : UIView
 
+@property (nonatomic,strong) UIControl *backgroundView;
+
 @property (nonatomic,strong) UIView *shareHeadView;
 @property (nonatomic,strong) UIView *shareFootView;
 @property (nonatomic,strong) UIView *shareContentView;

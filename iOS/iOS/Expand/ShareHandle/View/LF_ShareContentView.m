@@ -19,6 +19,7 @@ static  NSString * const SHARE_VIEW_CELL = @"LF_ShareViewCell.h";
     if (self) {
         
         self.backgroundColor = [UIColor colorWithRed:245/255.0 green:245/255.0 blue:245/255.0 alpha:1];
+        self.userInteractionEnabled = YES;
 
         [self addSubview:self.shareCollectionView];
         [self.shareCollectionView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -34,19 +35,63 @@ static  NSString * const SHARE_VIEW_CELL = @"LF_ShareViewCell.h";
 #pragma mark - UICollectionViewDelegate UICollectionViewDataSource
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
     
-    return 0;
+    return 1;
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     
-    return 0;
+    return 5;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     
     LF_ShareItemCell *shareItemCell = [collectionView dequeueReusableCellWithReuseIdentifier:SHARE_VIEW_CELL forIndexPath:indexPath];
     
+    if (indexPath.item == 0) {
+        
+        shareItemCell.shareItemImageView.image = [UIImage imageNamed:[@"LF_ShareViewResource.bundle" stringByAppendingPathComponent:@"WeChat"]];
+        shareItemCell.shareItemLabel.text = @"微信";
+    }
+    else if (indexPath.item == 1) {
+        
+        shareItemCell.shareItemImageView.image = [UIImage imageNamed:[@"LF_ShareViewResource.bundle" stringByAppendingPathComponent:@"WeChat_moments"]];
+
+        shareItemCell.shareItemLabel.text = @"朋友圈";
+    }
+    else if (indexPath.item == 2) {
+        
+        shareItemCell.shareItemImageView.image = [UIImage imageNamed:[@"LF_ShareViewResource.bundle" stringByAppendingPathComponent:@"QQ"]];
+
+        shareItemCell.shareItemLabel.text = @"QQ";
+    }
+    else if (indexPath.item == 3) {
+        
+        shareItemCell.shareItemImageView.image = [UIImage imageNamed:[@"LF_ShareViewResource.bundle" stringByAppendingPathComponent:@"Qzone"]];
+
+        shareItemCell.shareItemLabel.text = @"QQ空间";
+    }
+    else if (indexPath.item == 4) {
+        
+        shareItemCell.shareItemImageView.image = [UIImage imageNamed:[@"LF_ShareViewResource.bundle" stringByAppendingPathComponent:@"Weibo"]];
+
+        shareItemCell.shareItemLabel.text = @"微博";
+    }
+    
     return shareItemCell;
+}
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+    CGSize size = CGSizeMake(LF_SCREEN_WIDTH/4.0, 125);
+    
+    return size;
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+    if (self.shareItemClick) {
+        self.shareItemClick(indexPath);
+    }
 }
 
 #pragma mark - getter
