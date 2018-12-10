@@ -38,22 +38,12 @@
 		04506180213FB71000366855 /* Tools+DeviceCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506172213FB71000366855 /* Tools+DeviceCategory.m */; };
 		04506181213FB71000366855 /* Tools+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506174213FB71000366855 /* Tools+Date.m */; };
 		04506182213FB71000366855 /* EncryptionTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 04506177213FB71000366855 /* EncryptionTools.m */; };
-		0453CDA5213E571700AB6679 /* OpenShare+Weibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CD98213E571700AB6679 /* OpenShare+Weibo.m */; };
-		0453CDA6213E571700AB6679 /* OpenShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CD99213E571700AB6679 /* OpenShare.m */; };
-		0453CDA7213E571700AB6679 /* OpenShare+QQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CD9B213E571700AB6679 /* OpenShare+QQ.m */; };
-		0453CDA8213E571700AB6679 /* OpenShare+Alipay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CD9C213E571700AB6679 /* OpenShare+Alipay.m */; };
-		0453CDA9213E571700AB6679 /* OpenShare+Weixin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CD9D213E571700AB6679 /* OpenShare+Weixin.m */; };
-		0453CDAA213E571700AB6679 /* OpenShare+Renren.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453CDA0213E571700AB6679 /* OpenShare+Renren.m */; };
 		0479EC4C2137D69E008DB619 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479EC4B2137D69E008DB619 /* AppDelegate.m */; };
 		0479EC4F2137D69E008DB619 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479EC4E2137D69E008DB619 /* ViewController.m */; };
 		0479EC522137D69E008DB619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0479EC502137D69E008DB619 /* Main.storyboard */; };
 		0479EC542137D69F008DB619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0479EC532137D69F008DB619 /* Assets.xcassets */; };
 		0479EC572137D69F008DB619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0479EC552137D69F008DB619 /* LaunchScreen.storyboard */; };
 		0479EC5A2137D69F008DB619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479EC592137D69F008DB619 /* main.m */; };
-		04B99B172179EE4900E2500B /* IFMShareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B99B102179EE4900E2500B /* IFMShareItem.m */; };
-		04B99B182179EE4900E2500B /* IFMShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B99B112179EE4900E2500B /* IFMShareView.m */; };
-		04B99B192179EE4900E2500B /* IFMShareImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04B99B122179EE4900E2500B /* IFMShareImage.bundle */; };
-		04B99B1A2179EE4900E2500B /* IFMShareItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B99B162179EE4900E2500B /* IFMShareItemCell.m */; };
 		04B99B1E2179EF5E00E2500B /* LF_ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B99B1D2179EF5E00E2500B /* LF_ShareViewController.m */; };
 		04B99B212179EFA200E2500B /* LF_ShareHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B99B202179EFA200E2500B /* LF_ShareHandle.m */; };
 		04BD55C221BA612B0053E04E /* LF_ShareHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD55C121BA612B0053E04E /* LF_ShareHeadView.m */; };
@@ -132,19 +122,6 @@
 		04506174213FB71000366855 /* Tools+Date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Tools+Date.m"; sourceTree = "<group>"; };
 		04506176213FB71000366855 /* EncryptionTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionTools.h; sourceTree = "<group>"; };
 		04506177213FB71000366855 /* EncryptionTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionTools.m; sourceTree = "<group>"; };
-		0453CD98213E571700AB6679 /* OpenShare+Weibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OpenShare+Weibo.m"; sourceTree = "<group>"; };
-		0453CD99213E571700AB6679 /* OpenShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenShare.m; sourceTree = "<group>"; };
-		0453CD9A213E571700AB6679 /* OpenShare+Renren.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenShare+Renren.h"; sourceTree = "<group>"; };
-		0453CD9B213E571700AB6679 /* OpenShare+QQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OpenShare+QQ.m"; sourceTree = "<group>"; };
-		0453CD9C213E571700AB6679 /* OpenShare+Alipay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OpenShare+Alipay.m"; sourceTree = "<group>"; };
-		0453CD9D213E571700AB6679 /* OpenShare+Weixin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OpenShare+Weixin.m"; sourceTree = "<group>"; };
-		0453CD9E213E571700AB6679 /* OpenShareHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenShareHeader.h; sourceTree = "<group>"; };
-		0453CD9F213E571700AB6679 /* OpenShare+Weibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenShare+Weibo.h"; sourceTree = "<group>"; };
-		0453CDA0213E571700AB6679 /* OpenShare+Renren.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OpenShare+Renren.m"; sourceTree = "<group>"; };
-		0453CDA1213E571700AB6679 /* OpenShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenShare.h; sourceTree = "<group>"; };
-		0453CDA2213E571700AB6679 /* OpenShare+QQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenShare+QQ.h"; sourceTree = "<group>"; };
-		0453CDA3213E571700AB6679 /* OpenShare+Weixin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenShare+Weixin.h"; sourceTree = "<group>"; };
-		0453CDA4213E571700AB6679 /* OpenShare+Alipay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenShare+Alipay.h"; sourceTree = "<group>"; };
 		0479EC472137D69E008DB619 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0479EC4A2137D69E008DB619 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0479EC4B2137D69E008DB619 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -155,13 +132,6 @@
 		0479EC562137D69F008DB619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0479EC582137D69F008DB619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0479EC592137D69F008DB619 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		04A23C86217DADCB0069FCDB /* IFMShareView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IFMShareView.h; sourceTree = "<group>"; };
-		04B99B102179EE4900E2500B /* IFMShareItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareItem.m; sourceTree = "<group>"; };
-		04B99B112179EE4900E2500B /* IFMShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareView.m; sourceTree = "<group>"; };
-		04B99B122179EE4900E2500B /* IFMShareImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IFMShareImage.bundle; sourceTree = "<group>"; };
-		04B99B132179EE4900E2500B /* IFMShareItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFMShareItemCell.h; sourceTree = "<group>"; };
-		04B99B142179EE4900E2500B /* IFMShareItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFMShareItem.h; sourceTree = "<group>"; };
-		04B99B162179EE4900E2500B /* IFMShareItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFMShareItemCell.m; sourceTree = "<group>"; };
 		04B99B1C2179EF5E00E2500B /* LF_ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareViewController.h; sourceTree = "<group>"; };
 		04B99B1D2179EF5E00E2500B /* LF_ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_ShareViewController.m; sourceTree = "<group>"; };
 		04B99B1F2179EFA200E2500B /* LF_ShareHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareHandle.h; sourceTree = "<group>"; };
@@ -440,31 +410,9 @@
 		0453CD8A213E56FB00AB6679 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
-				04B99B0F2179EE4900E2500B /* IFMShare */,
 				0437B5C3214106390017CDF0 /* DLSlideView */,
-				0453CD97213E571700AB6679 /* openshare */,
 			);
 			path = Vender;
-			sourceTree = "<group>";
-		};
-		0453CD97213E571700AB6679 /* openshare */ = {
-			isa = PBXGroup;
-			children = (
-				0453CD9E213E571700AB6679 /* OpenShareHeader.h */,
-				0453CDA1213E571700AB6679 /* OpenShare.h */,
-				0453CD99213E571700AB6679 /* OpenShare.m */,
-				0453CDA3213E571700AB6679 /* OpenShare+Weixin.h */,
-				0453CD9D213E571700AB6679 /* OpenShare+Weixin.m */,
-				0453CDA4213E571700AB6679 /* OpenShare+Alipay.h */,
-				0453CD9C213E571700AB6679 /* OpenShare+Alipay.m */,
-				0453CD9F213E571700AB6679 /* OpenShare+Weibo.h */,
-				0453CD98213E571700AB6679 /* OpenShare+Weibo.m */,
-				0453CDA2213E571700AB6679 /* OpenShare+QQ.h */,
-				0453CD9B213E571700AB6679 /* OpenShare+QQ.m */,
-				0453CD9A213E571700AB6679 /* OpenShare+Renren.h */,
-				0453CDA0213E571700AB6679 /* OpenShare+Renren.m */,
-			);
-			path = openshare;
 			sourceTree = "<group>";
 		};
 		0479EC3E2137D69E008DB619 = {
@@ -514,20 +462,6 @@
 				04B99B1D2179EF5E00E2500B /* LF_ShareViewController.m */,
 			);
 			path = Share;
-			sourceTree = "<group>";
-		};
-		04B99B0F2179EE4900E2500B /* IFMShare */ = {
-			isa = PBXGroup;
-			children = (
-				04A23C86217DADCB0069FCDB /* IFMShareView.h */,
-				04B99B112179EE4900E2500B /* IFMShareView.m */,
-				04B99B132179EE4900E2500B /* IFMShareItemCell.h */,
-				04B99B162179EE4900E2500B /* IFMShareItemCell.m */,
-				04B99B142179EE4900E2500B /* IFMShareItem.h */,
-				04B99B102179EE4900E2500B /* IFMShareItem.m */,
-				04B99B122179EE4900E2500B /* IFMShareImage.bundle */,
-			);
-			path = IFMShare;
 			sourceTree = "<group>";
 		};
 		04B99B1B2179EE9300E2500B /* ShareHandle */ = {
@@ -647,7 +581,6 @@
 				0479EC572137D69F008DB619 /* LaunchScreen.storyboard in Resources */,
 				04239D5A2188459B00162591 /* LF_ShareViewResource.bundle in Resources */,
 				0479EC542137D69F008DB619 /* Assets.xcassets in Resources */,
-				04B99B192179EE4900E2500B /* IFMShareImage.bundle in Resources */,
 				0479EC522137D69E008DB619 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -743,32 +676,24 @@
 				04B99B1E2179EF5E00E2500B /* LF_ShareViewController.m in Sources */,
 				0437B5C0214106080017CDF0 /* KMPNestedMainHeaderView.m in Sources */,
 				0437B5A0214102E90017CDF0 /* UIViewController+BackButtonHandler.m in Sources */,
-				04B99B1A2179EE4900E2500B /* IFMShareItemCell.m in Sources */,
 				0479EC4F2137D69E008DB619 /* ViewController.m in Sources */,
 				0431CD4A2186F87F009ACA63 /* LF_ShareItemCell.m in Sources */,
 				0437B592214100DE0017CDF0 /* AppDelegate+AOP.m in Sources */,
-				04B99B172179EE4900E2500B /* IFMShareItem.m in Sources */,
-				0453CDA9213E571700AB6679 /* OpenShare+Weixin.m in Sources */,
 				0450617E213FB71000366855 /* Tools+Image.m in Sources */,
 				0437B5A5214103560017CDF0 /* UIView+singleCorner.m in Sources */,
 				0431CD472186F85A009ACA63 /* LF_ShareFatherView.m in Sources */,
-				0453CDAA213E571700AB6679 /* OpenShare+Renren.m in Sources */,
-				0453CDA7213E571700AB6679 /* OpenShare+QQ.m in Sources */,
 				0437B5BF214106080017CDF0 /* KMPNestedMainTableViewCell.m in Sources */,
 				0479EC5A2137D69F008DB619 /* main.m in Sources */,
 				0450617A213FB71000366855 /* Tools+UpdateVersion.m in Sources */,
 				0437B5D8214106390017CDF0 /* DLScrollTabbarView.m in Sources */,
 				0437B5D6214106390017CDF0 /* DLLRUCache.m in Sources */,
 				04506181213FB71000366855 /* Tools+Date.m in Sources */,
-				0453CDA8213E571700AB6679 /* OpenShare+Alipay.m in Sources */,
 				04506179213FB71000366855 /* Tools.m in Sources */,
 				04BD55C221BA612B0053E04E /* LF_ShareHeadView.m in Sources */,
 				0450617B213FB71000366855 /* Tools+CheckFormat.m in Sources */,
 				0437B5D9214106390017CDF0 /* DLFixedTabbarView.m in Sources */,
-				0453CDA5213E571700AB6679 /* OpenShare+Weibo.m in Sources */,
 				0437B5C1214106080017CDF0 /* KMPPassTableView.m in Sources */,
 				04BD55C521BA61390053E04E /* LF_ShareFootView.m in Sources */,
-				0453CDA6213E571700AB6679 /* OpenShare.m in Sources */,
 				0437B5DB214106390017CDF0 /* DLCustomSlideView.m in Sources */,
 				0437B5DC214106390017CDF0 /* DLSlideView.m in Sources */,
 				04506178213FB71000366855 /* Felix.m in Sources */,
@@ -781,7 +706,6 @@
 				0437B5B5214104DB0017CDF0 /* T_PageControl.m in Sources */,
 				0437B5DA214106390017CDF0 /* DLUtility.m in Sources */,
 				04BD55C821BA61450053E04E /* LF_ShareContentView.m in Sources */,
-				04B99B182179EE4900E2500B /* IFMShareView.m in Sources */,
 				0437B596214101680017CDF0 /* UIViewController+NaviBarButton.m in Sources */,
 				0437B5C2214106080017CDF0 /* KMPNestedSubCollectionViewCell.m in Sources */,
 				0437B5A1214102E90017CDF0 /* UINavigationController+ShouldPopOnBackButton.m in Sources */,
