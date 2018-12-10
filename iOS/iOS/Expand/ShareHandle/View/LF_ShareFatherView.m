@@ -43,12 +43,20 @@
     
     CGFloat bottomSafeHeight = [UIApplication sharedApplication].statusBarFrame.size.height == 44? 34:0;
     
-    [self addSubview:self.shareFootView];
-    [self.shareFootView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.bottom.equalTo(@0);
+    [self addSubview:self.cancelBtn];
+    [self.cancelBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.equalTo(@(-bottomSafeHeight));
         make.left.equalTo(@0);
         make.width.mas_equalTo(LF_SCREEN_WIDTH);
-        make.height.mas_equalTo(@(self.footHeight+bottomSafeHeight));
+        make.height.mas_equalTo(44);
+    }];
+    
+    [self addSubview:self.shareFootView];
+    [self.shareFootView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.equalTo(self.cancelBtn.mas_top).offset(0);
+        make.left.equalTo(@0);
+        make.width.mas_equalTo(LF_SCREEN_WIDTH);
+        make.height.mas_equalTo(@(self.footHeight));
     }];
     
     [self addSubview:self.shareContentView];
@@ -65,6 +73,7 @@
         make.width.mas_equalTo(LF_SCREEN_WIDTH);
         make.height.mas_equalTo(@(self.headHeight));
     }];
+    
 }
 
 #pragma mark - getter
@@ -93,6 +102,18 @@
         _shareContentView = [[LF_ShareContentView alloc] initWithFrame:CGRectZero];
     }
     return _shareContentView;
+}
+
+- (UIButton *)cancelBtn {
+ 
+    if (!_cancelBtn) {
+        
+        _cancelBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_cancelBtn setTitle:@"取消" forState:UIControlStateNormal];
+        [_cancelBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [_cancelBtn setBackgroundColor:[UIColor whiteColor]];
+    }
+    return _cancelBtn;
 }
 
 /*

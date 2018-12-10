@@ -18,7 +18,7 @@ static  NSString * const SHARE_VIEW_CELL = @"LF_ShareViewCell.h";
     self = [super initWithFrame:frame];
     if (self) {
         
-        self.backgroundColor = [UIColor greenColor];
+        self.backgroundColor = [UIColor colorWithRed:245/255.0 green:245/255.0 blue:245/255.0 alpha:1];
 
         [self addSubview:self.shareCollectionView];
         [self.shareCollectionView mas_makeConstraints:^(MASConstraintMaker *make) {

@@ -22,11 +22,14 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) UIView *shareHeadView;
 @property (nonatomic,strong) UIView *shareFootView;
 @property (nonatomic,strong) UIView *shareContentView;
+@property (nonatomic,strong) UIButton *cancelBtn;
 
 @property (nonatomic,assign) CGFloat headHeight;
 @property (nonatomic,assign) CGFloat footHeight;
 @property (nonatomic,assign) CGFloat contentHeight;
 
+@property (nonatomic,strong) UIView *topSeparatorLine;
+@property (nonatomic,strong) UIView *bottomSeparatorLine;
 
 - (void)layoutPages;
 

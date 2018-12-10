@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LF_ShareHeadView : UIView
 
+@property (nonatomic,strong) UILabel *headLabel;
+
 @end
 
 NS_ASSUME_NONNULL_END
