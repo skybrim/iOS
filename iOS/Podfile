@@ -31,4 +31,6 @@ target ‘iOS’ do
     pod 'BRPickerView'
     pod 'ZYKeyboardUtil'
     pod 'LYEmptyView'
+    pod 'MonkeyKing'#分享+支付
+
 end
