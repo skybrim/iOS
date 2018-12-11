@@ -547,7 +547,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = LF_;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Mr.T;
 				TargetAttributes = {
 					0479EC462137D69E008DB619 = {
@@ -851,6 +851,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4BE04F84F7CC91E58DCF918 /* Pods-iOS.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREFIX_HEADER = "iOS/Supporting Files/iOS-Prefix.pch";
@@ -871,6 +872,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0A895D06C93391F551E77AB1 /* Pods-iOS.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREFIX_HEADER = "iOS/Supporting Files/iOS-Prefix.pch";
