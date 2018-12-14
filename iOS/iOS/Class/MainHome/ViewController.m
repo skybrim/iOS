@@ -76,7 +76,7 @@
         
         _functionTableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStyleGrouped];
         
-        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, LF_SCREEN_WIDTH, CGFLOAT_MIN)];
+        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, CGFLOAT_MIN)];
         view.backgroundColor = [UIColor whiteColor];
         _functionTableView.tableHeaderView = view;
         _functionTableView.tableFooterView = view;

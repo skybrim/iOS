@@ -63,7 +63,7 @@
         
         _slideView = [[DLCustomSlideView alloc] init];
         DLLRUCache *cache = [[DLLRUCache alloc] initWithCount:self.dataArray.count];
-        DLScrollTabbarView *tabbar = [[DLScrollTabbarView alloc] initWithFrame:CGRectMake(0, 0, LF_SCREEN_WIDTH, 40)];
+        DLScrollTabbarView *tabbar = [[DLScrollTabbarView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 40)];
         tabbar.tabItemNormalColor = [UIColor blackColor];
         tabbar.tabItemSelectedColor = [UIColor blueColor];
         tabbar.tabItemNormalFontSize = 14.0f;
@@ -73,7 +73,7 @@
         NSMutableArray *tmpArray = [NSMutableArray array];
         
         for (NSString *name in self.dataArray) {
-            DLScrollTabbarItem *item = [DLScrollTabbarItem itemWithTitle:name width:LF_SCREEN_WIDTH/5.0];
+            DLScrollTabbarItem *item = [DLScrollTabbarItem itemWithTitle:name width:SCREEN_WIDTH/5.0];
             [tmpArray addObject:item];
         }
         

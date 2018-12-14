@@ -10,20 +10,16 @@
 #define CommonMacro_h
 
 //mainWindow
-#define LF_MAIN_WINDOW [UIApplication sharedApplication].keyWindow
+#define MAIN_WINDOW [UIApplication sharedApplication].keyWindow
 
 //宽高
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
-//字体
-//#define stringFont(s) [UIFont fontWithName:@"Hiragino Kaku Gothic ProN W3" size:s]
-#define stringFont(s) [UIFont systemFontOfSize:s]
-
 //颜色
-#define LF_ColorFromHEX(rgbValue,A) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:A]
-#define LF_ColorFromRGB(R,G,B,A) [UIColor colorWithRed:R/255.0f green:G/255.0f blue:B/255.0f alpha:A]
-#define LF_RandomColor RGB(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+#define ColorFromHEX(rgbValue,A) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:A]
+#define ColorFromRGB(R,G,B,A) [UIColor colorWithRed:R/255.0f green:G/255.0f blue:B/255.0f alpha:A]
+#define RandomColor RGB(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
 
 //判断IOS版本
 #define iPhoneSystemVersion ([UIDevice currentDevice].systemVersion.floatValue)

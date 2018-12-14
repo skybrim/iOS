@@ -125,7 +125,7 @@
     
     if (!_subTableView) {
         _subTableView = [[KMPPassTableView alloc] initWithFrame:CGRectZero style:UITableViewStyleGrouped];
-        _subTableView.backgroundColor = LF_ColorFromHEX(0xf5f5f5, 1);
+        _subTableView.backgroundColor = ColorFromHEX(0xf5f5f5, 1);
         _subTableView.showsVerticalScrollIndicator = NO;
         _subTableView.separatorStyle = UITableViewCellSelectionStyleNone;
         _subTableView.rowHeight = self.rowHeight;

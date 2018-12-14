@@ -242,7 +242,7 @@
     }];
     [alert addAction:okAction];
     [alert addAction:cancelAction];
-    UIWindow *mainWindow = LF_MAIN_WINDOW;
+    UIWindow *mainWindow = MAIN_WINDOW;
     UIViewController *vc = mainWindow.rootViewController;
     [vc presentViewController:alert animated:YES completion:nil];
 }

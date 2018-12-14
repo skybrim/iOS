@@ -194,7 +194,7 @@
 
     CGFloat count = (CGFloat)[self tabbarCount];
     
-    trackView_.frame = CGRectMake(x, trackView_.frame.origin.y, (LF_SCREEN_WIDTH/count), CGRectGetHeight(trackView_.bounds));
+    trackView_.frame = CGRectMake(x, trackView_.frame.origin.y, (SCREEN_WIDTH/count), CGRectGetHeight(trackView_.bounds));
 }
 
 - (void)setSelectedIndex:(NSInteger)selectedIndex{
@@ -232,7 +232,7 @@
             NSLog(@"%@",NSStringFromCGRect(trackRc));
             
             CGFloat count = (CGFloat)[self tabbarCount];
-            trackView_.frame = CGRectMake((LF_SCREEN_WIDTH/count)*selectedIndex, trackView_.frame.origin.y, (LF_SCREEN_WIDTH/count), CGRectGetHeight(trackView_.bounds));
+            trackView_.frame = CGRectMake((SCREEN_WIDTH/count)*selectedIndex, trackView_.frame.origin.y, (SCREEN_WIDTH/count), CGRectGetHeight(trackView_.bounds));
         }
         
 //        float width = self.bounds.size.width/self.tabbarItems.count;

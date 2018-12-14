@@ -7,13 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LF_Const.h"
 
 #import "LF_ShareHeadView.h"
 #import "LF_ShareFootView.h"
 #import "LF_ShareContentView.h"
-
-#define LF_SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
-#define LF_SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
 NS_ASSUME_NONNULL_BEGIN
 
