@@ -1,5 +1,5 @@
 //
-//  LF_ShareHeadView.h
+//  LF_ShareFootView.h
 //  iOS
 //
 //  Created by mac on 2018/12/7.
@@ -10,9 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LF_ShareHeadView : UIView
+@interface LFShareFootView : UIView
 
-@property (nonatomic,strong) UILabel *headLabel;
+@property (nonatomic,strong) UILabel *footLabel;
 
 @end
 

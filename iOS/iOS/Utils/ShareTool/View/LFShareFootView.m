@@ -6,9 +6,9 @@
 //  Copyright © 2018 Mr.T. All rights reserved.
 //
 
-#import "LF_ShareFootView.h"
+#import "LFShareFootView.h"
 
-@implementation LF_ShareFootView
+@implementation LFShareFootView
 
 - (instancetype)initWithFrame:(CGRect)frame {
     

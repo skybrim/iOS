@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LF_ShareContentView : UIView<UICollectionViewDelegate,UICollectionViewDataSource>
+@interface LFShareContentView : UIView<UICollectionViewDelegate,UICollectionViewDataSource>
 
 @property (nonatomic,strong) UICollectionView *shareCollectionView;
 

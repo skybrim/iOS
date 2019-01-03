@@ -94,7 +94,7 @@
     
     if (!_shareHeadView) {
         
-        _shareHeadView = [[LF_ShareHeadView alloc] initWithFrame:CGRectZero];
+        _shareHeadView = [[LFShareHeadView alloc] initWithFrame:CGRectZero];
     }
     return _shareHeadView;
 }
@@ -103,7 +103,7 @@
     
     if (!_shareFootView) {
         
-        _shareFootView = [[LF_ShareFootView alloc] initWithFrame:CGRectZero];
+        _shareFootView = [[LFShareFootView alloc] initWithFrame:CGRectZero];
     }
     return _shareFootView;
 }
@@ -112,7 +112,7 @@
     
     if (!_shareContentView) {
         
-        _shareContentView = [[LF_ShareContentView alloc] initWithFrame:CGRectZero];
+        _shareContentView = [[LFShareContentView alloc] initWithFrame:CGRectZero];
     }
     return _shareContentView;
 }

@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-#import "LF_ShareHeadView.h"
-#import "LF_ShareFootView.h"
-#import "LF_ShareContentView.h"
+#import "LFShareHeadView.h"
+#import "LFShareFootView.h"
+#import "LFShareContentView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
