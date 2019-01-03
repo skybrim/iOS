@@ -6,10 +6,10 @@
 //  Copyright © 2018 Mr.T. All rights reserved.
 //
 
-#import "LF_ShareFatherView.h"
+#import "LFShareFatherView.h"
 
 
-@implementation LF_ShareFatherView
+@implementation LFShareFatherView
 
 - (instancetype)initWithFrame:(CGRect)frame {
     

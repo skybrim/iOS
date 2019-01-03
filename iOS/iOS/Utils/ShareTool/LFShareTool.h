@@ -7,13 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "LF_ShareFatherView.h"
+#import "LFShareFatherView.h"
 
 @interface LFShareTool : NSObject
 
 singletonInterface(LFShareTool);
 
-@property (nonatomic,strong) LF_ShareFatherView *shareFatherView;
+@property (nonatomic,strong) LFShareFatherView *shareFatherView;
 
 /**
  显示分享界面

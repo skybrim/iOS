@@ -69,11 +69,11 @@ singletonImplemention(LFShareTool);
 
 
 #pragma mark - getter
-- (LF_ShareFatherView *)shareFatherView {
+- (LFShareFatherView *)shareFatherView {
     
     if (!_shareFatherView) {
         
-        _shareFatherView= [[LF_ShareFatherView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
+        _shareFatherView= [[LFShareFatherView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
     }
     return _shareFatherView;
 }

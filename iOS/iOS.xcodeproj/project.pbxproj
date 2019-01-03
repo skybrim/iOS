@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		041DDA0221DDEF90007365C0 /* LF_ShareFatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DDA0121DDEF90007365C0 /* LF_ShareFatherView.m */; };
+		041DDA0221DDEF90007365C0 /* LFShareFatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DDA0121DDEF90007365C0 /* LFShareFatherView.m */; };
 		04239D5A2188459B00162591 /* LF_ShareViewResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04239D592188459B00162591 /* LF_ShareViewResource.bundle */; };
 		0431CD4A2186F87F009ACA63 /* LF_ShareItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431CD492186F87F009ACA63 /* LF_ShareItemCell.m */; };
 		0437B592214100DE0017CDF0 /* AppDelegate+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B591214100DE0017CDF0 /* AppDelegate+AOP.m */; };
@@ -55,8 +55,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		041DDA0021DDEF90007365C0 /* LF_ShareFatherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LF_ShareFatherView.h; sourceTree = "<group>"; };
-		041DDA0121DDEF90007365C0 /* LF_ShareFatherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LF_ShareFatherView.m; sourceTree = "<group>"; };
+		041DDA0021DDEF90007365C0 /* LFShareFatherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFShareFatherView.h; sourceTree = "<group>"; };
+		041DDA0121DDEF90007365C0 /* LFShareFatherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFShareFatherView.m; sourceTree = "<group>"; };
 		04239D592188459B00162591 /* LF_ShareViewResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LF_ShareViewResource.bundle; sourceTree = "<group>"; };
 		0431CD482186F87F009ACA63 /* LF_ShareItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareItemCell.h; sourceTree = "<group>"; };
 		0431CD492186F87F009ACA63 /* LF_ShareItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_ShareItemCell.m; sourceTree = "<group>"; };
@@ -480,8 +480,8 @@
 		04BD55BF21BA60E50053E04E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				041DDA0021DDEF90007365C0 /* LF_ShareFatherView.h */,
-				041DDA0121DDEF90007365C0 /* LF_ShareFatherView.m */,
+				041DDA0021DDEF90007365C0 /* LFShareFatherView.h */,
+				041DDA0121DDEF90007365C0 /* LFShareFatherView.m */,
 				04BD55C021BA612B0053E04E /* LF_ShareHeadView.h */,
 				04BD55C121BA612B0053E04E /* LF_ShareHeadView.m */,
 				04BD55C321BA61390053E04E /* LF_ShareFootView.h */,
@@ -718,7 +718,7 @@
 				0437B5AD2141047C0017CDF0 /* MarqueeView.m in Sources */,
 				0450617F213FB71000366855 /* Tools+String.m in Sources */,
 				04506180213FB71000366855 /* Tools+DeviceCategory.m in Sources */,
-				041DDA0221DDEF90007365C0 /* LF_ShareFatherView.m in Sources */,
+				041DDA0221DDEF90007365C0 /* LFShareFatherView.m in Sources */,
 				0437B5B5214104DB0017CDF0 /* T_PageControl.m in Sources */,
 				0437B5DA214106390017CDF0 /* DLUtility.m in Sources */,
 				04BD55C821BA61450053E04E /* LF_ShareContentView.m in Sources */,
