@@ -8,6 +8,7 @@
 
 #import "LFShareContentView.h"
 #import "LFShareItemCell.h"
+#import "LFShareItem.h"
 
 static  NSString * const SHARE_VIEW_CELL = @"LF_ShareViewCell.h";
 
@@ -115,6 +116,17 @@ static  NSString * const SHARE_VIEW_CELL = @"LF_ShareViewCell.h";
         
     }
     return _shareCollectionView;
+}
+
+- (NSMutableArray *)itemArray {
+    
+    if (_itemArray == nil) {
+        
+        _itemArray = [NSMutableArray array];
+        
+        
+    }
+    return _itemArray;
 }
 
 /*

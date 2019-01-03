@@ -26,9 +26,7 @@
         [self.backgroundView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.edges.equalTo(@0);
         }];
-        
-        self.shareHeadView = [[LFShareHeadView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
-        self.shareFootView = [[LFShareFootView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
+    
     }
     return self;
 }

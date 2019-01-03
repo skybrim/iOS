@@ -10,7 +10,7 @@
 
 
 /**
- 分享平台
+ 默认分享样式
 
  - kPlatformWeixinSession: 微信会话
  - kPlatformWeixinTimeline: 微信朋友圈
@@ -33,6 +33,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) NSString *title;
 @property (nonatomic,strong) NSString *imageName;
 @property (nonatomic,copy) void(^shareItemAction)(void);
+
+@property (nonatomic,copy) void(^actionWeixinSession)(void);
+@property (nonatomic,copy) void(^actionWeixinTimeline)(void);
+@property (nonatomic,copy) void(^actionQQFriends)(void);
+@property (nonatomic,copy) void(^actionQQZone)(void);
+@property (nonatomic,copy) void(^actionWeibo)(void);
 
 @end
 
