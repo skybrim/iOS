@@ -46,7 +46,6 @@
         [_shareBtn sizeToFit];
         
         [_shareBtn bk_whenTapped:^{
-            [LF_ShareHandle head];
 
             [LF_ShareHandle showShareView];
         }];

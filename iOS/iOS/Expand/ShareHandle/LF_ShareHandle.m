@@ -13,22 +13,18 @@
 
 + (void)showShareView {
 
+    UILabel *label = [[UILabel alloc] init];
+    label.backgroundColor = [UIColor whiteColor];
+    label.text = @"adasda ddawdadaa ";
+    [label sizeToFit];
+    [[LFShareTool sharedLFShareTool] setShareHeadView:label];
+    
     [[LFShareTool sharedLFShareTool] showShareView];
 }
 
 + (void)hideShareView {
     
     [[LFShareTool sharedLFShareTool] hideShareView];
-}
-
-+ (void)head {
-    
-    UILabel *label = [[UILabel alloc] init];
-    label.backgroundColor = [UIColor whiteColor];
-    label.text = @"adasda ddawdadaa ";
-    [label sizeToFit];
-    
-    [[LFShareTool sharedLFShareTool] setShareHeadView:label];
 }
 
 @end

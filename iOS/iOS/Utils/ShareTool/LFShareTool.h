@@ -50,25 +50,4 @@ singletonInterface(LFShareTool);
  */
 - (void)setShareContentView:(UIView *)shareContentView;
 
-
-/**
- 设置分享头部高度
-
- @param headHeight 自定义分享头部高度
- */
-- (void)setShareHeadHeight:(CGFloat)headHeight;
-
-/**
- 设置分享底部高度
- 
- @param headHeight 自定义分享底部高度
- */
-- (void)setShareFootHeight:(CGFloat)footHeight;
-
-/**
- 设置分享内容高度
- 
- @param headHeight 自定义分享内容高度
- */
-- (void)setShareContentHeight:(CGFloat)contentHeight;
 @end

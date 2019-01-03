@@ -29,44 +29,20 @@ singletonImplemention(LFShareTool);
 - (void)setShareHeadView:(UIView *)shareHeadView {
     
     [LFShareTool sharedLFShareTool].shareFatherView.headHeight = CGRectGetHeight(shareHeadView.frame);
-
     [LFShareTool sharedLFShareTool].shareFatherView.shareHeadView = shareHeadView;
-
 }
 
 - (void)setShareFootView:(UIView *)shareFootView {
     
-    if (shareFootView == nil) {
-        
-        [LFShareTool sharedLFShareTool].shareFatherView.footHeight = 0;
-    }
+    [LFShareTool sharedLFShareTool].shareFatherView.headHeight = CGRectGetHeight(shareFootView.frame);
     [LFShareTool sharedLFShareTool].shareFatherView.shareHeadView = shareFootView;
 }
 
 - (void)setShareContentView:(UIView *)shareContentView {
     
-    if (shareContentView == nil) {
-        
-        [LFShareTool sharedLFShareTool].shareFatherView.contentHeight = 0;
-    }
+    [LFShareTool sharedLFShareTool].shareFatherView.headHeight = CGRectGetHeight(shareContentView.frame);
     [LFShareTool sharedLFShareTool].shareFatherView.shareHeadView = shareContentView;
 }
-
-- (void)setShareHeadHeight:(CGFloat)headHeight {
-    
-    [LFShareTool sharedLFShareTool].shareFatherView.headHeight = headHeight;
-}
-
-- (void)setShareFootHeight:(CGFloat)footHeight {
-    
-    [LFShareTool sharedLFShareTool].shareFatherView.footHeight = footHeight;
-}
-
-- (void)setShareContentHeight:(CGFloat)contentHeight {
-    
-    [LFShareTool sharedLFShareTool].shareFatherView.contentHeight = contentHeight;
-}
-
 
 #pragma mark - getter
 - (LFShareFatherView *)shareFatherView {
