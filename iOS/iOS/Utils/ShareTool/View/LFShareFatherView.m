@@ -16,8 +16,8 @@
     self = [super initWithFrame:frame];
     if (self) {
         
-        self.headHeight = 0;
-        self.footHeight = 0;
+        self.headHeight = 40.0;
+        self.footHeight = 40.0;
         self.contentHeight = 250.0;
         
         self.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.3];
@@ -26,6 +26,9 @@
         [self.backgroundView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.edges.equalTo(@0);
         }];
+        
+        self.shareHeadView = [[LFShareHeadView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
+        self.shareFootView = [[LFShareFootView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
     }
     return self;
 }

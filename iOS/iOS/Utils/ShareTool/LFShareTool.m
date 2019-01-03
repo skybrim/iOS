@@ -34,14 +34,14 @@ singletonImplemention(LFShareTool);
 
 - (void)setShareFootView:(UIView *)shareFootView {
     
-    [LFShareTool sharedLFShareTool].shareFatherView.headHeight = CGRectGetHeight(shareFootView.frame);
-    [LFShareTool sharedLFShareTool].shareFatherView.shareHeadView = shareFootView;
+    [LFShareTool sharedLFShareTool].shareFatherView.footHeight = CGRectGetHeight(shareFootView.frame);
+    [LFShareTool sharedLFShareTool].shareFatherView.shareFootView = shareFootView;
 }
 
 - (void)setShareContentView:(UIView *)shareContentView {
     
-    [LFShareTool sharedLFShareTool].shareFatherView.headHeight = CGRectGetHeight(shareContentView.frame);
-    [LFShareTool sharedLFShareTool].shareFatherView.shareHeadView = shareContentView;
+    [LFShareTool sharedLFShareTool].shareFatherView.contentHeight = CGRectGetHeight(shareContentView.frame);
+    [LFShareTool sharedLFShareTool].shareFatherView.shareContentView = shareContentView;
 }
 
 #pragma mark - getter
