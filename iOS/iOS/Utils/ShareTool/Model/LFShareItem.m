@@ -24,7 +24,7 @@
         };
         
         self.actionQQFriends = ^{
-            NSLog(@"分享到QQa好友");
+            NSLog(@"分享到QQ好友");
         };
         
         self.actionQQZone = ^{

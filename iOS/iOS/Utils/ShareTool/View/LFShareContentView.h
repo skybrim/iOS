@@ -15,8 +15,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) UICollectionView *shareCollectionView;
 @property (nonatomic,strong) NSMutableArray *itemArray;
 
-@property (nonatomic,copy) void(^shareItemClick)(NSIndexPath *clickIndexPath);
-
 @end
 
 NS_ASSUME_NONNULL_END

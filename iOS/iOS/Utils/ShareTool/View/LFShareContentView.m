@@ -41,42 +41,16 @@ static  NSString * const SHARE_VIEW_CELL = @"LF_ShareViewCell.h";
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     
-    return 5;
+    return self.itemArray.count;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     
     LFShareItemCell *shareItemCell = [collectionView dequeueReusableCellWithReuseIdentifier:SHARE_VIEW_CELL forIndexPath:indexPath];
     
-    if (indexPath.item == 0) {
-        
-        shareItemCell.shareItemImageView.image = [UIImage imageNamed:[@"LFShareViewResource.bundle" stringByAppendingPathComponent:@"WeChat"]];
-        shareItemCell.shareItemLabel.text = @"微信";
-    }
-    else if (indexPath.item == 1) {
-        
-        shareItemCell.shareItemImageView.image = [UIImage imageNamed:[@"LFShareViewResource.bundle" stringByAppendingPathComponent:@"WeChat_moments"]];
-
-        shareItemCell.shareItemLabel.text = @"朋友圈";
-    }
-    else if (indexPath.item == 2) {
-        
-        shareItemCell.shareItemImageView.image = [UIImage imageNamed:[@"LFShareViewResource.bundle" stringByAppendingPathComponent:@"QQ"]];
-
-        shareItemCell.shareItemLabel.text = @"QQ";
-    }
-    else if (indexPath.item == 3) {
-        
-        shareItemCell.shareItemImageView.image = [UIImage imageNamed:[@"LFShareViewResource.bundle" stringByAppendingPathComponent:@"Qzone"]];
-
-        shareItemCell.shareItemLabel.text = @"QQ空间";
-    }
-    else if (indexPath.item == 4) {
-        
-        shareItemCell.shareItemImageView.image = [UIImage imageNamed:[@"LFShareViewResource.bundle" stringByAppendingPathComponent:@"Weibo"]];
-
-        shareItemCell.shareItemLabel.text = @"微博";
-    }
+    LFShareItem *item = self.itemArray[indexPath.row];
+    shareItemCell.shareItemLabel.text = item.title;
+    shareItemCell.shareItemImageView.image = [UIImage imageNamed:item.imageName];
     
     return shareItemCell;
 }
@@ -90,8 +64,10 @@ static  NSString * const SHARE_VIEW_CELL = @"LF_ShareViewCell.h";
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     
-    if (self.shareItemClick) {
-        self.shareItemClick(indexPath);
+    LFShareItem *item = self.itemArray[indexPath.row];
+    
+    if (item.shareItemAction) {
+        item.shareItemAction();
     }
 }
 
@@ -124,6 +100,17 @@ static  NSString * const SHARE_VIEW_CELL = @"LF_ShareViewCell.h";
         
         _itemArray = [NSMutableArray array];
         
+        LFShareItem *weixinSessionItem = [[LFShareItem alloc] initWithPlatform:kPlatformWeixinSession];
+        LFShareItem *weixinTimelineItem = [[LFShareItem alloc] initWithPlatform:kPlatformWeixinTimeline];
+        LFShareItem *QQFriendsItem = [[LFShareItem alloc] initWithPlatform:kPlatformQQFriends];
+        LFShareItem *QQZoneItem = [[LFShareItem alloc] initWithPlatform:kPlatformQQZone];
+        LFShareItem *weiboItem = [[LFShareItem alloc] initWithPlatform:kPlatformWeibo];
+        
+        [_itemArray addObject:weixinSessionItem];
+        [_itemArray addObject:weixinTimelineItem];
+        [_itemArray addObject:QQFriendsItem];
+        [_itemArray addObject:QQZoneItem];
+        [_itemArray addObject:weiboItem];
         
     }
     return _itemArray;

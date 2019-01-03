@@ -40,6 +40,34 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy) void(^actionQQZone)(void);
 @property (nonatomic,copy) void(^actionWeibo)(void);
 
+
+/**
+ 默认初始化
+
+ @return item
+ */
+- (instancetype)init;
+
+/**
+ 根据默认样式初始化
+
+ @param platform 分享平台
+ @return item
+ */
+- (instancetype)initWithPlatform:(LFSharePlatform)platform;
+
+/**
+ 自定义item
+
+ @param title 标题
+ @param imageName 图片名称
+ @param action 点击方法
+ @return item
+ */
+- (instancetype)initWithTitle:(NSString *)title
+                    imageName:(NSString *)imageName
+                       action:(void(^)(void))action;
+    
 @end
 
 NS_ASSUME_NONNULL_END
