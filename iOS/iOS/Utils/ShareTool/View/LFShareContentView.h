@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface LFShareContentView : UIView<UICollectionViewDelegate,UICollectionViewDataSource>
 
 @property (nonatomic,strong) UICollectionView *shareCollectionView;
+@property (nonatomic,strong) NSArray *itemArray;
 
 @property (nonatomic,copy) void(^shareItemClick)(NSIndexPath *clickIndexPath);
 

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		041DDA0221DDEF90007365C0 /* LFShareFatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DDA0121DDEF90007365C0 /* LFShareFatherView.m */; };
 		041DDA0721DDF424007365C0 /* LFShareViewResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 041DDA0621DDF424007365C0 /* LFShareViewResource.bundle */; };
+		041DDA0B21DDFC9A007365C0 /* LFShareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DDA0A21DDFC9A007365C0 /* LFShareItem.m */; };
 		0431CD4A2186F87F009ACA63 /* LFShareItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431CD492186F87F009ACA63 /* LFShareItemCell.m */; };
 		0437B592214100DE0017CDF0 /* AppDelegate+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B591214100DE0017CDF0 /* AppDelegate+AOP.m */; };
 		0437B596214101680017CDF0 /* UIViewController+NaviBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B595214101680017CDF0 /* UIViewController+NaviBarButton.m */; };
@@ -59,6 +60,8 @@
 		041DDA0121DDEF90007365C0 /* LFShareFatherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFShareFatherView.m; sourceTree = "<group>"; };
 		041DDA0521DDF308007365C0 /* LFShareFootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFShareFootView.h; sourceTree = "<group>"; };
 		041DDA0621DDF424007365C0 /* LFShareViewResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LFShareViewResource.bundle; sourceTree = "<group>"; };
+		041DDA0921DDFC9A007365C0 /* LFShareItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFShareItem.h; sourceTree = "<group>"; };
+		041DDA0A21DDFC9A007365C0 /* LFShareItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFShareItem.m; sourceTree = "<group>"; };
 		0431CD482186F87F009ACA63 /* LFShareItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFShareItemCell.h; sourceTree = "<group>"; };
 		0431CD492186F87F009ACA63 /* LFShareItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFShareItemCell.m; sourceTree = "<group>"; };
 		0437B590214100DE0017CDF0 /* AppDelegate+AOP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+AOP.h"; sourceTree = "<group>"; };
@@ -165,6 +168,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041DDA0821DDFC83007365C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				041DDA0921DDFC9A007365C0 /* LFShareItem.h */,
+				041DDA0A21DDFC9A007365C0 /* LFShareItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		0437B58F214100AB0017CDF0 /* AOP */ = {
 			isa = PBXGroup;
 			children = (
@@ -500,6 +512,7 @@
 				041DDA0621DDF424007365C0 /* LFShareViewResource.bundle */,
 				04B99B1F2179EFA200E2500B /* LFShareTool.h */,
 				04B99B202179EFA200E2500B /* LFShareTool.m */,
+				041DDA0821DDFC83007365C0 /* Model */,
 				04BD55BF21BA60E50053E04E /* View */,
 			);
 			path = ShareTool;
@@ -717,6 +730,7 @@
 				B1E00BE42143D62400A4656D /* UIView+Border.m in Sources */,
 				0437B5AD2141047C0017CDF0 /* MarqueeView.m in Sources */,
 				0450617F213FB71000366855 /* Tools+String.m in Sources */,
+				041DDA0B21DDFC9A007365C0 /* LFShareItem.m in Sources */,
 				04506180213FB71000366855 /* Tools+DeviceCategory.m in Sources */,
 				041DDA0221DDEF90007365C0 /* LFShareFatherView.m in Sources */,
 				0437B5B5214104DB0017CDF0 /* T_PageControl.m in Sources */,
