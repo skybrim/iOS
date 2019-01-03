@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "LF_ShareFatherView.h"
 
-@interface LF_ShareTool : NSObject
+@interface LFShareTool : NSObject
 
-singletonInterface(LF_ShareTool);
+singletonInterface(LFShareTool);
 
 @property (nonatomic,strong) LF_ShareFatherView *shareFatherView;
 

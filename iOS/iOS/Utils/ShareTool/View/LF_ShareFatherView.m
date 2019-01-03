@@ -49,7 +49,7 @@
     [self.cancelBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.bottom.equalTo(@(-bottomSafeHeight));
         make.left.equalTo(@0);
-        make.width.mas_equalTo(LF_SCREEN_WIDTH);
+        make.width.mas_equalTo([UIScreen mainScreen].bounds.size.width);
         make.height.mas_equalTo(44);
     }];
     
@@ -57,7 +57,7 @@
     [self.shareFootView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.bottom.equalTo(self.cancelBtn.mas_top).offset(0);
         make.left.equalTo(@0);
-        make.width.mas_equalTo(LF_SCREEN_WIDTH);
+        make.width.mas_equalTo([UIScreen mainScreen].bounds.size.width);
         make.height.mas_equalTo(@(self.footHeight));
     }];
     
@@ -65,14 +65,14 @@
     [self.shareContentView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(@0);
         make.bottom.equalTo(self.shareFootView.mas_top).offset(0);
-        make.width.mas_equalTo(LF_SCREEN_WIDTH);
+        make.width.mas_equalTo([UIScreen mainScreen].bounds.size.width);
         make.height.mas_equalTo(@(self.contentHeight));
     }];
     
     [self addSubview:self.shareHeadView];
     [self.shareHeadView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.bottom.equalTo(self.shareContentView.mas_top).offset(0);
-        make.width.mas_equalTo(LF_SCREEN_WIDTH);
+        make.width.mas_equalTo([UIScreen mainScreen].bounds.size.width);
         make.height.mas_equalTo(@(self.headHeight));
     }];
     

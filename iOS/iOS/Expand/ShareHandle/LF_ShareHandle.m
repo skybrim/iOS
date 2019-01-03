@@ -7,18 +7,28 @@
 //
 
 #import "LF_ShareHandle.h"
-#import "LF_ShareTool.h"
+#import "LFShareTool.h"
 
 @implementation LF_ShareHandle
 
 + (void)showShareView {
 
-    [[LF_ShareTool sharedLF_ShareTool] showShareView];
+    [[LFShareTool sharedLFShareTool] showShareView];
 }
 
 + (void)hideShareView {
     
-    [[LF_ShareTool sharedLF_ShareTool] hideShareView];
+    [[LFShareTool sharedLFShareTool] hideShareView];
+}
+
++ (void)head {
+    
+    UILabel *label = [[UILabel alloc] init];
+    label.backgroundColor = [UIColor whiteColor];
+    label.text = @"adasda ddawdadaa ";
+    [label sizeToFit];
+    
+    [[LFShareTool sharedLFShareTool] setShareHeadView:label];
 }
 
 @end

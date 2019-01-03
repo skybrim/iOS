@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041DDA0221DDEF90007365C0 /* LF_ShareFatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DDA0121DDEF90007365C0 /* LF_ShareFatherView.m */; };
 		04239D5A2188459B00162591 /* LF_ShareViewResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04239D592188459B00162591 /* LF_ShareViewResource.bundle */; };
-		0431CD472186F85A009ACA63 /* LF_ShareFatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431CD462186F85A009ACA63 /* LF_ShareFatherView.m */; };
 		0431CD4A2186F87F009ACA63 /* LF_ShareItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431CD492186F87F009ACA63 /* LF_ShareItemCell.m */; };
 		0437B592214100DE0017CDF0 /* AppDelegate+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B591214100DE0017CDF0 /* AppDelegate+AOP.m */; };
 		0437B596214101680017CDF0 /* UIViewController+NaviBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0437B595214101680017CDF0 /* UIViewController+NaviBarButton.m */; };
@@ -45,20 +45,19 @@
 		0479EC572137D69F008DB619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0479EC552137D69F008DB619 /* LaunchScreen.storyboard */; };
 		0479EC5A2137D69F008DB619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479EC592137D69F008DB619 /* main.m */; };
 		04B99B1E2179EF5E00E2500B /* LF_ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B99B1D2179EF5E00E2500B /* LF_ShareViewController.m */; };
-		04B99B212179EFA200E2500B /* LF_ShareTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B99B202179EFA200E2500B /* LF_ShareTool.m */; };
+		04B99B212179EFA200E2500B /* LFShareTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B99B202179EFA200E2500B /* LFShareTool.m */; };
 		04BD55C221BA612B0053E04E /* LF_ShareHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD55C121BA612B0053E04E /* LF_ShareHeadView.m */; };
 		04BD55C521BA61390053E04E /* LF_ShareFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD55C421BA61390053E04E /* LF_ShareFootView.m */; };
 		04BD55C821BA61450053E04E /* LF_ShareContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD55C721BA61450053E04E /* LF_ShareContentView.m */; };
 		04EDD61E21C1EFC7005C9E21 /* LF_ShareHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EDD61D21C1EFC7005C9E21 /* LF_ShareHandle.m */; };
-		04EDD62121C1F238005C9E21 /* LF_Const.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EDD62021C1F238005C9E21 /* LF_Const.m */; };
 		1D2F17DD31CA03BB82396DEE /* Pods_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ACFF48B09646D21CE60AED /* Pods_iOS.framework */; };
 		B1E00BE42143D62400A4656D /* UIView+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E00BE32143D62400A4656D /* UIView+Border.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		041DDA0021DDEF90007365C0 /* LF_ShareFatherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LF_ShareFatherView.h; sourceTree = "<group>"; };
+		041DDA0121DDEF90007365C0 /* LF_ShareFatherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LF_ShareFatherView.m; sourceTree = "<group>"; };
 		04239D592188459B00162591 /* LF_ShareViewResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LF_ShareViewResource.bundle; sourceTree = "<group>"; };
-		0431CD452186F85A009ACA63 /* LF_ShareFatherView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareFatherView.h; sourceTree = "<group>"; };
-		0431CD462186F85A009ACA63 /* LF_ShareFatherView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_ShareFatherView.m; sourceTree = "<group>"; };
 		0431CD482186F87F009ACA63 /* LF_ShareItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareItemCell.h; sourceTree = "<group>"; };
 		0431CD492186F87F009ACA63 /* LF_ShareItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_ShareItemCell.m; sourceTree = "<group>"; };
 		0437B590214100DE0017CDF0 /* AppDelegate+AOP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+AOP.h"; sourceTree = "<group>"; };
@@ -136,8 +135,8 @@
 		0479EC592137D69F008DB619 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04B99B1C2179EF5E00E2500B /* LF_ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareViewController.h; sourceTree = "<group>"; };
 		04B99B1D2179EF5E00E2500B /* LF_ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_ShareViewController.m; sourceTree = "<group>"; };
-		04B99B1F2179EFA200E2500B /* LF_ShareTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareTool.h; sourceTree = "<group>"; };
-		04B99B202179EFA200E2500B /* LF_ShareTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_ShareTool.m; sourceTree = "<group>"; };
+		04B99B1F2179EFA200E2500B /* LFShareTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFShareTool.h; sourceTree = "<group>"; };
+		04B99B202179EFA200E2500B /* LFShareTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFShareTool.m; sourceTree = "<group>"; };
 		04B99B222179EFC300E2500B /* LF_ExpandHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ExpandHeader.h; sourceTree = "<group>"; };
 		04BD55C021BA612B0053E04E /* LF_ShareHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareHeadView.h; sourceTree = "<group>"; };
 		04BD55C121BA612B0053E04E /* LF_ShareHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_ShareHeadView.m; sourceTree = "<group>"; };
@@ -147,8 +146,6 @@
 		04BD55C721BA61450053E04E /* LF_ShareContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_ShareContentView.m; sourceTree = "<group>"; };
 		04EDD61C21C1EFC7005C9E21 /* LF_ShareHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareHandle.h; sourceTree = "<group>"; };
 		04EDD61D21C1EFC7005C9E21 /* LF_ShareHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_ShareHandle.m; sourceTree = "<group>"; };
-		04EDD61F21C1F238005C9E21 /* LF_Const.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_Const.h; sourceTree = "<group>"; };
-		04EDD62021C1F238005C9E21 /* LF_Const.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_Const.m; sourceTree = "<group>"; };
 		0A895D06C93391F551E77AB1 /* Pods-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS/Pods-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		54ACFF48B09646D21CE60AED /* Pods_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E00BE22143D62400A4656D /* UIView+Border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Border.h"; sourceTree = "<group>"; };
@@ -483,8 +480,8 @@
 		04BD55BF21BA60E50053E04E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0431CD452186F85A009ACA63 /* LF_ShareFatherView.h */,
-				0431CD462186F85A009ACA63 /* LF_ShareFatherView.m */,
+				041DDA0021DDEF90007365C0 /* LF_ShareFatherView.h */,
+				041DDA0121DDEF90007365C0 /* LF_ShareFatherView.m */,
 				04BD55C021BA612B0053E04E /* LF_ShareHeadView.h */,
 				04BD55C121BA612B0053E04E /* LF_ShareHeadView.m */,
 				04BD55C321BA61390053E04E /* LF_ShareFootView.h */,
@@ -500,10 +497,8 @@
 		04EDD61B21C1EF22005C9E21 /* ShareTool */ = {
 			isa = PBXGroup;
 			children = (
-				04B99B1F2179EFA200E2500B /* LF_ShareTool.h */,
-				04B99B202179EFA200E2500B /* LF_ShareTool.m */,
-				04EDD61F21C1F238005C9E21 /* LF_Const.h */,
-				04EDD62021C1F238005C9E21 /* LF_Const.m */,
+				04B99B1F2179EFA200E2500B /* LFShareTool.h */,
+				04B99B202179EFA200E2500B /* LFShareTool.m */,
 				04BD55BF21BA60E50053E04E /* View */,
 				04239D592188459B00162591 /* LF_ShareViewResource.bundle */,
 			);
@@ -701,7 +696,6 @@
 				0437B592214100DE0017CDF0 /* AppDelegate+AOP.m in Sources */,
 				0450617E213FB71000366855 /* Tools+Image.m in Sources */,
 				0437B5A5214103560017CDF0 /* UIView+singleCorner.m in Sources */,
-				0431CD472186F85A009ACA63 /* LF_ShareFatherView.m in Sources */,
 				04EDD61E21C1EFC7005C9E21 /* LF_ShareHandle.m in Sources */,
 				0437B5BF214106080017CDF0 /* KMPNestedMainTableViewCell.m in Sources */,
 				0479EC5A2137D69F008DB619 /* main.m in Sources */,
@@ -716,15 +710,15 @@
 				0437B5C1214106080017CDF0 /* KMPPassTableView.m in Sources */,
 				04BD55C521BA61390053E04E /* LF_ShareFootView.m in Sources */,
 				0437B5DB214106390017CDF0 /* DLCustomSlideView.m in Sources */,
-				04EDD62121C1F238005C9E21 /* LF_Const.m in Sources */,
 				0437B5DC214106390017CDF0 /* DLSlideView.m in Sources */,
 				04506178213FB71000366855 /* Felix.m in Sources */,
-				04B99B212179EFA200E2500B /* LF_ShareTool.m in Sources */,
+				04B99B212179EFA200E2500B /* LFShareTool.m in Sources */,
 				0437B5B1214104B40017CDF0 /* LeftViewTextField.m in Sources */,
 				B1E00BE42143D62400A4656D /* UIView+Border.m in Sources */,
 				0437B5AD2141047C0017CDF0 /* MarqueeView.m in Sources */,
 				0450617F213FB71000366855 /* Tools+String.m in Sources */,
 				04506180213FB71000366855 /* Tools+DeviceCategory.m in Sources */,
+				041DDA0221DDEF90007365C0 /* LF_ShareFatherView.m in Sources */,
 				0437B5B5214104DB0017CDF0 /* T_PageControl.m in Sources */,
 				0437B5DA214106390017CDF0 /* DLUtility.m in Sources */,
 				04BD55C821BA61450053E04E /* LF_ShareContentView.m in Sources */,

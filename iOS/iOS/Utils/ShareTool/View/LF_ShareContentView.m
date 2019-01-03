@@ -26,7 +26,7 @@ static  NSString * const SHARE_VIEW_CELL = @"LF_ShareViewCell.h";
             make.top.equalTo(@0);
             make.left.equalTo(@0);
             make.bottom.equalTo(@0);
-            make.width.mas_equalTo(LF_SCREEN_WIDTH);
+            make.width.mas_equalTo([UIScreen mainScreen].bounds.size.width);
         }];
     }
     return self;
@@ -82,7 +82,7 @@ static  NSString * const SHARE_VIEW_CELL = @"LF_ShareViewCell.h";
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
     
-    CGSize size = CGSizeMake(LF_SCREEN_WIDTH/4.0, 125);
+    CGSize size = CGSizeMake([UIScreen mainScreen].bounds.size.width/4.0, 125);
     
     return size;
 }

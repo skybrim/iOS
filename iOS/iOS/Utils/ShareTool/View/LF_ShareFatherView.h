@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "LF_Const.h"
 
 #import "LF_ShareHeadView.h"
 #import "LF_ShareFootView.h"
