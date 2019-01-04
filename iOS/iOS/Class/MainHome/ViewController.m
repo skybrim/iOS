@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "LF_ShareViewController.h"
+#import "LFShareViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -22,6 +22,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [self layoutPages];
+    NSLog(@"测试");
 }
 
 - (void)didReceiveMemoryWarning {
@@ -52,7 +53,7 @@
     //分享
     if (indexPath.row == 0) {
         
-        LF_ShareViewController *shareVC = [[LF_ShareViewController alloc] init];
+        LFShareViewController *shareVC = [[LFShareViewController alloc] init];
         [self.navigationController pushViewController:shareVC animated:YES];
     }
 }
