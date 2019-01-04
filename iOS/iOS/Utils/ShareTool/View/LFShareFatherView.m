@@ -126,6 +126,8 @@
         [_cancelBtn setTitle:@"取消" forState:UIControlStateNormal];
         [_cancelBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [_cancelBtn setBackgroundColor:[UIColor whiteColor]];
+        
+        [_cancelBtn addTarget:self action:@selector(cancelShare) forControlEvents:UIControlEventTouchUpInside];
     }
     return _cancelBtn;
 }
