@@ -10,7 +10,6 @@
 #import "ViewController.h"
 
 #import "AppDelegate+AOP.h"
-#import "AppDelegate+LF_BMKLocation.h"//百度地图
 
 @interface AppDelegate ()
 
@@ -25,6 +24,9 @@
     NSLog(@"develop");
     NSLog(@"%@",NSHomeDirectory());
 
+    //设备型号
+    [Tools saveDeviceInfo];
+    
     [self aop_viewDidLoad];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
@@ -32,9 +34,7 @@
     [self.window makeKeyAndVisible];
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
     
-    
-    [self LF_startBaiduMap];
-    
+        
     return YES;
 }
 

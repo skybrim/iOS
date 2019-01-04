@@ -31,8 +31,7 @@ target ‘iOS’ do
     pod 'BRPickerView'
     pod 'ZYKeyboardUtil'
     pod 'LYEmptyView'
-#    pod 'PromiseKit'
-
     pod 'AMapLocation', '2.6.1'
+    pod 'MonkeyKing'#分享+支付
 
 end

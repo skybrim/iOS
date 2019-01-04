@@ -10,6 +10,10 @@
 
 @interface LYEmptyView : LYEmptyBaseView
 
+/**
+ 是否自动显隐EmptyView, default=YES
+ */
+@property (nonatomic, assign) BOOL autoShowEmptyView;
 
 /**
  占位图是否完全覆盖父视图， default=NO
@@ -31,6 +35,11 @@
  内容物-Y坐标 (此属性与contentViewOffset 互斥，只有一个会有效)
  */
 @property (nonatomic, assign) CGFloat  contentViewY;
+
+/**
+ 是否忽略scrollView的contentInset
+ */
+@property (nonatomic, assign) BOOL ignoreContentInset;
 
 
 //-------------------------- image --------------------------//

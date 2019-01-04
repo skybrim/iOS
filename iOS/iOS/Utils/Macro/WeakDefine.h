@@ -32,15 +32,10 @@ ext_keywordify __strong __typeof__(object) object = block##_##object;
 #undef STRONG_SELF
 #define STRONG_SELF(...) @strongifyObject(__VA_ARGS__)
 
-#if DEBUG
-#define ext_keywordify                                                                             \
-autoreleasepool {                                                                              \
-}
+#ifdef RELEASE
+#define ext_keywordify try {} @catch (...) {}
 #else
-#define ext_keywordify                                                                             \
-try {                                                                                          \
-} @catch (...) {                                                                               \
-}
+#define ext_keywordify autoreleasepool {}
 #endif
 
 
