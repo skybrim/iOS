@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LF_ShareHandle : NSObject
+@interface LFShareHandle : NSObject
 
 
 /**

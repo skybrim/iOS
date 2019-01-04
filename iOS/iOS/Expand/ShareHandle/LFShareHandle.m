@@ -6,10 +6,10 @@
 //  Copyright © 2018 Mr.T. All rights reserved.
 //
 
-#import "LF_ShareHandle.h"
+#import "LFShareHandle.h"
 #import "LFShareTool.h"
 
-@implementation LF_ShareHandle
+@implementation LFShareHandle
 
 + (void)showShareView {
     

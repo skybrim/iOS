@@ -21,7 +21,7 @@
 #import "UIImageView+AFNetworking.h"
 
 #import "UtilsHeader.h" //工具类
-#import "LF_ExpandHeader.h"//助手类
+#import "LFExpandHeader.h"//助手类
 #import "XMNetworking.h"
 
 #endif /* iOS_Prefix_pch */

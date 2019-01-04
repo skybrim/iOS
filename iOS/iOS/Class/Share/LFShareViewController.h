@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LF_ShareViewController : UIViewController
+@interface LFShareViewController : UIViewController
 
 @end
 

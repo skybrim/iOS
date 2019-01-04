@@ -45,12 +45,12 @@
 		0479EC542137D69F008DB619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0479EC532137D69F008DB619 /* Assets.xcassets */; };
 		0479EC572137D69F008DB619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0479EC552137D69F008DB619 /* LaunchScreen.storyboard */; };
 		0479EC5A2137D69F008DB619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479EC592137D69F008DB619 /* main.m */; };
-		04B99B1E2179EF5E00E2500B /* LF_ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B99B1D2179EF5E00E2500B /* LF_ShareViewController.m */; };
+		04B99B1E2179EF5E00E2500B /* LFShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B99B1D2179EF5E00E2500B /* LFShareViewController.m */; };
 		04B99B212179EFA200E2500B /* LFShareTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B99B202179EFA200E2500B /* LFShareTool.m */; };
 		04BD55C221BA612B0053E04E /* LFShareHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD55C121BA612B0053E04E /* LFShareHeadView.m */; };
 		04BD55C521BA61390053E04E /* LFShareFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD55C421BA61390053E04E /* LFShareFootView.m */; };
 		04BD55C821BA61450053E04E /* LFShareContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD55C721BA61450053E04E /* LFShareContentView.m */; };
-		04EDD61E21C1EFC7005C9E21 /* LF_ShareHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EDD61D21C1EFC7005C9E21 /* LF_ShareHandle.m */; };
+		04EDD61E21C1EFC7005C9E21 /* LFShareHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EDD61D21C1EFC7005C9E21 /* LFShareHandle.m */; };
 		1D2F17DD31CA03BB82396DEE /* Pods_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ACFF48B09646D21CE60AED /* Pods_iOS.framework */; };
 		B1E00BE42143D62400A4656D /* UIView+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E00BE32143D62400A4656D /* UIView+Border.m */; };
 /* End PBXBuildFile section */
@@ -137,18 +137,18 @@
 		0479EC562137D69F008DB619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0479EC582137D69F008DB619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0479EC592137D69F008DB619 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		04B99B1C2179EF5E00E2500B /* LF_ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareViewController.h; sourceTree = "<group>"; };
-		04B99B1D2179EF5E00E2500B /* LF_ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_ShareViewController.m; sourceTree = "<group>"; };
+		04B99B1C2179EF5E00E2500B /* LFShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFShareViewController.h; sourceTree = "<group>"; };
+		04B99B1D2179EF5E00E2500B /* LFShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFShareViewController.m; sourceTree = "<group>"; };
 		04B99B1F2179EFA200E2500B /* LFShareTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFShareTool.h; sourceTree = "<group>"; };
 		04B99B202179EFA200E2500B /* LFShareTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFShareTool.m; sourceTree = "<group>"; };
-		04B99B222179EFC300E2500B /* LF_ExpandHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ExpandHeader.h; sourceTree = "<group>"; };
 		04BD55C021BA612B0053E04E /* LFShareHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFShareHeadView.h; sourceTree = "<group>"; };
 		04BD55C121BA612B0053E04E /* LFShareHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFShareHeadView.m; sourceTree = "<group>"; };
 		04BD55C421BA61390053E04E /* LFShareFootView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFShareFootView.m; sourceTree = "<group>"; };
 		04BD55C621BA61450053E04E /* LFShareContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFShareContentView.h; sourceTree = "<group>"; };
 		04BD55C721BA61450053E04E /* LFShareContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFShareContentView.m; sourceTree = "<group>"; };
-		04EDD61C21C1EFC7005C9E21 /* LF_ShareHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF_ShareHandle.h; sourceTree = "<group>"; };
-		04EDD61D21C1EFC7005C9E21 /* LF_ShareHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LF_ShareHandle.m; sourceTree = "<group>"; };
+		04E6FFBC21DEF846006CD7FD /* LFExpandHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFExpandHeader.h; sourceTree = "<group>"; };
+		04EDD61C21C1EFC7005C9E21 /* LFShareHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFShareHandle.h; sourceTree = "<group>"; };
+		04EDD61D21C1EFC7005C9E21 /* LFShareHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFShareHandle.m; sourceTree = "<group>"; };
 		0A895D06C93391F551E77AB1 /* Pods-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS/Pods-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		54ACFF48B09646D21CE60AED /* Pods_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E00BE22143D62400A4656D /* UIView+Border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Border.h"; sourceTree = "<group>"; };
@@ -311,7 +311,7 @@
 		0450614A213FB03600366855 /* Expand */ = {
 			isa = PBXGroup;
 			children = (
-				04B99B222179EFC300E2500B /* LF_ExpandHeader.h */,
+				04E6FFBC21DEF846006CD7FD /* LFExpandHeader.h */,
 				04B99B1B2179EE9300E2500B /* ShareHandle */,
 			);
 			path = Expand;
@@ -474,8 +474,8 @@
 		048213072177116E00169B9F /* Share */ = {
 			isa = PBXGroup;
 			children = (
-				04B99B1C2179EF5E00E2500B /* LF_ShareViewController.h */,
-				04B99B1D2179EF5E00E2500B /* LF_ShareViewController.m */,
+				04B99B1C2179EF5E00E2500B /* LFShareViewController.h */,
+				04B99B1D2179EF5E00E2500B /* LFShareViewController.m */,
 			);
 			path = Share;
 			sourceTree = "<group>";
@@ -483,8 +483,8 @@
 		04B99B1B2179EE9300E2500B /* ShareHandle */ = {
 			isa = PBXGroup;
 			children = (
-				04EDD61C21C1EFC7005C9E21 /* LF_ShareHandle.h */,
-				04EDD61D21C1EFC7005C9E21 /* LF_ShareHandle.m */,
+				04EDD61C21C1EFC7005C9E21 /* LFShareHandle.h */,
+				04EDD61D21C1EFC7005C9E21 /* LFShareHandle.m */,
 			);
 			path = ShareHandle;
 			sourceTree = "<group>";
@@ -701,7 +701,7 @@
 			files = (
 				0437B5D7214106390017CDF0 /* DLTabedSlideView.m in Sources */,
 				04506182213FB71000366855 /* EncryptionTools.m in Sources */,
-				04B99B1E2179EF5E00E2500B /* LF_ShareViewController.m in Sources */,
+				04B99B1E2179EF5E00E2500B /* LFShareViewController.m in Sources */,
 				0437B5C0214106080017CDF0 /* KMPNestedMainHeaderView.m in Sources */,
 				0437B5A0214102E90017CDF0 /* UIViewController+BackButtonHandler.m in Sources */,
 				0479EC4F2137D69E008DB619 /* ViewController.m in Sources */,
@@ -709,7 +709,7 @@
 				0437B592214100DE0017CDF0 /* AppDelegate+AOP.m in Sources */,
 				0450617E213FB71000366855 /* Tools+Image.m in Sources */,
 				0437B5A5214103560017CDF0 /* UIView+singleCorner.m in Sources */,
-				04EDD61E21C1EFC7005C9E21 /* LF_ShareHandle.m in Sources */,
+				04EDD61E21C1EFC7005C9E21 /* LFShareHandle.m in Sources */,
 				0437B5BF214106080017CDF0 /* KMPNestedMainTableViewCell.m in Sources */,
 				0479EC5A2137D69F008DB619 /* main.m in Sources */,
 				0450617A213FB71000366855 /* Tools+UpdateVersion.m in Sources */,

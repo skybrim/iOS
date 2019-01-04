@@ -14,6 +14,7 @@
 singletonInterface(LFShareTool);
 
 @property (nonatomic,strong) LFShareFatherView *shareFatherView;
+@property (nonatomic,strong) NSMutableArray *shareItemArray;
 
 /**
  显示分享界面

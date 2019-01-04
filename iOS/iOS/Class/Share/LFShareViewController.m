@@ -6,15 +6,15 @@
 //  Copyright © 2018 Mr.T. All rights reserved.
 //
 
-#import "LF_ShareViewController.h"
+#import "LFShareViewController.h"
 
-@interface LF_ShareViewController ()
+@interface LFShareViewController ()
 
 @property (nonatomic,strong) UIButton *shareBtn;
 
 @end
 
-@implementation LF_ShareViewController
+@implementation LFShareViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -47,7 +47,7 @@
         
         [_shareBtn bk_whenTapped:^{
 
-            [LF_ShareHandle showShareView];
+            [LFShareHandle showShareView];
         }];
     }
     return _shareBtn;
