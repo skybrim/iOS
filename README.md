@@ -1,2 +1,2 @@
 # iOS-ObjectC
-ObjectC开发iOS中归纳的技巧
+ObjectC开发iOS中，归纳的技巧
