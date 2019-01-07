@@ -338,9 +338,9 @@
 		04CD23C021E341D600CB6E57 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				04CD23F421E341D600CB6E57 /* UtilsHeader.h */,
 				04CD23C121E341D600CB6E57 /* UI */,
 				04CD23E221E341D600CB6E57 /* ShareTool */,
-				04CD23F421E341D600CB6E57 /* UtilsHeader.h */,
 				04CD23F521E341D600CB6E57 /* Macro */,
 				04CD23F921E341D600CB6E57 /* Tool */,
 			);
