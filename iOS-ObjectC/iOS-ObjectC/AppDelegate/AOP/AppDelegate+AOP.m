@@ -41,7 +41,7 @@
         if (vc.navigationController.viewControllers.count> 1) {
             [vc addLeftBarButtonWithImage:[UIImage imageNamed:@"icon-fh"] action:@selector(popNavi)];
         }
-        vc.view.backgroundColor = [UIColor whiteColor];
+        vc.view.backgroundColor = ColorFromHEX(0xf5f5f5, 1);
         vc.navigationController.navigationBar.translucent = NO;
         vc.navigationController.navigationBar.barStyle = UIBarStyleDefault;
         

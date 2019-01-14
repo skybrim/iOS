@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "LFShareViewController.h"
+#import "LFLocationViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -33,7 +34,7 @@
 #pragma mark - UITableViewDelegate UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    return 10;
+    return 2;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -43,6 +44,10 @@
     if (indexPath.row == 0) {
         
         cell.textLabel.text = @"分享";
+    }
+    else if (indexPath.row == 1) {
+        
+        cell.textLabel.text = @"定位";
     }
     
     return cell;
@@ -55,6 +60,11 @@
         
         LFShareViewController *shareVC = [[LFShareViewController alloc] init];
         [self.navigationController pushViewController:shareVC animated:YES];
+    }
+    else if (indexPath.row == 1) {
+        
+        LFLocationViewController *locationVC = [[LFLocationViewController alloc] init];
+        [self.navigationController pushViewController:locationVC animated:YES];
     }
 }
 
@@ -77,7 +87,7 @@
         _functionTableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStyleGrouped];
         
         UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, CGFLOAT_MIN)];
-        view.backgroundColor = [UIColor whiteColor];
+        view.backgroundColor = ColorFromHEX(0xf5f5f5, 1);
         _functionTableView.tableHeaderView = view;
         _functionTableView.tableFooterView = view;
         

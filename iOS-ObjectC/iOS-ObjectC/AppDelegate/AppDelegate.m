@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "AppDelegate+AOP.h"
+#import "AppDelegate+AMAP.h"
 
 #import "ViewController.h"
 
@@ -27,6 +28,8 @@
     [Tools saveDeviceInfo];
     
     [self aop_viewDidLoad];
+    
+    [self LF_AMAPInitialization];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
