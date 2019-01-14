@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0494E88821EC28C700E952FB /* AppDelegate+AMAP.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494E88721EC28C700E952FB /* AppDelegate+AMAP.m */; };
-		0494E88E21EC35AC00E952FB /* LFLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494E88D21EC35AC00E952FB /* LFLocationViewController.m */; };
+		047BBF2521E71B0E00B510C6 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 047BBF2421E71B0E00B510C6 /* NotificationService.m */; };
+		047BBF2921E71B0E00B510C6 /* LFVoicePush.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 047BBF2121E71B0E00B510C6 /* LFVoicePush.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		047BBF3121E71BB100B510C6 /* LFSpeechTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 047BBF3021E71BB100B510C6 /* LFSpeechTool.m */; };
+		0494E89221EC3A6000E952FB /* LFLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494E89121EC3A6000E952FB /* LFLocationViewController.m */; };
+		0494E89721EC3A6900E952FB /* AppDelegate+AMAP.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494E89421EC3A6900E952FB /* AppDelegate+AMAP.m */; };
 		04CD238721E33C6A00CB6E57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CD238621E33C6A00CB6E57 /* AppDelegate.m */; };
 		04CD238A21E33C6A00CB6E57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CD238921E33C6A00CB6E57 /* ViewController.m */; };
 		04CD238D21E33C6A00CB6E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CD238B21E33C6A00CB6E57 /* Main.storyboard */; };
@@ -58,12 +61,42 @@
 		C48FAC0F6C088DA3CBE31891 /* Pods_iOS_ObjectC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F33330C2ACE675EEBEE7EB /* Pods_iOS_ObjectC.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		047BBF2721E71B0E00B510C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CD237A21E33C6A00CB6E57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047BBF2021E71B0E00B510C6;
+			remoteInfo = LFVoicePush;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		047BBF2D21E71B0E00B510C6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				047BBF2921E71B0E00B510C6 /* LFVoicePush.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		0494E88621EC28C700E952FB /* AppDelegate+AMAP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+AMAP.h"; sourceTree = "<group>"; };
-		0494E88721EC28C700E952FB /* AppDelegate+AMAP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+AMAP.m"; sourceTree = "<group>"; };
-		0494E88921EC2F2500E952FB /* AppDelegate+AMAPExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+AMAPExtension.h"; sourceTree = "<group>"; };
-		0494E88C21EC35AC00E952FB /* LFLocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFLocationViewController.h; sourceTree = "<group>"; };
-		0494E88D21EC35AC00E952FB /* LFLocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFLocationViewController.m; sourceTree = "<group>"; };
+		047BBF2121E71B0E00B510C6 /* LFVoicePush.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LFVoicePush.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		047BBF2321E71B0E00B510C6 /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		047BBF2421E71B0E00B510C6 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		047BBF2621E71B0E00B510C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047BBF2F21E71BB100B510C6 /* LFSpeechTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFSpeechTool.h; sourceTree = "<group>"; };
+		047BBF3021E71BB100B510C6 /* LFSpeechTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFSpeechTool.m; sourceTree = "<group>"; };
+		0494E89021EC3A6000E952FB /* LFLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFLocationViewController.h; sourceTree = "<group>"; };
+		0494E89121EC3A6000E952FB /* LFLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFLocationViewController.m; sourceTree = "<group>"; };
+		0494E89421EC3A6900E952FB /* AppDelegate+AMAP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+AMAP.m"; sourceTree = "<group>"; };
+		0494E89521EC3A6900E952FB /* AppDelegate+AMAPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+AMAPExtension.h"; sourceTree = "<group>"; };
+		0494E89621EC3A6900E952FB /* AppDelegate+AMAP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+AMAP.h"; sourceTree = "<group>"; };
 		04CD238221E33C6A00CB6E57 /* iOS-ObjectC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-ObjectC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CD238521E33C6A00CB6E57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04CD238621E33C6A00CB6E57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -167,6 +200,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		047BBF1E21E71B0E00B510C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04CD237F21E33C6A00CB6E57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -187,29 +227,49 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		0494E88521EC28AD00E952FB /* AMAPLocation */ = {
+		047BBF2221E71B0E00B510C6 /* LFVoicePush */ = {
 			isa = PBXGroup;
 			children = (
-				0494E88921EC2F2500E952FB /* AppDelegate+AMAPExtension.h */,
-				0494E88621EC28C700E952FB /* AppDelegate+AMAP.h */,
-				0494E88721EC28C700E952FB /* AppDelegate+AMAP.m */,
+				047BBF2321E71B0E00B510C6 /* NotificationService.h */,
+				047BBF2421E71B0E00B510C6 /* NotificationService.m */,
+				047BBF2621E71B0E00B510C6 /* Info.plist */,
 			);
-			path = AMAPLocation;
+			path = LFVoicePush;
 			sourceTree = "<group>";
 		};
-		0494E88B21EC357900E952FB /* Location */ = {
+		047BBF2E21E71B8700B510C6 /* Speech */ = {
 			isa = PBXGroup;
 			children = (
-				0494E88C21EC35AC00E952FB /* LFLocationViewController.h */,
-				0494E88D21EC35AC00E952FB /* LFLocationViewController.m */,
+				047BBF2F21E71BB100B510C6 /* LFSpeechTool.h */,
+				047BBF3021E71BB100B510C6 /* LFSpeechTool.m */,
+			);
+			path = Speech;
+			sourceTree = "<group>";
+		};
+		0494E88F21EC3A6000E952FB /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				0494E89021EC3A6000E952FB /* LFLocationViewController.h */,
+				0494E89121EC3A6000E952FB /* LFLocationViewController.m */,
 			);
 			path = Location;
+			sourceTree = "<group>";
+		};
+		0494E89321EC3A6900E952FB /* AMAPLocation */ = {
+			isa = PBXGroup;
+			children = (
+				0494E89421EC3A6900E952FB /* AppDelegate+AMAP.m */,
+				0494E89521EC3A6900E952FB /* AppDelegate+AMAPExtension.h */,
+				0494E89621EC3A6900E952FB /* AppDelegate+AMAP.h */,
+			);
+			path = AMAPLocation;
 			sourceTree = "<group>";
 		};
 		04CD237921E33C6A00CB6E57 = {
 			isa = PBXGroup;
 			children = (
 				04CD238421E33C6A00CB6E57 /* iOS-ObjectC */,
+				047BBF2221E71B0E00B510C6 /* LFVoicePush */,
 				04CD238321E33C6A00CB6E57 /* Products */,
 				037872EA5A3797E64E5C883E /* Pods */,
 				56A438EDC220D80942D442BC /* Frameworks */,
@@ -220,6 +280,7 @@
 			isa = PBXGroup;
 			children = (
 				04CD238221E33C6A00CB6E57 /* iOS-ObjectC.app */,
+				047BBF2121E71B0E00B510C6 /* LFVoicePush.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -242,8 +303,8 @@
 			children = (
 				04CD238521E33C6A00CB6E57 /* AppDelegate.h */,
 				04CD238621E33C6A00CB6E57 /* AppDelegate.m */,
-				0494E88521EC28AD00E952FB /* AMAPLocation */,
 				04CD239E21E3416500CB6E57 /* AOP */,
+				0494E89321EC3A6900E952FB /* AMAPLocation */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -253,7 +314,7 @@
 			children = (
 				04CD23A221E341A500CB6E57 /* MainHome */,
 				04CD23A321E341BD00CB6E57 /* Share */,
-				0494E88B21EC357900E952FB /* Location */,
+				0494E88F21EC3A6000E952FB /* Location */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -521,6 +582,7 @@
 		04CD23F921E341D600CB6E57 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				047BBF2E21E71B8700B510C6 /* Speech */,
 				04CD23FA21E341D600CB6E57 /* Hotfix */,
 				04CD23FD21E341D600CB6E57 /* Tools */,
 				04CD240C21E341D600CB6E57 /* PrintJson */,
@@ -588,6 +650,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		047BBF2021E71B0E00B510C6 /* LFVoicePush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047BBF2C21E71B0E00B510C6 /* Build configuration list for PBXNativeTarget "LFVoicePush" */;
+			buildPhases = (
+				047BBF1D21E71B0E00B510C6 /* Sources */,
+				047BBF1E21E71B0E00B510C6 /* Frameworks */,
+				047BBF1F21E71B0E00B510C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFVoicePush;
+			productName = LFVoicePush;
+			productReference = 047BBF2121E71B0E00B510C6 /* LFVoicePush.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		04CD238121E33C6A00CB6E57 /* iOS-ObjectC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04CD239821E33C6B00CB6E57 /* Build configuration list for PBXNativeTarget "iOS-ObjectC" */;
@@ -597,10 +676,12 @@
 				04CD237F21E33C6A00CB6E57 /* Frameworks */,
 				04CD238021E33C6A00CB6E57 /* Resources */,
 				4E2D87E6037857FAB5BBDED5 /* [CP] Embed Pods Frameworks */,
+				047BBF2D21E71B0E00B510C6 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				047BBF2821E71B0E00B510C6 /* PBXTargetDependency */,
 			);
 			name = "iOS-ObjectC";
 			productName = "iOS-ObjectC";
@@ -617,13 +698,11 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = skybrim;
 				TargetAttributes = {
+					047BBF2021E71B0E00B510C6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					04CD238121E33C6A00CB6E57 = {
 						CreatedOnToolsVersion = 10.1;
-						SystemCapabilities = {
-							com.apple.BackgroundModes = {
-								enabled = 1;
-							};
-						};
 					};
 				};
 			};
@@ -641,11 +720,19 @@
 			projectRoot = "";
 			targets = (
 				04CD238121E33C6A00CB6E57 /* iOS-ObjectC */,
+				047BBF2021E71B0E00B510C6 /* LFVoicePush */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		047BBF1F21E71B0E00B510C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04CD238021E33C6A00CB6E57 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -749,6 +836,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		047BBF1D21E71B0E00B510C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047BBF2521E71B0E00B510C6 /* NotificationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04CD237E21E33C6A00CB6E57 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -779,7 +874,6 @@
 				04CD243121E341D600CB6E57 /* Tools+CheckFormat.m in Sources */,
 				04CD241F21E341D600CB6E57 /* LeftViewTextField.m in Sources */,
 				04CD241521E341D600CB6E57 /* DLFixedTabbarView.m in Sources */,
-				0494E88821EC28C700E952FB /* AppDelegate+AMAP.m in Sources */,
 				04CD242021E341D600CB6E57 /* MarqueeView.m in Sources */,
 				04CD242E21E341D600CB6E57 /* Felix.m in Sources */,
 				04CD242221E341D600CB6E57 /* KMPNestedMainHeaderView.m in Sources */,
@@ -788,12 +882,14 @@
 				04CD241621E341D600CB6E57 /* DLUtility.m in Sources */,
 				04CD241321E341D600CB6E57 /* DLTabedSlideView.m in Sources */,
 				04CD239521E33C6B00CB6E57 /* main.m in Sources */,
-				0494E88E21EC35AC00E952FB /* LFLocationViewController.m in Sources */,
 				04CD241421E341D600CB6E57 /* DLScrollTabbarView.m in Sources */,
+				0494E89221EC3A6000E952FB /* LFLocationViewController.m in Sources */,
 				04CD241D21E341D600CB6E57 /* UIViewController+BackButtonHandler.m in Sources */,
 				04CD242921E341D600CB6E57 /* LFShareFootView.m in Sources */,
 				04CD238721E33C6A00CB6E57 /* AppDelegate.m in Sources */,
+				0494E89721EC3A6900E952FB /* AppDelegate+AMAP.m in Sources */,
 				04CD242C21E341D600CB6E57 /* LFShareContentView.m in Sources */,
+				047BBF3121E71BB100B510C6 /* LFSpeechTool.m in Sources */,
 				04CD23A121E3416500CB6E57 /* AppDelegate+AOP.m in Sources */,
 				04CD241C21E341D600CB6E57 /* UIView+singleCorner.m in Sources */,
 				04CD242A21E341D600CB6E57 /* LFShareHeadView.m in Sources */,
@@ -801,6 +897,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		047BBF2821E71B0E00B510C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047BBF2021E71B0E00B510C6 /* LFVoicePush */;
+			targetProxy = 047BBF2721E71B0E00B510C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		04CD238B21E33C6A00CB6E57 /* Main.storyboard */ = {
@@ -822,6 +926,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		047BBF2A21E71B0E00B510C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MUXR6G7733;
+				INFOPLIST_FILE = LFVoicePush/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skybrim.iOS-ObjectC.LFVoicePush";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		047BBF2B21E71B0E00B510C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MUXR6G7733;
+				INFOPLIST_FILE = LFVoicePush/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skybrim.iOS-ObjectC.LFVoicePush";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 		04CD239621E33C6B00CB6E57 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -981,6 +1123,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		047BBF2C21E71B0E00B510C6 /* Build configuration list for PBXNativeTarget "LFVoicePush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047BBF2A21E71B0E00B510C6 /* Debug */,
+				047BBF2B21E71B0E00B510C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		04CD237D21E33C6A00CB6E57 /* Build configuration list for PBXProject "iOS-ObjectC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
