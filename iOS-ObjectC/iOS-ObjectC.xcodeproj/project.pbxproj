@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0494E88821EC28C700E952FB /* AppDelegate+AMAP.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494E88721EC28C700E952FB /* AppDelegate+AMAP.m */; };
+		0494E88E21EC35AC00E952FB /* LFLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494E88D21EC35AC00E952FB /* LFLocationViewController.m */; };
 		04CD238721E33C6A00CB6E57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CD238621E33C6A00CB6E57 /* AppDelegate.m */; };
 		04CD238A21E33C6A00CB6E57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CD238921E33C6A00CB6E57 /* ViewController.m */; };
 		04CD238D21E33C6A00CB6E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CD238B21E33C6A00CB6E57 /* Main.storyboard */; };
@@ -57,6 +59,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0494E88621EC28C700E952FB /* AppDelegate+AMAP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+AMAP.h"; sourceTree = "<group>"; };
+		0494E88721EC28C700E952FB /* AppDelegate+AMAP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+AMAP.m"; sourceTree = "<group>"; };
+		0494E88921EC2F2500E952FB /* AppDelegate+AMAPExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+AMAPExtension.h"; sourceTree = "<group>"; };
+		0494E88C21EC35AC00E952FB /* LFLocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFLocationViewController.h; sourceTree = "<group>"; };
+		0494E88D21EC35AC00E952FB /* LFLocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFLocationViewController.m; sourceTree = "<group>"; };
 		04CD238221E33C6A00CB6E57 /* iOS-ObjectC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-ObjectC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CD238521E33C6A00CB6E57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04CD238621E33C6A00CB6E57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -180,6 +187,25 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		0494E88521EC28AD00E952FB /* AMAPLocation */ = {
+			isa = PBXGroup;
+			children = (
+				0494E88921EC2F2500E952FB /* AppDelegate+AMAPExtension.h */,
+				0494E88621EC28C700E952FB /* AppDelegate+AMAP.h */,
+				0494E88721EC28C700E952FB /* AppDelegate+AMAP.m */,
+			);
+			path = AMAPLocation;
+			sourceTree = "<group>";
+		};
+		0494E88B21EC357900E952FB /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				0494E88C21EC35AC00E952FB /* LFLocationViewController.h */,
+				0494E88D21EC35AC00E952FB /* LFLocationViewController.m */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
 		04CD237921E33C6A00CB6E57 = {
 			isa = PBXGroup;
 			children = (
@@ -216,6 +242,7 @@
 			children = (
 				04CD238521E33C6A00CB6E57 /* AppDelegate.h */,
 				04CD238621E33C6A00CB6E57 /* AppDelegate.m */,
+				0494E88521EC28AD00E952FB /* AMAPLocation */,
 				04CD239E21E3416500CB6E57 /* AOP */,
 			);
 			path = AppDelegate;
@@ -226,6 +253,7 @@
 			children = (
 				04CD23A221E341A500CB6E57 /* MainHome */,
 				04CD23A321E341BD00CB6E57 /* Share */,
+				0494E88B21EC357900E952FB /* Location */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -585,11 +613,17 @@
 		04CD237A21E33C6A00CB6E57 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LF;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = skybrim;
 				TargetAttributes = {
 					04CD238121E33C6A00CB6E57 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -745,6 +779,7 @@
 				04CD243121E341D600CB6E57 /* Tools+CheckFormat.m in Sources */,
 				04CD241F21E341D600CB6E57 /* LeftViewTextField.m in Sources */,
 				04CD241521E341D600CB6E57 /* DLFixedTabbarView.m in Sources */,
+				0494E88821EC28C700E952FB /* AppDelegate+AMAP.m in Sources */,
 				04CD242021E341D600CB6E57 /* MarqueeView.m in Sources */,
 				04CD242E21E341D600CB6E57 /* Felix.m in Sources */,
 				04CD242221E341D600CB6E57 /* KMPNestedMainHeaderView.m in Sources */,
@@ -753,6 +788,7 @@
 				04CD241621E341D600CB6E57 /* DLUtility.m in Sources */,
 				04CD241321E341D600CB6E57 /* DLTabedSlideView.m in Sources */,
 				04CD239521E33C6B00CB6E57 /* main.m in Sources */,
+				0494E88E21EC35AC00E952FB /* LFLocationViewController.m in Sources */,
 				04CD241421E341D600CB6E57 /* DLScrollTabbarView.m in Sources */,
 				04CD241D21E341D600CB6E57 /* UIViewController+BackButtonHandler.m in Sources */,
 				04CD242921E341D600CB6E57 /* LFShareFootView.m in Sources */,
